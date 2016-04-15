@@ -7620,7 +7620,7 @@ LOAD c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-
                 0x00004000                __HEAP_SIZE = 0x4000
                 0x00002000                __STACK_SIZE = 0x2000
 
-.text           0x08000000    0x169f0
+.text           0x08000000    0x169e0
  *(.isr_vector)
  .isr_vector    0x08000000      0x188 obj\debug\~#\~#\hardware_config\system\startup_stm32f4xx.o
                 0x08000000                __isr_vector
@@ -8330,776 +8330,775 @@ LOAD c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-
                 0x08006088                MainControlTask::balanceMode()
  *fill*         0x080062d4        0x4 
  .text._ZN15MainControlTask10customModeEv
-                0x080062d8      0x7a8 obj\debug\~#\~#\modes\custom_mode.o
+                0x080062d8      0x710 obj\debug\~#\~#\modes\custom_mode.o
                 0x080062d8                MainControlTask::customMode()
  .text._Z19determine_directionfa
-                0x08006a80       0xcc obj\debug\~#\~#\modes\custom_mode.o
-                0x08006a80                determine_direction(float, signed char)
- *fill*         0x08006b4c        0x4 
+                0x080069e8      0x188 obj\debug\~#\~#\modes\custom_mode.o
+                0x080069e8                determine_direction(float, signed char)
  .text._Z18determine_line_poshfh
-                0x08006b50      0x110 obj\debug\~#\~#\modes\custom_mode.o
-                0x08006b50                determine_line_pos(unsigned char, float, unsigned char)
+                0x08006b70      0x110 obj\debug\~#\~#\modes\custom_mode.o
+                0x08006b70                determine_line_pos(unsigned char, float, unsigned char)
  .text._ZN15MainControlTask14experimentModeEv
-                0x08006c60       0x78 obj\debug\~#\~#\modes\experiment_mode.o
-                0x08006c60                MainControlTask::experimentMode()
+                0x08006c80       0x78 obj\debug\~#\~#\modes\experiment_mode.o
+                0x08006c80                MainControlTask::experimentMode()
  .text._ZL15updateWaveStateR10glo_wave_t
-                0x08006cd8       0xe8 obj\debug\~#\~#\modes\experiment_mode.o
+                0x08006cf8       0xe8 obj\debug\~#\~#\modes\experiment_mode.o
  .text._ZL10updateWaveR10glo_wave_tf
-                0x08006dc0      0x428 obj\debug\~#\~#\modes\experiment_mode.o
+                0x08006de0      0x428 obj\debug\~#\~#\modes\experiment_mode.o
  .text._ZN12GlobTemplateI21glo_capture_command_tLt1E15MainControlTaskE4readEPS0_t
-                0x080071e8       0x9c obj\debug\~#\~#\modes\experiment_mode.o
-                0x080071e8                GlobTemplate<glo_capture_command_t, (unsigned short)1, MainControlTask>::read(glo_capture_command_t*, unsigned short)
+                0x08007208       0x9c obj\debug\~#\~#\modes\experiment_mode.o
+                0x08007208                GlobTemplate<glo_capture_command_t, (unsigned short)1, MainControlTask>::read(glo_capture_command_t*, unsigned short)
  .text._ZN15MainControlTask15experiment1ModeEf
-                0x08007284       0x88 obj\debug\~#\~#\modes\experiments\experiment1_mode.o
-                0x08007284                MainControlTask::experiment1Mode(float)
+                0x080072a4       0x88 obj\debug\~#\~#\modes\experiments\experiment1_mode.o
+                0x080072a4                MainControlTask::experiment1Mode(float)
  .text._ZN15MainControlTask15experiment2ModeEf
-                0x0800730c       0xb8 obj\debug\~#\~#\modes\experiments\experiment2_mode.o
-                0x0800730c                MainControlTask::experiment2Mode(float)
+                0x0800732c       0xb8 obj\debug\~#\~#\modes\experiments\experiment2_mode.o
+                0x0800732c                MainControlTask::experiment2Mode(float)
  .text._ZN15MainControlTask15experiment3ModeEf
-                0x080073c4       0x38 obj\debug\~#\~#\modes\experiments\experiment3_mode.o
-                0x080073c4                MainControlTask::experiment3Mode(float)
+                0x080073e4       0x38 obj\debug\~#\~#\modes\experiments\experiment3_mode.o
+                0x080073e4                MainControlTask::experiment3Mode(float)
  .text._ZN15MainControlTask14horizontalModeEv
-                0x080073fc      0x148 obj\debug\~#\~#\modes\horizontal_mode.o
-                0x080073fc                MainControlTask::horizontalMode()
+                0x0800741c      0x148 obj\debug\~#\~#\modes\horizontal_mode.o
+                0x0800741c                MainControlTask::horizontalMode()
  .text._ZN15MainControlTask17lineFollowingModeEv
-                0x08007544      0x278 obj\debug\~#\~#\modes\line_following_mode.o
-                0x08007544                MainControlTask::lineFollowingMode()
+                0x08007564      0x278 obj\debug\~#\~#\modes\line_following_mode.o
+                0x08007564                MainControlTask::lineFollowingMode()
  .text._ZN15MainControlTask8raceModeEv
-                0x080077bc      0x278 obj\debug\~#\~#\modes\race_mode.o
-                0x080077bc                MainControlTask::raceMode()
+                0x080077dc      0x278 obj\debug\~#\~#\modes\race_mode.o
+                0x080077dc                MainControlTask::raceMode()
  .text._ZNK9Scheduler4Task22previousStepWasDefaultEv
-                0x08007a34       0x18 obj\debug\~#\~#\scheduler\periodic_task.o
-                0x08007a34                Scheduler::Task::previousStepWasDefault() const
+                0x08007a54       0x18 obj\debug\~#\~#\scheduler\periodic_task.o
+                0x08007a54                Scheduler::Task::previousStepWasDefault() const
  .text._ZNK11SystemTimer9frequencyEv
-                0x08007a4c       0x10 obj\debug\~#\~#\scheduler\periodic_task.o
-                0x08007a4c                SystemTimer::frequency() const
+                0x08007a6c       0x10 obj\debug\~#\~#\scheduler\periodic_task.o
+                0x08007a6c                SystemTimer::frequency() const
  .text._ZN9Scheduler12PeriodicTaskC2EPKclf
-                0x08007a5c      0x1a8 obj\debug\~#\~#\scheduler\periodic_task.o
-                0x08007a5c                Scheduler::PeriodicTask::PeriodicTask(char const*, long, float)
-                0x08007a5c                Scheduler::PeriodicTask::PeriodicTask(char const*, long, float)
+                0x08007a7c      0x1a8 obj\debug\~#\~#\scheduler\periodic_task.o
+                0x08007a7c                Scheduler::PeriodicTask::PeriodicTask(char const*, long, float)
+                0x08007a7c                Scheduler::PeriodicTask::PeriodicTask(char const*, long, float)
  .text._ZN9Scheduler12PeriodicTask9needToRunEv
-                0x08007c04       0x50 obj\debug\~#\~#\scheduler\periodic_task.o
-                0x08007c04                Scheduler::PeriodicTask::needToRun()
+                0x08007c24       0x50 obj\debug\~#\~#\scheduler\periodic_task.o
+                0x08007c24                Scheduler::PeriodicTask::needToRun()
  .text._ZN9Scheduler12PeriodicTask19decideWhenToRunNextEv
-                0x08007c54       0x94 obj\debug\~#\~#\scheduler\periodic_task.o
-                0x08007c54                Scheduler::PeriodicTask::decideWhenToRunNext()
+                0x08007c74       0x94 obj\debug\~#\~#\scheduler\periodic_task.o
+                0x08007c74                Scheduler::PeriodicTask::decideWhenToRunNext()
  .text._ZN9Scheduler12PeriodicTask8throttleEf
-                0x08007ce8       0x84 obj\debug\~#\~#\scheduler\periodic_task.o
-                0x08007ce8                Scheduler::PeriodicTask::throttle(float)
+                0x08007d08       0x84 obj\debug\~#\~#\scheduler\periodic_task.o
+                0x08007d08                Scheduler::PeriodicTask::throttle(float)
  .text._ZN9Scheduler12PeriodicTask10throttleHzEf
-                0x08007d6c       0x3c obj\debug\~#\~#\scheduler\periodic_task.o
-                0x08007d6c                Scheduler::PeriodicTask::throttleHz(float)
+                0x08007d8c       0x3c obj\debug\~#\~#\scheduler\periodic_task.o
+                0x08007d8c                Scheduler::PeriodicTask::throttleHz(float)
  .text._ZNK9Scheduler4Task7task_idEv
-                0x08007da8       0x10 obj\debug\~#\~#\scheduler\scheduler.o
-                0x08007da8                Scheduler::Task::task_id() const
+                0x08007dc8       0x10 obj\debug\~#\~#\scheduler\scheduler.o
+                0x08007dc8                Scheduler::Task::task_id() const
  .text._ZN9Scheduler9SchedulerC2Ev
-                0x08007db8       0x58 obj\debug\~#\~#\scheduler\scheduler.o
-                0x08007db8                Scheduler::Scheduler::Scheduler()
-                0x08007db8                Scheduler::Scheduler::Scheduler()
+                0x08007dd8       0x58 obj\debug\~#\~#\scheduler\scheduler.o
+                0x08007dd8                Scheduler::Scheduler::Scheduler()
+                0x08007dd8                Scheduler::Scheduler::Scheduler()
  .text._ZN9Scheduler9Scheduler12registerTaskERNS_4TaskE
-                0x08007e10       0x34 obj\debug\~#\~#\scheduler\scheduler.o
-                0x08007e10                Scheduler::Scheduler::registerTask(Scheduler::Task&)
+                0x08007e30       0x34 obj\debug\~#\~#\scheduler\scheduler.o
+                0x08007e30                Scheduler::Scheduler::registerTask(Scheduler::Task&)
  .text._ZN9Scheduler9Scheduler13scheduleTasksEv
-                0x08007e44       0xc8 obj\debug\~#\~#\scheduler\scheduler.o
-                0x08007e44                Scheduler::Scheduler::scheduleTasks()
+                0x08007e64       0xc8 obj\debug\~#\~#\scheduler\scheduler.o
+                0x08007e64                Scheduler::Scheduler::scheduleTasks()
  .text._ZNK9Scheduler9Scheduler17disableInterruptsEv
-                0x08007f0c       0x24 obj\debug\~#\~#\scheduler\scheduler.o
-                0x08007f0c                Scheduler::Scheduler::disableInterrupts() const
+                0x08007f2c       0x24 obj\debug\~#\~#\scheduler\scheduler.o
+                0x08007f2c                Scheduler::Scheduler::disableInterrupts() const
  .text._ZNK9Scheduler9Scheduler17restoreInterruptsEb
-                0x08007f30       0x18 obj\debug\~#\~#\scheduler\scheduler.o
-                0x08007f30                Scheduler::Scheduler::restoreInterrupts(bool) const
+                0x08007f50       0x18 obj\debug\~#\~#\scheduler\scheduler.o
+                0x08007f50                Scheduler::Scheduler::restoreInterrupts(bool) const
  .text._ZN9Scheduler9Scheduler9timeTasksEv
-                0x08007f48       0xc8 obj\debug\~#\~#\scheduler\scheduler.o
-                0x08007f48                Scheduler::Scheduler::timeTasks()
+                0x08007f68       0xc8 obj\debug\~#\~#\scheduler\scheduler.o
+                0x08007f68                Scheduler::Scheduler::timeTasks()
  .text._ZN9Scheduler9Scheduler21flushOutgoingMessagesEv
-                0x08008010       0x40 obj\debug\~#\~#\scheduler\scheduler.o
-                0x08008010                Scheduler::Scheduler::flushOutgoingMessages()
+                0x08008030       0x40 obj\debug\~#\~#\scheduler\scheduler.o
+                0x08008030                Scheduler::Scheduler::flushOutgoingMessages()
  .text._ZN9Scheduler9Scheduler21flushIncomingMessagesEv
-                0x08008050       0x40 obj\debug\~#\~#\scheduler\scheduler.o
-                0x08008050                Scheduler::Scheduler::flushIncomingMessages()
+                0x08008070       0x40 obj\debug\~#\~#\scheduler\scheduler.o
+                0x08008070                Scheduler::Scheduler::flushIncomingMessages()
  .text._ZNK9Scheduler9Scheduler20currentlyTimingTasksEv
-                0x08008090       0x10 obj\debug\~#\~#\scheduler\task.o
-                0x08008090                Scheduler::Scheduler::currentlyTimingTasks() const
+                0x080080b0       0x10 obj\debug\~#\~#\scheduler\task.o
+                0x080080b0                Scheduler::Scheduler::currentlyTimingTasks() const
  .text._ZN9Scheduler4TaskC2EPKcl
-                0x080080a0       0x98 obj\debug\~#\~#\scheduler\task.o
-                0x080080a0                Scheduler::Task::Task(char const*, long)
-                0x080080a0                Scheduler::Task::Task(char const*, long)
+                0x080080c0       0x98 obj\debug\~#\~#\scheduler\task.o
+                0x080080c0                Scheduler::Task::Task(char const*, long)
+                0x080080c0                Scheduler::Task::Task(char const*, long)
  .text._ZN9Scheduler4Task13tryInitializeEv
-                0x08008138       0x2c obj\debug\~#\~#\scheduler\task.o
-                0x08008138                Scheduler::Task::tryInitialize()
+                0x08008158       0x2c obj\debug\~#\~#\scheduler\task.o
+                0x08008158                Scheduler::Task::tryInitialize()
  .text._ZN9Scheduler4Task7executeEv
-                0x08008164       0x9c obj\debug\~#\~#\scheduler\task.o
-                0x08008164                Scheduler::Task::execute()
+                0x08008184       0x9c obj\debug\~#\~#\scheduler\task.o
+                0x08008184                Scheduler::Task::execute()
  .text._ZN9Scheduler4Task10readyToRunEv
-                0x08008200       0x54 obj\debug\~#\~#\scheduler\task.o
-                0x08008200                Scheduler::Task::readyToRun()
+                0x08008220       0x54 obj\debug\~#\~#\scheduler\task.o
+                0x08008220                Scheduler::Task::readyToRun()
  .text._ZN9Scheduler4Task19decideWhenToRunNextEv
-                0x08008254       0x20 obj\debug\~#\~#\scheduler\task.o
-                0x08008254                Scheduler::Task::decideWhenToRunNext()
+                0x08008274       0x20 obj\debug\~#\~#\scheduler\task.o
+                0x08008274                Scheduler::Task::decideWhenToRunNext()
  .text._ZN9Scheduler4Task19startTimingAnalysisEv
-                0x08008274       0x3c obj\debug\~#\~#\scheduler\task.o
-                0x08008274                Scheduler::Task::startTimingAnalysis()
+                0x08008294       0x3c obj\debug\~#\~#\scheduler\task.o
+                0x08008294                Scheduler::Task::startTimingAnalysis()
  .text._ZN9Scheduler4Task18stopTimingAnalysisER17glo_task_timing_t
-                0x080082b0       0xcc obj\debug\~#\~#\scheduler\task.o
-                0x080082b0                Scheduler::Task::stopTimingAnalysis(glo_task_timing_t&)
+                0x080082d0       0xcc obj\debug\~#\~#\scheduler\task.o
+                0x080082d0                Scheduler::Task::stopTimingAnalysis(glo_task_timing_t&)
  .text._ZN9Scheduler4Task21resetTaskTimingFieldsEv
-                0x0800837c       0x4c obj\debug\~#\~#\scheduler\task.o
-                0x0800837c                Scheduler::Task::resetTaskTimingFields()
+                0x0800839c       0x4c obj\debug\~#\~#\scheduler\task.o
+                0x0800839c                Scheduler::Task::resetTaskTimingFields()
  .text._ZN9Scheduler4Task16recordTimingInfoEv
-                0x080083c8       0xdc obj\debug\~#\~#\scheduler\task.o
-                0x080083c8                Scheduler::Task::recordTimingInfo()
+                0x080083e8       0xdc obj\debug\~#\~#\scheduler\task.o
+                0x080083e8                Scheduler::Task::recordTimingInfo()
  .text._Z3maxImET_S0_S0_
-                0x080084a4       0x1c obj\debug\~#\~#\scheduler\task.o
-                0x080084a4                unsigned long max<unsigned long>(unsigned long, unsigned long)
+                0x080084c4       0x1c obj\debug\~#\~#\scheduler\task.o
+                0x080084c4                unsigned long max<unsigned long>(unsigned long, unsigned long)
  .text._Z3minImET_S0_S0_
-                0x080084c0       0x1c obj\debug\~#\~#\scheduler\task.o
-                0x080084c0                unsigned long min<unsigned long>(unsigned long, unsigned long)
+                0x080084e0       0x1c obj\debug\~#\~#\scheduler\task.o
+                0x080084e0                unsigned long min<unsigned long>(unsigned long, unsigned long)
  .text._ZN23ComplementaryFilterTaskC2Ef
-                0x080084dc       0x4c obj\debug\~#\~#\tasks\complementary_filter_task.o
-                0x080084dc                ComplementaryFilterTask::ComplementaryFilterTask(float)
-                0x080084dc                ComplementaryFilterTask::ComplementaryFilterTask(float)
+                0x080084fc       0x4c obj\debug\~#\~#\tasks\complementary_filter_task.o
+                0x080084fc                ComplementaryFilterTask::ComplementaryFilterTask(float)
+                0x080084fc                ComplementaryFilterTask::ComplementaryFilterTask(float)
  .text._ZN23ComplementaryFilterTask10initializeEv
-                0x08008528       0x70 obj\debug\~#\~#\tasks\complementary_filter_task.o
-                0x08008528                ComplementaryFilterTask::initialize()
+                0x08008548       0x70 obj\debug\~#\~#\tasks\complementary_filter_task.o
+                0x08008548                ComplementaryFilterTask::initialize()
  .text._ZN23ComplementaryFilterTask14publishNewDataEv
-                0x08008598       0x58 obj\debug\~#\~#\tasks\complementary_filter_task.o
-                0x08008598                ComplementaryFilterTask::publishNewData()
+                0x080085b8       0x58 obj\debug\~#\~#\tasks\complementary_filter_task.o
+                0x080085b8                ComplementaryFilterTask::publishNewData()
  .text._ZN23ComplementaryFilterTask3runEv
-                0x080085f0       0x64 obj\debug\~#\~#\tasks\complementary_filter_task.o
-                0x080085f0                ComplementaryFilterTask::run()
+                0x08008610       0x64 obj\debug\~#\~#\tasks\complementary_filter_task.o
+                0x08008610                ComplementaryFilterTask::run()
  .text._ZN23ComplementaryFilterTask13estimateStateEv
-                0x08008654      0x184 obj\debug\~#\~#\tasks\complementary_filter_task.o
-                0x08008654                ComplementaryFilterTask::estimateState()
+                0x08008674      0x184 obj\debug\~#\~#\tasks\complementary_filter_task.o
+                0x08008674                ComplementaryFilterTask::estimateState()
  .text._ZN12GlobTemplateI9glo_imu_tLt1E23ComplementaryFilterTaskE7publishEPKS0_t
-                0x080087d8       0x8c obj\debug\~#\~#\tasks\complementary_filter_task.o
-                0x080087d8                GlobTemplate<glo_imu_t, (unsigned short)1, ComplementaryFilterTask>::publish(glo_imu_t const*, unsigned short)
+                0x080087f8       0x8c obj\debug\~#\~#\tasks\complementary_filter_task.o
+                0x080087f8                GlobTemplate<glo_imu_t, (unsigned short)1, ComplementaryFilterTask>::publish(glo_imu_t const*, unsigned short)
  .text._ZN12GlobTemplateI13glo_raw_imu_tLt1E23ComplementaryFilterTaskE7publishEPKS0_t
-                0x08008864       0x8c obj\debug\~#\~#\tasks\complementary_filter_task.o
-                0x08008864                GlobTemplate<glo_raw_imu_t, (unsigned short)1, ComplementaryFilterTask>::publish(glo_raw_imu_t const*, unsigned short)
+                0x08008884       0x8c obj\debug\~#\~#\tasks\complementary_filter_task.o
+                0x08008884                GlobTemplate<glo_raw_imu_t, (unsigned short)1, ComplementaryFilterTask>::publish(glo_raw_imu_t const*, unsigned short)
  .text._ZN12GlobTemplateI16glo_quaternion_tLt1E23ComplementaryFilterTaskE7publishEPKS0_t
-                0x080088f0       0x84 obj\debug\~#\~#\tasks\complementary_filter_task.o
-                0x080088f0                GlobTemplate<glo_quaternion_t, (unsigned short)1, ComplementaryFilterTask>::publish(glo_quaternion_t const*, unsigned short)
+                0x08008910       0x84 obj\debug\~#\~#\tasks\complementary_filter_task.o
+                0x08008910                GlobTemplate<glo_quaternion_t, (unsigned short)1, ComplementaryFilterTask>::publish(glo_quaternion_t const*, unsigned short)
  .text._ZN12GlobTemplateI20glo_roll_pitch_yaw_tLt1E23ComplementaryFilterTaskE7publishEPKS0_t
-                0x08008974       0x8c obj\debug\~#\~#\tasks\complementary_filter_task.o
-                0x08008974                GlobTemplate<glo_roll_pitch_yaw_t, (unsigned short)1, ComplementaryFilterTask>::publish(glo_roll_pitch_yaw_t const*, unsigned short)
+                0x08008994       0x8c obj\debug\~#\~#\tasks\complementary_filter_task.o
+                0x08008994                GlobTemplate<glo_roll_pitch_yaw_t, (unsigned short)1, ComplementaryFilterTask>::publish(glo_roll_pitch_yaw_t const*, unsigned short)
  .text._ZN8LedsTask10initializeEv
-                0x08008a00        0x8 obj\debug\~#\~#\tasks\leds_task.o
-                0x08008a00                LedsTask::initialize()
+                0x08008a20        0x8 obj\debug\~#\~#\tasks\leds_task.o
+                0x08008a20                LedsTask::initialize()
  .text._ZN8LedsTaskC2Ef
-                0x08008a08       0x60 obj\debug\~#\~#\tasks\leds_task.o
-                0x08008a08                LedsTask::LedsTask(float)
-                0x08008a08                LedsTask::LedsTask(float)
+                0x08008a28       0x60 obj\debug\~#\~#\tasks\leds_task.o
+                0x08008a28                LedsTask::LedsTask(float)
+                0x08008a28                LedsTask::LedsTask(float)
  .text._ZN8LedsTask11readNewDataEv
-                0x08008a68       0x30 obj\debug\~#\~#\tasks\leds_task.o
-                0x08008a68                LedsTask::readNewData()
+                0x08008a88       0x30 obj\debug\~#\~#\tasks\leds_task.o
+                0x08008a88                LedsTask::readNewData()
  .text._ZN8LedsTask3runEv
-                0x08008a98       0x6c obj\debug\~#\~#\tasks\leds_task.o
-                0x08008a98                LedsTask::run()
+                0x08008ab8       0x6c obj\debug\~#\~#\tasks\leds_task.o
+                0x08008ab8                LedsTask::run()
  .text._ZN8LedsTask7slowRunEv
-                0x08008b04      0x198 obj\debug\~#\~#\tasks\leds_task.o
-                0x08008b04                LedsTask::slowRun()
+                0x08008b24      0x198 obj\debug\~#\~#\tasks\leds_task.o
+                0x08008b24                LedsTask::slowRun()
  .text._ZN8LedsTask25requestNewLedGreenPatternEh
-                0x08008c9c       0x20 obj\debug\~#\~#\tasks\leds_task.o
-                0x08008c9c                LedsTask::requestNewLedGreenPattern(unsigned char)
+                0x08008cbc       0x20 obj\debug\~#\~#\tasks\leds_task.o
+                0x08008cbc                LedsTask::requestNewLedGreenPattern(unsigned char)
  .text._ZN12GlobTemplateI11glo_modes_tLt1E9ModesTaskE4readEPS0_t
-                0x08008cbc       0x98 obj\debug\~#\~#\tasks\leds_task.o
-                0x08008cbc                GlobTemplate<glo_modes_t, (unsigned short)1, ModesTask>::read(glo_modes_t*, unsigned short)
+                0x08008cdc       0x98 obj\debug\~#\~#\tasks\leds_task.o
+                0x08008cdc                GlobTemplate<glo_modes_t, (unsigned short)1, ModesTask>::read(glo_modes_t*, unsigned short)
  .text._ZN12GlobTemplateI12glo_analog_tLt1E15MainControlTaskE4readEPS0_t
-                0x08008d54       0x9c obj\debug\~#\~#\tasks\leds_task.o
-                0x08008d54                GlobTemplate<glo_analog_t, (unsigned short)1, MainControlTask>::read(glo_analog_t*, unsigned short)
+                0x08008d74       0x9c obj\debug\~#\~#\tasks\leds_task.o
+                0x08008d74                GlobTemplate<glo_analog_t, (unsigned short)1, MainControlTask>::read(glo_analog_t*, unsigned short)
  .text._ZNK8GlobBase6get_idEv
-                0x08008df0       0x10 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08008df0                GlobBase::get_id() const
+                0x08008e10       0x10 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08008e10                GlobBase::get_id() const
  .text._ZNK8GlobBase17get_num_instancesEv
-                0x08008e00       0x10 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08008e00                GlobBase::get_num_instances() const
+                0x08008e20       0x10 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08008e20                GlobBase::get_num_instances() const
  .text._ZN15MainControlTaskC2Ef
-                0x08008e10      0x2b0 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08008e10                MainControlTask::MainControlTask(float)
-                0x08008e10                MainControlTask::MainControlTask(float)
+                0x08008e30      0x2b0 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08008e30                MainControlTask::MainControlTask(float)
+                0x08008e30                MainControlTask::MainControlTask(float)
  .text._ZN15MainControlTask10initializeEv
-                0x080090c0       0x28 obj\debug\~#\~#\tasks\main_control_task.o
-                0x080090c0                MainControlTask::initialize()
+                0x080090e0       0x28 obj\debug\~#\~#\tasks\main_control_task.o
+                0x080090e0                MainControlTask::initialize()
  .text._ZN15MainControlTask11readNewDataEv
-                0x080090e8       0x84 obj\debug\~#\~#\tasks\main_control_task.o
-                0x080090e8                MainControlTask::readNewData()
+                0x08009108       0x84 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009108                MainControlTask::readNewData()
  .text._ZN15MainControlTask14publishNewDataEv
-                0x0800916c       0x5c obj\debug\~#\~#\tasks\main_control_task.o
-                0x0800916c                MainControlTask::publishNewData()
+                0x0800918c       0x5c obj\debug\~#\~#\tasks\main_control_task.o
+                0x0800918c                MainControlTask::publishNewData()
  .text._ZN15MainControlTask3runEv
-                0x080091c8      0x210 obj\debug\~#\~#\tasks\main_control_task.o
-                0x080091c8                MainControlTask::run()
+                0x080091e8      0x210 obj\debug\~#\~#\tasks\main_control_task.o
+                0x080091e8                MainControlTask::run()
  .text._ZN15MainControlTask14updateMotorPWMEv
-                0x080093d8      0x150 obj\debug\~#\~#\tasks\main_control_task.o
-                0x080093d8                MainControlTask::updateMotorPWM()
+                0x080093f8      0x150 obj\debug\~#\~#\tasks\main_control_task.o
+                0x080093f8                MainControlTask::updateMotorPWM()
  .text._ZN15MainControlTask14runDataCaptureEv
-                0x08009528      0x248 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009528                MainControlTask::runDataCapture()
+                0x08009548      0x248 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009548                MainControlTask::runDataCapture()
  .text._ZN15MainControlTask6handleER21glo_capture_command_t
-                0x08009770       0xb0 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009770                MainControlTask::handle(glo_capture_command_t&)
+                0x08009790       0xb0 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009790                MainControlTask::handle(glo_capture_command_t&)
  .text._ZN15MainControlTask21reset_zero_tilt_angleEv
-                0x08009820       0x24 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009820                MainControlTask::reset_zero_tilt_angle()
+                0x08009840       0x24 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009840                MainControlTask::reset_zero_tilt_angle()
  .text._ZN15MainControlTask6handleER10glo_wave_t
-                0x08009844       0x50 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009844                MainControlTask::handle(glo_wave_t&)
+                0x08009864       0x50 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009864                MainControlTask::handle(glo_wave_t&)
  .text._ZN15MainControlTask25handle_balance_tilt_gainsER16glo_pid_params_t
-                0x08009894       0x20 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009894                MainControlTask::handle_balance_tilt_gains(glo_pid_params_t&)
- .text._ZN15MainControlTask29handle_balance_position_gainsER16glo_pid_params_t
                 0x080098b4       0x20 obj\debug\~#\~#\tasks\main_control_task.o
-                0x080098b4                MainControlTask::handle_balance_position_gains(glo_pid_params_t&)
+                0x080098b4                MainControlTask::handle_balance_tilt_gains(glo_pid_params_t&)
+ .text._ZN15MainControlTask29handle_balance_position_gainsER16glo_pid_params_t
+                0x080098d4       0x20 obj\debug\~#\~#\tasks\main_control_task.o
+                0x080098d4                MainControlTask::handle_balance_position_gains(glo_pid_params_t&)
  .text._ZN15MainControlTask22get_balance_tilt_gainsER16glo_pid_params_t
-                0x080098d4       0x4c obj\debug\~#\~#\tasks\main_control_task.o
-                0x080098d4                MainControlTask::get_balance_tilt_gains(glo_pid_params_t&)
+                0x080098f4       0x4c obj\debug\~#\~#\tasks\main_control_task.o
+                0x080098f4                MainControlTask::get_balance_tilt_gains(glo_pid_params_t&)
  .text._ZN15MainControlTask26get_balance_position_gainsER16glo_pid_params_t
-                0x08009920       0x4c obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009920                MainControlTask::get_balance_position_gains(glo_pid_params_t&)
+                0x08009940       0x4c obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009940                MainControlTask::get_balance_position_gains(glo_pid_params_t&)
  .text._ZN15MainControlTask5resetEv
-                0x0800996c       0x78 obj\debug\~#\~#\tasks\main_control_task.o
-                0x0800996c                MainControlTask::reset()
+                0x0800998c       0x78 obj\debug\~#\~#\tasks\main_control_task.o
+                0x0800998c                MainControlTask::reset()
  .text._ZN12GlobTemplateI9glo_imu_tLt1E23ComplementaryFilterTaskE4readEPS0_t
-                0x080099e4       0x9c obj\debug\~#\~#\tasks\main_control_task.o
-                0x080099e4                GlobTemplate<glo_imu_t, (unsigned short)1, ComplementaryFilterTask>::read(glo_imu_t*, unsigned short)
+                0x08009a04       0x9c obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009a04                GlobTemplate<glo_imu_t, (unsigned short)1, ComplementaryFilterTask>::read(glo_imu_t*, unsigned short)
  .text._ZN12GlobTemplateI20glo_roll_pitch_yaw_tLt1E23ComplementaryFilterTaskE4readEPS0_t
-                0x08009a80       0x9c obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009a80                GlobTemplate<glo_roll_pitch_yaw_t, (unsigned short)1, ComplementaryFilterTask>::read(glo_roll_pitch_yaw_t*, unsigned short)
+                0x08009aa0       0x9c obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009aa0                GlobTemplate<glo_roll_pitch_yaw_t, (unsigned short)1, ComplementaryFilterTask>::read(glo_roll_pitch_yaw_t*, unsigned short)
  .text._ZN12GlobTemplateI16glo_theta_zero_tLt1E15MainControlTaskE4readEPS0_t
-                0x08009b1c       0x94 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009b1c                GlobTemplate<glo_theta_zero_t, (unsigned short)1, MainControlTask>::read(glo_theta_zero_t*, unsigned short)
+                0x08009b3c       0x94 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009b3c                GlobTemplate<glo_theta_zero_t, (unsigned short)1, MainControlTask>::read(glo_theta_zero_t*, unsigned short)
  .text._ZN12GlobTemplateI21glo_motion_commands_tLt1E20TelemetryReceiveTaskE4readEPS0_t
-                0x08009bb0       0x94 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009bb0                GlobTemplate<glo_motion_commands_t, (unsigned short)1, TelemetryReceiveTask>::read(glo_motion_commands_t*, unsigned short)
+                0x08009bd0       0x94 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009bd0                GlobTemplate<glo_motion_commands_t, (unsigned short)1, TelemetryReceiveTask>::read(glo_motion_commands_t*, unsigned short)
  .text._ZN12GlobTemplateI17glo_status_data_tLt1E16StatusUpdateTaskE4readEPS0_t
-                0x08009c44       0x98 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009c44                GlobTemplate<glo_status_data_t, (unsigned short)1, StatusUpdateTask>::read(glo_status_data_t*, unsigned short)
+                0x08009c64       0x98 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009c64                GlobTemplate<glo_status_data_t, (unsigned short)1, StatusUpdateTask>::read(glo_status_data_t*, unsigned short)
  .text._ZN12GlobTemplateI14glo_odometry_tLt1E15MainControlTaskE7publishEPKS0_t
-                0x08009cdc       0x8c obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009cdc                GlobTemplate<glo_odometry_t, (unsigned short)1, MainControlTask>::publish(glo_odometry_t const*, unsigned short)
+                0x08009cfc       0x8c obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009cfc                GlobTemplate<glo_odometry_t, (unsigned short)1, MainControlTask>::publish(glo_odometry_t const*, unsigned short)
  .text._ZN12GlobTemplateI12glo_analog_tLt1E15MainControlTaskE7publishEPKS0_t
-                0x08009d68       0x8c obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009d68                GlobTemplate<glo_analog_t, (unsigned short)1, MainControlTask>::publish(glo_analog_t const*, unsigned short)
+                0x08009d88       0x8c obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009d88                GlobTemplate<glo_analog_t, (unsigned short)1, MainControlTask>::publish(glo_analog_t const*, unsigned short)
  .text._ZN12GlobTemplateI10glo_wave_tLt1E15MainControlTaskE7publishEPKS0_t
-                0x08009df4       0x8c obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009df4                GlobTemplate<glo_wave_t, (unsigned short)1, MainControlTask>::publish(glo_wave_t const*, unsigned short)
+                0x08009e14       0x8c obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009e14                GlobTemplate<glo_wave_t, (unsigned short)1, MainControlTask>::publish(glo_wave_t const*, unsigned short)
  .text._ZN12GlobTemplateI15glo_motor_pwm_tLt1E15MainControlTaskE7publishEPKS0_t
-                0x08009e80       0x84 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009e80                GlobTemplate<glo_motor_pwm_t, (unsigned short)1, MainControlTask>::publish(glo_motor_pwm_t const*, unsigned short)
+                0x08009ea0       0x84 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009ea0                GlobTemplate<glo_motor_pwm_t, (unsigned short)1, MainControlTask>::publish(glo_motor_pwm_t const*, unsigned short)
  .text._ZN12GlobTemplateI21glo_capture_command_tLt1E15MainControlTaskE7publishEPKS0_t
-                0x08009f04       0x8c obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009f04                GlobTemplate<glo_capture_command_t, (unsigned short)1, MainControlTask>::publish(glo_capture_command_t const*, unsigned short)
+                0x08009f24       0x8c obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009f24                GlobTemplate<glo_capture_command_t, (unsigned short)1, MainControlTask>::publish(glo_capture_command_t const*, unsigned short)
  .text._ZN12GlobTemplateI18glo_capture_data_tLt2001E15MainControlTaskE7publishEPKS0_t
-                0x08009f90       0x90 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08009f90                GlobTemplate<glo_capture_data_t, (unsigned short)2001, MainControlTask>::publish(glo_capture_data_t const*, unsigned short)
+                0x08009fb0       0x90 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08009fb0                GlobTemplate<glo_capture_data_t, (unsigned short)2001, MainControlTask>::publish(glo_capture_data_t const*, unsigned short)
  .text._Z5limitImET_S0_S0_S0_
-                0x0800a020       0x28 obj\debug\~#\~#\tasks\main_control_task.o
-                0x0800a020                unsigned long limit<unsigned long>(unsigned long, unsigned long, unsigned long)
+                0x0800a040       0x28 obj\debug\~#\~#\tasks\main_control_task.o
+                0x0800a040                unsigned long limit<unsigned long>(unsigned long, unsigned long, unsigned long)
  .text._ZN12GlobTemplateI16glo_theta_zero_tLt1E15MainControlTaskE7publishEPKS0_t
-                0x0800a048       0x84 obj\debug\~#\~#\tasks\main_control_task.o
-                0x0800a048                GlobTemplate<glo_theta_zero_t, (unsigned short)1, MainControlTask>::publish(glo_theta_zero_t const*, unsigned short)
+                0x0800a068       0x84 obj\debug\~#\~#\tasks\main_control_task.o
+                0x0800a068                GlobTemplate<glo_theta_zero_t, (unsigned short)1, MainControlTask>::publish(glo_theta_zero_t const*, unsigned short)
  .text._ZN9ModesTaskC2Ef
-                0x0800a0cc       0x60 obj\debug\~#\~#\tasks\modes_task.o
-                0x0800a0cc                ModesTask::ModesTask(float)
-                0x0800a0cc                ModesTask::ModesTask(float)
+                0x0800a0ec       0x60 obj\debug\~#\~#\tasks\modes_task.o
+                0x0800a0ec                ModesTask::ModesTask(float)
+                0x0800a0ec                ModesTask::ModesTask(float)
  .text._ZN9ModesTask10initializeEv
-                0x0800a12c       0x38 obj\debug\~#\~#\tasks\modes_task.o
-                0x0800a12c                ModesTask::initialize()
+                0x0800a14c       0x38 obj\debug\~#\~#\tasks\modes_task.o
+                0x0800a14c                ModesTask::initialize()
  .text._ZN9ModesTask3runEv
-                0x0800a164       0x7c obj\debug\~#\~#\tasks\modes_task.o
-                0x0800a164                ModesTask::run()
+                0x0800a184       0x7c obj\debug\~#\~#\tasks\modes_task.o
+                0x0800a184                ModesTask::run()
  .text._ZN9ModesTask5resetEv
-                0x0800a1e0       0x18 obj\debug\~#\~#\tasks\modes_task.o
-                0x0800a1e0                ModesTask::reset()
+                0x0800a200       0x18 obj\debug\~#\~#\tasks\modes_task.o
+                0x0800a200                ModesTask::reset()
  .text._ZN9ModesTask23inVerticalConfigurationEv
-                0x0800a1f8       0x24 obj\debug\~#\~#\tasks\modes_task.o
-                0x0800a1f8                ModesTask::inVerticalConfiguration()
+                0x0800a218       0x24 obj\debug\~#\~#\tasks\modes_task.o
+                0x0800a218                ModesTask::inVerticalConfiguration()
  .text._ZN9ModesTask6handleE11glo_modes_t
-                0x0800a21c       0xdc obj\debug\~#\~#\tasks\modes_task.o
-                0x0800a21c                ModesTask::handle(glo_modes_t)
+                0x0800a23c       0xdc obj\debug\~#\~#\tasks\modes_task.o
+                0x0800a23c                ModesTask::handle(glo_modes_t)
  .text._ZN9ModesTask6handleEh
-                0x0800a2f8       0x5c obj\debug\~#\~#\tasks\modes_task.o
-                0x0800a2f8                ModesTask::handle(unsigned char)
+                0x0800a318       0x5c obj\debug\~#\~#\tasks\modes_task.o
+                0x0800a318                ModesTask::handle(unsigned char)
  .text._ZN9ModesTask12stoppedStateEv
-                0x0800a354       0x24 obj\debug\~#\~#\tasks\modes_task.o
-                0x0800a354                ModesTask::stoppedState()
+                0x0800a374       0x24 obj\debug\~#\~#\tasks\modes_task.o
+                0x0800a374                ModesTask::stoppedState()
  .text._ZN9ModesTask17initializingStateEv
-                0x0800a378       0xb0 obj\debug\~#\~#\tasks\modes_task.o
-                0x0800a378                ModesTask::initializingState()
+                0x0800a398       0xb0 obj\debug\~#\~#\tasks\modes_task.o
+                0x0800a398                ModesTask::initializingState()
  .text._ZN9ModesTask11normalStateEv
-                0x0800a428       0x24 obj\debug\~#\~#\tasks\modes_task.o
-                0x0800a428                ModesTask::normalState()
+                0x0800a448       0x24 obj\debug\~#\~#\tasks\modes_task.o
+                0x0800a448                ModesTask::normalState()
  .text._ZN9ModesTask11changeStateEh
-                0x0800a44c       0x30 obj\debug\~#\~#\tasks\modes_task.o
-                0x0800a44c                ModesTask::changeState(unsigned char)
+                0x0800a46c       0x30 obj\debug\~#\~#\tasks\modes_task.o
+                0x0800a46c                ModesTask::changeState(unsigned char)
  .text._ZN12GlobTemplateI11glo_modes_tLt1E9ModesTaskE7publishEPKS0_t
-                0x0800a47c       0x88 obj\debug\~#\~#\tasks\modes_task.o
-                0x0800a47c                GlobTemplate<glo_modes_t, (unsigned short)1, ModesTask>::publish(glo_modes_t const*, unsigned short)
+                0x0800a49c       0x88 obj\debug\~#\~#\tasks\modes_task.o
+                0x0800a49c                GlobTemplate<glo_modes_t, (unsigned short)1, ModesTask>::publish(glo_modes_t const*, unsigned short)
  .text._ZN16StatusUpdateTask10initializeEv
-                0x0800a504        0x8 obj\debug\~#\~#\tasks\status_update_task.o
-                0x0800a504                StatusUpdateTask::initialize()
+                0x0800a524        0x8 obj\debug\~#\~#\tasks\status_update_task.o
+                0x0800a524                StatusUpdateTask::initialize()
  .text._ZN16StatusUpdateTaskC2Ef
-                0x0800a50c       0x3c obj\debug\~#\~#\tasks\status_update_task.o
-                0x0800a50c                StatusUpdateTask::StatusUpdateTask(float)
-                0x0800a50c                StatusUpdateTask::StatusUpdateTask(float)
+                0x0800a52c       0x3c obj\debug\~#\~#\tasks\status_update_task.o
+                0x0800a52c                StatusUpdateTask::StatusUpdateTask(float)
+                0x0800a52c                StatusUpdateTask::StatusUpdateTask(float)
  .text._ZN16StatusUpdateTask11readNewDataEv
-                0x0800a548       0x7c obj\debug\~#\~#\tasks\status_update_task.o
-                0x0800a548                StatusUpdateTask::readNewData()
+                0x0800a568       0x7c obj\debug\~#\~#\tasks\status_update_task.o
+                0x0800a568                StatusUpdateTask::readNewData()
  .text._ZN16StatusUpdateTask14publishNewDataEv
-                0x0800a5c4       0x38 obj\debug\~#\~#\tasks\status_update_task.o
-                0x0800a5c4                StatusUpdateTask::publishNewData()
+                0x0800a5e4       0x38 obj\debug\~#\~#\tasks\status_update_task.o
+                0x0800a5e4                StatusUpdateTask::publishNewData()
  .text._ZN16StatusUpdateTask3runEv
-                0x0800a5fc      0x14c obj\debug\~#\~#\tasks\status_update_task.o
-                0x0800a5fc                StatusUpdateTask::run()
+                0x0800a61c      0x14c obj\debug\~#\~#\tasks\status_update_task.o
+                0x0800a61c                StatusUpdateTask::run()
  .text._ZN16StatusUpdateTask13setErrorCodesEh
-                0x0800a748       0x24 obj\debug\~#\~#\tasks\status_update_task.o
-                0x0800a748                StatusUpdateTask::setErrorCodes(unsigned char)
+                0x0800a768       0x24 obj\debug\~#\~#\tasks\status_update_task.o
+                0x0800a768                StatusUpdateTask::setErrorCodes(unsigned char)
  .text._ZN16StatusUpdateTask15clearErrorCodesEh
-                0x0800a76c       0x2c obj\debug\~#\~#\tasks\status_update_task.o
-                0x0800a76c                StatusUpdateTask::clearErrorCodes(unsigned char)
+                0x0800a78c       0x2c obj\debug\~#\~#\tasks\status_update_task.o
+                0x0800a78c                StatusUpdateTask::clearErrorCodes(unsigned char)
  .text._ZN12GlobTemplateI14glo_odometry_tLt1E15MainControlTaskE4readEPS0_t
-                0x0800a798       0x9c obj\debug\~#\~#\tasks\status_update_task.o
-                0x0800a798                GlobTemplate<glo_odometry_t, (unsigned short)1, MainControlTask>::read(glo_odometry_t*, unsigned short)
+                0x0800a7b8       0x9c obj\debug\~#\~#\tasks\status_update_task.o
+                0x0800a7b8                GlobTemplate<glo_odometry_t, (unsigned short)1, MainControlTask>::read(glo_odometry_t*, unsigned short)
  .text._ZN12GlobTemplateI15glo_motor_pwm_tLt1E15MainControlTaskE4readEPS0_t
-                0x0800a834       0x94 obj\debug\~#\~#\tasks\status_update_task.o
-                0x0800a834                GlobTemplate<glo_motor_pwm_t, (unsigned short)1, MainControlTask>::read(glo_motor_pwm_t*, unsigned short)
+                0x0800a854       0x94 obj\debug\~#\~#\tasks\status_update_task.o
+                0x0800a854                GlobTemplate<glo_motor_pwm_t, (unsigned short)1, MainControlTask>::read(glo_motor_pwm_t*, unsigned short)
  .text._ZN12GlobTemplateI17glo_status_data_tLt1E16StatusUpdateTaskE7publishEPKS0_t
-                0x0800a8c8       0x88 obj\debug\~#\~#\tasks\status_update_task.o
-                0x0800a8c8                GlobTemplate<glo_status_data_t, (unsigned short)1, StatusUpdateTask>::publish(glo_status_data_t const*, unsigned short)
+                0x0800a8e8       0x88 obj\debug\~#\~#\tasks\status_update_task.o
+                0x0800a8e8                GlobTemplate<glo_status_data_t, (unsigned short)1, StatusUpdateTask>::publish(glo_status_data_t const*, unsigned short)
  .text._Z10wrap_angleIfET_S0_
-                0x0800a950       0x68 obj\debug\~#\~#\tasks\status_update_task.o
-                0x0800a950                float wrap_angle<float>(float)
+                0x0800a970       0x68 obj\debug\~#\~#\tasks\status_update_task.o
+                0x0800a970                float wrap_angle<float>(float)
  .text._ZNK5Usart5emptyEv
-                0x0800a9b8       0x1c obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800a9b8                Usart::empty() const
+                0x0800a9d8       0x1c obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800a9d8                Usart::empty() const
  .text._ZNK9GloRxLink9dataReadyEv
-                0x0800a9d4       0x20 obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800a9d4                GloRxLink::dataReady() const
+                0x0800a9f4       0x20 obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800a9f4                GloRxLink::dataReady() const
  .text._ZN20TelemetryReceiveTaskC2Ev
-                0x0800a9f4       0x44 obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800a9f4                TelemetryReceiveTask::TelemetryReceiveTask()
-                0x0800a9f4                TelemetryReceiveTask::TelemetryReceiveTask()
+                0x0800aa14       0x44 obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800aa14                TelemetryReceiveTask::TelemetryReceiveTask()
+                0x0800aa14                TelemetryReceiveTask::TelemetryReceiveTask()
  .text._ZN20TelemetryReceiveTask10initializeEv
-                0x0800aa38       0x9c obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800aa38                TelemetryReceiveTask::initialize()
+                0x0800aa58       0x9c obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800aa58                TelemetryReceiveTask::initialize()
  .text._ZN20TelemetryReceiveTask9needToRunEv
-                0x0800aad4       0x1c obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800aad4                TelemetryReceiveTask::needToRun()
+                0x0800aaf4       0x1c obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800aaf4                TelemetryReceiveTask::needToRun()
  .text._ZN20TelemetryReceiveTask3runEv
-                0x0800aaf0       0x18 obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800aaf0                TelemetryReceiveTask::run()
+                0x0800ab10       0x18 obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800ab10                TelemetryReceiveTask::run()
  .text._ZN20TelemetryReceiveTask18newMessageCallbackEhtPv
-                0x0800ab08      0x104 obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800ab08                TelemetryReceiveTask::newMessageCallback(unsigned char, unsigned short, void*)
+                0x0800ab28      0x104 obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800ab28                TelemetryReceiveTask::newMessageCallback(unsigned char, unsigned short, void*)
  .text._ZN20TelemetryReceiveTask6handleER21glo_driving_command_t
-                0x0800ac0c      0x150 obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800ac0c                TelemetryReceiveTask::handle(glo_driving_command_t&)
+                0x0800ac2c      0x150 obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800ac2c                TelemetryReceiveTask::handle(glo_driving_command_t&)
  .text._ZN20TelemetryReceiveTask6handleER21glo_motion_commands_t
-                0x0800ad5c       0x1c obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800ad5c                TelemetryReceiveTask::handle(glo_motion_commands_t&)
+                0x0800ad7c       0x1c obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800ad7c                TelemetryReceiveTask::handle(glo_motion_commands_t&)
  .text._ZN20TelemetryReceiveTask6handleER16glo_pid_params_tt
-                0x0800ad78       0xe8 obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800ad78                TelemetryReceiveTask::handle(glo_pid_params_t&, unsigned short)
+                0x0800ad98       0xe8 obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800ad98                TelemetryReceiveTask::handle(glo_pid_params_t&, unsigned short)
  .text._ZN20TelemetryReceiveTask17syncPidParametersEv
-                0x0800ae60       0xc8 obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800ae60                TelemetryReceiveTask::syncPidParameters()
+                0x0800ae80       0xc8 obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800ae80                TelemetryReceiveTask::syncPidParameters()
  .text._ZN20TelemetryReceiveTask6handleER13glo_request_tt
-                0x0800af28       0x84 obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800af28                TelemetryReceiveTask::handle(glo_request_t&, unsigned short)
+                0x0800af48       0x84 obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800af48                TelemetryReceiveTask::handle(glo_request_t&, unsigned short)
  .text._ZN12GlobTemplateI21glo_driving_command_tLt1E20TelemetryReceiveTaskE7publishEPKS0_t
-                0x0800afac       0x8c obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800afac                GlobTemplate<glo_driving_command_t, (unsigned short)1, TelemetryReceiveTask>::publish(glo_driving_command_t const*, unsigned short)
+                0x0800afcc       0x8c obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800afcc                GlobTemplate<glo_driving_command_t, (unsigned short)1, TelemetryReceiveTask>::publish(glo_driving_command_t const*, unsigned short)
  .text._ZN12GlobTemplateI21glo_motion_commands_tLt1E20TelemetryReceiveTaskE7publishEPKS0_t
-                0x0800b038       0x84 obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800b038                GlobTemplate<glo_motion_commands_t, (unsigned short)1, TelemetryReceiveTask>::publish(glo_motion_commands_t const*, unsigned short)
+                0x0800b058       0x84 obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800b058                GlobTemplate<glo_motion_commands_t, (unsigned short)1, TelemetryReceiveTask>::publish(glo_motion_commands_t const*, unsigned short)
  .text._ZN12GlobTemplateI16glo_pid_params_tLt8E20TelemetryReceiveTaskE7publishEPKS0_t
-                0x0800b0bc       0x8c obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x0800b0bc                GlobTemplate<glo_pid_params_t, (unsigned short)8, TelemetryReceiveTask>::publish(glo_pid_params_t const*, unsigned short)
+                0x0800b0dc       0x8c obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x0800b0dc                GlobTemplate<glo_pid_params_t, (unsigned short)8, TelemetryReceiveTask>::publish(glo_pid_params_t const*, unsigned short)
  .text._ZN12glob_queue_tC2Ev
-                0x0800b148       0x28 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b148                glob_queue_t::glob_queue_t()
-                0x0800b148                glob_queue_t::glob_queue_t()
+                0x0800b168       0x28 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b168                glob_queue_t::glob_queue_t()
+                0x0800b168                glob_queue_t::glob_queue_t()
  .text._ZN12glob_queue_tC2Ehttl
-                0x0800b170       0x38 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b170                glob_queue_t::glob_queue_t(unsigned char, unsigned short, unsigned short, long)
-                0x0800b170                glob_queue_t::glob_queue_t(unsigned char, unsigned short, unsigned short, long)
+                0x0800b190       0x38 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b190                glob_queue_t::glob_queue_t(unsigned char, unsigned short, unsigned short, long)
+                0x0800b190                glob_queue_t::glob_queue_t(unsigned char, unsigned short, unsigned short, long)
  .text._ZN17TelemetrySendTaskC2Em
-                0x0800b1a8       0x64 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b1a8                TelemetrySendTask::TelemetrySendTask(unsigned long)
-                0x0800b1a8                TelemetrySendTask::TelemetrySendTask(unsigned long)
+                0x0800b1c8       0x64 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b1c8                TelemetrySendTask::TelemetrySendTask(unsigned long)
+                0x0800b1c8                TelemetrySendTask::TelemetrySendTask(unsigned long)
  .text._ZN17TelemetrySendTask9send_copyEht
-                0x0800b20c       0x94 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b20c                TelemetrySendTask::send_copy(unsigned char, unsigned short)
+                0x0800b22c       0x94 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b22c                TelemetrySendTask::send_copy(unsigned char, unsigned short)
  .text._ZN17TelemetrySendTask4sendEhtt
-                0x0800b2a0       0x40 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b2a0                TelemetrySendTask::send(unsigned char, unsigned short, unsigned short)
+                0x0800b2c0       0x40 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b2c0                TelemetrySendTask::send(unsigned char, unsigned short, unsigned short)
  .text._ZN17TelemetrySendTask10initializeEv
-                0x0800b2e0       0x90 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b2e0                TelemetrySendTask::initialize()
+                0x0800b300       0x90 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b300                TelemetrySendTask::initialize()
  .text._ZN17TelemetrySendTask3runEv
-                0x0800b370       0xe0 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b370                TelemetrySendTask::run()
+                0x0800b390       0xe0 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b390                TelemetrySendTask::run()
  .text._ZN17TelemetrySendTask27send_cached_assert_messagesEv
-                0x0800b450       0x88 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b450                TelemetrySendTask::send_cached_assert_messages()
+                0x0800b470       0x88 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b470                TelemetrySendTask::send_cached_assert_messages()
  .text._ZN17TelemetrySendTask26send_cached_debug_messagesEv
-                0x0800b4d8       0x88 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b4d8                TelemetrySendTask::send_cached_debug_messages()
+                0x0800b4f8       0x88 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b4f8                TelemetrySendTask::send_cached_debug_messages()
  .text._ZN17TelemetrySendTask6handleER20glo_assert_message_t
-                0x0800b560       0x74 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b560                TelemetrySendTask::handle(glo_assert_message_t&)
+                0x0800b580       0x74 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b580                TelemetrySendTask::handle(glo_assert_message_t&)
  .text._ZN17TelemetrySendTask6handleER19glo_debug_message_t
-                0x0800b5d4       0x74 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b5d4                TelemetrySendTask::handle(glo_debug_message_t&)
+                0x0800b5f4       0x74 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b5f4                TelemetrySendTask::handle(glo_debug_message_t&)
  .text._ZN17TelemetrySendTask6handleERK17glo_task_timing_t
-                0x0800b648       0x34 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b648                TelemetrySendTask::handle(glo_task_timing_t const&)
+                0x0800b668       0x34 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b668                TelemetrySendTask::handle(glo_task_timing_t const&)
  .text._ZN9Scheduler10QueuedTaskI12glob_queue_tEC2EPKclm
-                0x0800b67c       0x38 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b67c                Scheduler::QueuedTask<glob_queue_t>::QueuedTask(char const*, long, unsigned long)
-                0x0800b67c                Scheduler::QueuedTask<glob_queue_t>::QueuedTask(char const*, long, unsigned long)
+                0x0800b69c       0x38 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b69c                Scheduler::QueuedTask<glob_queue_t>::QueuedTask(char const*, long, unsigned long)
+                0x0800b69c                Scheduler::QueuedTask<glob_queue_t>::QueuedTask(char const*, long, unsigned long)
  .text._ZN11SimpleArrayI17glob_data_queue_tEC2Em
-                0x0800b6b4       0x68 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b6b4                SimpleArray<glob_data_queue_t>::SimpleArray(unsigned long)
-                0x0800b6b4                SimpleArray<glob_data_queue_t>::SimpleArray(unsigned long)
+                0x0800b6d4       0x68 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b6d4                SimpleArray<glob_data_queue_t>::SimpleArray(unsigned long)
+                0x0800b6d4                SimpleArray<glob_data_queue_t>::SimpleArray(unsigned long)
  .text._ZN11SimpleArrayI17glob_data_queue_tE14requestStorageEPl
-                0x0800b71c       0x60 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b71c                SimpleArray<glob_data_queue_t>::requestStorage(long*)
+                0x0800b73c       0x60 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b73c                SimpleArray<glob_data_queue_t>::requestStorage(long*)
  .text._ZN9Scheduler10QueuedTaskI12glob_queue_tE7enqueueERS1_
-                0x0800b77c       0x28 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b77c                Scheduler::QueuedTask<glob_queue_t>::enqueue(glob_queue_t&)
+                0x0800b79c       0x28 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b79c                Scheduler::QueuedTask<glob_queue_t>::enqueue(glob_queue_t&)
  .text._ZN9Scheduler5QueueI12glob_queue_tE4peakEPS1_
-                0x0800b7a4       0x60 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b7a4                Scheduler::Queue<glob_queue_t>::peak(glob_queue_t*)
+                0x0800b7c4       0x60 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b7c4                Scheduler::Queue<glob_queue_t>::peak(glob_queue_t*)
  .text._ZN11SimpleArrayI17glob_data_queue_tE9referenceEl
-                0x0800b804       0x2c obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b804                SimpleArray<glob_data_queue_t>::reference(long)
+                0x0800b824       0x2c obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b824                SimpleArray<glob_data_queue_t>::reference(long)
  .text._ZN11SimpleArrayI17glob_data_queue_tE6removeEl
-                0x0800b830       0x30 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b830                SimpleArray<glob_data_queue_t>::remove(long)
+                0x0800b850       0x30 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b850                SimpleArray<glob_data_queue_t>::remove(long)
  .text._ZN9Scheduler5QueueI12glob_queue_tE6removeEv
-                0x0800b860       0x6c obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b860                Scheduler::Queue<glob_queue_t>::remove()
+                0x0800b880       0x6c obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b880                Scheduler::Queue<glob_queue_t>::remove()
  .text._ZN9Scheduler5QueueI12glob_queue_tE13enqueue_frontERS1_
-                0x0800b8cc       0x8c obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b8cc                Scheduler::Queue<glob_queue_t>::enqueue_front(glob_queue_t&)
+                0x0800b8ec       0x8c obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b8ec                Scheduler::Queue<glob_queue_t>::enqueue_front(glob_queue_t&)
  .text._ZN12GlobTemplateI20glo_assert_message_tLt3E17TelemetrySendTaskE7publishEPKS0_t
-                0x0800b958       0x88 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b958                GlobTemplate<glo_assert_message_t, (unsigned short)3, TelemetrySendTask>::publish(glo_assert_message_t const*, unsigned short)
+                0x0800b978       0x88 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800b978                GlobTemplate<glo_assert_message_t, (unsigned short)3, TelemetrySendTask>::publish(glo_assert_message_t const*, unsigned short)
  .text._ZN12GlobTemplateI19glo_debug_message_tLt5E17TelemetrySendTaskE7publishEPKS0_t
-                0x0800b9e0       0x88 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800b9e0                GlobTemplate<glo_debug_message_t, (unsigned short)5, TelemetrySendTask>::publish(glo_debug_message_t const*, unsigned short)
+                0x0800ba00       0x88 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800ba00                GlobTemplate<glo_debug_message_t, (unsigned short)5, TelemetrySendTask>::publish(glo_debug_message_t const*, unsigned short)
  .text._ZN12GlobTemplateI17glo_task_timing_tLt1E17TelemetrySendTaskE7publishEPKS0_t
-                0x0800ba68       0x88 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800ba68                GlobTemplate<glo_task_timing_t, (unsigned short)1, TelemetrySendTask>::publish(glo_task_timing_t const*, unsigned short)
+                0x0800ba88       0x88 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800ba88                GlobTemplate<glo_task_timing_t, (unsigned short)1, TelemetrySendTask>::publish(glo_task_timing_t const*, unsigned short)
  .text._ZN9Scheduler5QueueI12glob_queue_tEC2Em
-                0x0800baf0       0x54 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800baf0                Scheduler::Queue<glob_queue_t>::Queue(unsigned long)
-                0x0800baf0                Scheduler::Queue<glob_queue_t>::Queue(unsigned long)
+                0x0800bb10       0x54 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800bb10                Scheduler::Queue<glob_queue_t>::Queue(unsigned long)
+                0x0800bb10                Scheduler::Queue<glob_queue_t>::Queue(unsigned long)
  .text._ZN9Scheduler5QueueI12glob_queue_tE7enqueueERS1_
-                0x0800bb44       0x8c obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x0800bb44                Scheduler::Queue<glob_queue_t>::enqueue(glob_queue_t&)
+                0x0800bb64       0x8c obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x0800bb64                Scheduler::Queue<glob_queue_t>::enqueue(glob_queue_t&)
  .text.__aeabi_atexit
-                0x0800bbd0        0xa c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(atexit_arm.o)
-                0x0800bbd0                __aeabi_atexit
- .text._ZdlPv   0x0800bbda        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(del_op.o)
-                0x0800bbda                operator delete(void*)
- .text._Znaj    0x0800bbe2        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(new_opv.o)
-                0x0800bbe2                operator new[](unsigned int)
- .text._ZdaPv   0x0800bbe6        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(del_opv.o)
-                0x0800bbe6                operator delete[](void*)
- *fill*         0x0800bbea        0x2 
+                0x0800bbf0        0xa c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(atexit_arm.o)
+                0x0800bbf0                __aeabi_atexit
+ .text._ZdlPv   0x0800bbfa        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(del_op.o)
+                0x0800bbfa                operator delete(void*)
+ .text._Znaj    0x0800bc02        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(new_opv.o)
+                0x0800bc02                operator new[](unsigned int)
+ .text._ZdaPv   0x0800bc06        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(del_opv.o)
+                0x0800bc06                operator delete[](void*)
+ *fill*         0x0800bc0a        0x2 
  .text.__cxa_pure_virtual
-                0x0800bbec       0x14 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(pure.o)
-                0x0800bbec                __cxa_pure_virtual
- .text._Znwj    0x0800bc00       0x28 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(new_op.o)
-                0x0800bc00                operator new(unsigned int)
+                0x0800bc0c       0x14 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(pure.o)
+                0x0800bc0c                __cxa_pure_virtual
+ .text._Znwj    0x0800bc20       0x28 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(new_op.o)
+                0x0800bc20                operator new(unsigned int)
  .text._ZN10__cxxabiv111__terminateEPFvvE
-                0x0800bc28        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(eh_terminate.o)
-                0x0800bc28                __cxxabiv1::__terminate(void (*)())
+                0x0800bc48        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(eh_terminate.o)
+                0x0800bc48                __cxxabiv1::__terminate(void (*)())
  .text._ZSt9terminatev
-                0x0800bc30       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(eh_terminate.o)
-                0x0800bc30                std::terminate()
+                0x0800bc50       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(eh_terminate.o)
+                0x0800bc50                std::terminate()
  .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
-                0x0800bc40       0x98 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(vterminate.o)
-                0x0800bc40                __gnu_cxx::__verbose_terminate_handler()
- .text          0x0800bcd8     0x5780 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(cp-demangle.o)
-                0x08011378                __cxa_demangle
-                0x0801143c                __gcclibcxx_demangle_callback
+                0x0800bc60       0x98 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(vterminate.o)
+                0x0800bc60                __gnu_cxx::__verbose_terminate_handler()
+ .text          0x0800bcf8     0x5780 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(cp-demangle.o)
+                0x08011398                __cxa_demangle
+                0x0801145c                __gcclibcxx_demangle_callback
  .text.__cxa_current_exception_type
-                0x08011458       0x1a c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(eh_type.o)
-                0x08011458                __cxa_current_exception_type
- *fill*         0x08011472        0x2 
+                0x08011478       0x1a c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(eh_type.o)
+                0x08011478                __cxa_current_exception_type
+ *fill*         0x08011492        0x2 
  .text.__cxa_get_globals
-                0x08011474        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(eh_globals.o)
-                0x08011474                __cxa_get_globals
- .text.fabs     0x0801147c       0x14 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_fabs.o)
-                0x0801147c                fabs
- .text.fabsf    0x08011490       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
-                0x08011490                fabsf
- .text.asinf    0x080114a0       0xbc c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_asin.o)
-                0x080114a0                asinf
- .text.atan2f   0x0801155c        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_atan2.o)
-                0x0801155c                atan2f
- .text.sqrtf    0x08011560       0xb8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_sqrt.o)
-                0x08011560                sqrtf
+                0x08011494        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(eh_globals.o)
+                0x08011494                __cxa_get_globals
+ .text.fabs     0x0801149c       0x14 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_fabs.o)
+                0x0801149c                fabs
+ .text.fabsf    0x080114b0       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
+                0x080114b0                fabsf
+ .text.asinf    0x080114c0       0xbc c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_asin.o)
+                0x080114c0                asinf
+ .text.atan2f   0x0801157c        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_atan2.o)
+                0x0801157c                atan2f
+ .text.sqrtf    0x08011580       0xb8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_sqrt.o)
+                0x08011580                sqrtf
  .text.__ieee754_asinf
-                0x08011618      0x210 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_asin.o)
-                0x08011618                __ieee754_asinf
+                0x08011638      0x210 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_asin.o)
+                0x08011638                __ieee754_asinf
  .text.__ieee754_atan2f
-                0x08011828      0x164 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_atan2.o)
-                0x08011828                __ieee754_atan2f
+                0x08011848      0x164 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_atan2.o)
+                0x08011848                __ieee754_atan2f
  .text.__ieee754_sqrtf
-                0x0801198c       0xa4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
-                0x0801198c                __ieee754_sqrtf
- .text.matherr  0x08011a30        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
-                0x08011a30                matherr
- *fill*         0x08011a34        0x4 
- .text.nan      0x08011a38       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_nan.o)
-                0x08011a38                nan
- .text.atanf    0x08011a48      0x1b0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_atan.o)
-                0x08011a48                atanf
+                0x080119ac       0xa4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
+                0x080119ac                __ieee754_sqrtf
+ .text.matherr  0x08011a50        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
+                0x08011a50                matherr
+ *fill*         0x08011a54        0x4 
+ .text.nan      0x08011a58       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_nan.o)
+                0x08011a58                nan
+ .text.atanf    0x08011a68      0x1b0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_atan.o)
+                0x08011a68                atanf
  .text.__fpclassifyf
-                0x08011bf8       0x38 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
-                0x08011bf8                __fpclassifyf
- .text          0x08011c30      0x370 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
-                0x08011c30                __aeabi_drsub
-                0x08011c38                __aeabi_dsub
-                0x08011c38                __subdf3
-                0x08011c3c                __aeabi_dadd
-                0x08011c3c                __adddf3
-                0x08011eb4                __floatunsidf
-                0x08011eb4                __aeabi_ui2d
-                0x08011ed4                __floatsidf
-                0x08011ed4                __aeabi_i2d
-                0x08011ef8                __aeabi_f2d
-                0x08011ef8                __extendsfdf2
-                0x08011f34                __floatundidf
-                0x08011f34                __aeabi_ul2d
-                0x08011f44                __floatdidf
-                0x08011f44                __aeabi_l2d
- .text          0x08011fa0      0x424 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
-                0x08011fa0                __aeabi_dmul
-                0x08011fa0                __muldf3
-                0x080121f4                __divdf3
-                0x080121f4                __aeabi_ddiv
- .text          0x080123c4      0x110 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_arm_cmpdf2.o)
-                0x080123c4                __gtdf2
-                0x080123c4                __gedf2
-                0x080123cc                __ltdf2
-                0x080123cc                __ledf2
-                0x080123d4                __nedf2
-                0x080123d4                __eqdf2
-                0x080123d4                __cmpdf2
-                0x08012450                __aeabi_cdrcmple
-                0x08012460                __aeabi_cdcmpeq
-                0x08012460                __aeabi_cdcmple
-                0x08012470                __aeabi_dcmpeq
-                0x08012484                __aeabi_dcmplt
-                0x08012498                __aeabi_dcmple
-                0x080124ac                __aeabi_dcmpge
-                0x080124c0                __aeabi_dcmpgt
- .text          0x080124d4       0xa0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
-                0x080124d4                __truncdfsf2
-                0x080124d4                __aeabi_d2f
- .text          0x08012574       0x2c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_aeabi_uldivmod.o)
-                0x08012574                __aeabi_uldivmod
- .text          0x080125a0       0x60 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(bpabi.o)
-                0x080125a0                __gnu_ldivmod_helper
-                0x080125d0                __gnu_uldivmod_helper
- .text          0x08012600        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_dvmd_tls.o)
-                0x08012600                __aeabi_idiv0
-                0x08012600                __aeabi_ldiv0
- .text          0x08012604      0x298 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_divdi3.o)
-                0x08012604                __divdi3
- .text          0x0801289c      0x284 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_udivdi3.o)
-                0x0801289c                __udivdi3
- .text.abort    0x08012b20        0xe c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-abort.o)
-                0x08012b20                abort
- *fill*         0x08012b2e        0x2 
+                0x08011c18       0x38 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
+                0x08011c18                __fpclassifyf
+ .text          0x08011c50      0x370 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
+                0x08011c50                __aeabi_drsub
+                0x08011c58                __aeabi_dsub
+                0x08011c58                __subdf3
+                0x08011c5c                __aeabi_dadd
+                0x08011c5c                __adddf3
+                0x08011ed4                __floatunsidf
+                0x08011ed4                __aeabi_ui2d
+                0x08011ef4                __floatsidf
+                0x08011ef4                __aeabi_i2d
+                0x08011f18                __aeabi_f2d
+                0x08011f18                __extendsfdf2
+                0x08011f54                __floatundidf
+                0x08011f54                __aeabi_ul2d
+                0x08011f64                __floatdidf
+                0x08011f64                __aeabi_l2d
+ .text          0x08011fc0      0x424 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
+                0x08011fc0                __aeabi_dmul
+                0x08011fc0                __muldf3
+                0x08012214                __divdf3
+                0x08012214                __aeabi_ddiv
+ .text          0x080123e4      0x110 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_arm_cmpdf2.o)
+                0x080123e4                __gtdf2
+                0x080123e4                __gedf2
+                0x080123ec                __ltdf2
+                0x080123ec                __ledf2
+                0x080123f4                __nedf2
+                0x080123f4                __eqdf2
+                0x080123f4                __cmpdf2
+                0x08012470                __aeabi_cdrcmple
+                0x08012480                __aeabi_cdcmpeq
+                0x08012480                __aeabi_cdcmple
+                0x08012490                __aeabi_dcmpeq
+                0x080124a4                __aeabi_dcmplt
+                0x080124b8                __aeabi_dcmple
+                0x080124cc                __aeabi_dcmpge
+                0x080124e0                __aeabi_dcmpgt
+ .text          0x080124f4       0xa0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
+                0x080124f4                __truncdfsf2
+                0x080124f4                __aeabi_d2f
+ .text          0x08012594       0x2c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_aeabi_uldivmod.o)
+                0x08012594                __aeabi_uldivmod
+ .text          0x080125c0       0x60 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(bpabi.o)
+                0x080125c0                __gnu_ldivmod_helper
+                0x080125f0                __gnu_uldivmod_helper
+ .text          0x08012620        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_dvmd_tls.o)
+                0x08012620                __aeabi_idiv0
+                0x08012620                __aeabi_ldiv0
+ .text          0x08012624      0x298 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_divdi3.o)
+                0x08012624                __divdi3
+ .text          0x080128bc      0x284 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_udivdi3.o)
+                0x080128bc                __udivdi3
+ .text.abort    0x08012b40        0xe c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-abort.o)
+                0x08012b40                abort
+ *fill*         0x08012b4e        0x2 
  .text.__cxa_atexit
-                0x08012b30       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-cxa_atexit.o)
-                0x08012b30                __cxa_atexit
- .text.__errno  0x08012b50        0xc c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-errno.o)
-                0x08012b50                __errno
- .text.exit     0x08012b5c       0x28 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-exit.o)
-                0x08012b5c                exit
+                0x08012b50       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-cxa_atexit.o)
+                0x08012b50                __cxa_atexit
+ .text.__errno  0x08012b70        0xc c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-errno.o)
+                0x08012b70                __errno
+ .text.exit     0x08012b7c       0x28 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-exit.o)
+                0x08012b7c                exit
  .text._fputs_r
-                0x08012b84       0xa8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-fputs.o)
-                0x08012b84                _fputs_r
- .text.fputs    0x08012c2c       0x14 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-fputs.o)
-                0x08012c2c                fputs
+                0x08012ba4       0xa8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-fputs.o)
+                0x08012ba4                _fputs_r
+ .text.fputs    0x08012c4c       0x14 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-fputs.o)
+                0x08012c4c                fputs
  .text.__libc_init_array
-                0x08012c40       0x4c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-init.o)
-                0x08012c40                __libc_init_array
- .text.malloc   0x08012c8c       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-malloc.o)
-                0x08012c8c                malloc
- .text.free     0x08012c9c       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-malloc.o)
-                0x08012c9c                free
- .text.memcmp   0x08012cac       0x1e c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-memcmp.o)
-                0x08012cac                memcmp
- .text.memcpy   0x08012cca       0x12 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-memcpy-stub.o)
-                0x08012cca                memcpy
- .text.memset   0x08012cdc       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-memset.o)
-                0x08012cdc                memset
- .text._free_r  0x08012cec       0x88 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-nano-freer.o)
-                0x08012cec                _free_r
+                0x08012c60       0x4c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-init.o)
+                0x08012c60                __libc_init_array
+ .text.malloc   0x08012cac       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-malloc.o)
+                0x08012cac                malloc
+ .text.free     0x08012cbc       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-malloc.o)
+                0x08012cbc                free
+ .text.memcmp   0x08012ccc       0x1e c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-memcmp.o)
+                0x08012ccc                memcmp
+ .text.memcpy   0x08012cea       0x12 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-memcpy-stub.o)
+                0x08012cea                memcpy
+ .text.memset   0x08012cfc       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-memset.o)
+                0x08012cfc                memset
+ .text._free_r  0x08012d0c       0x88 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-nano-freer.o)
+                0x08012d0c                _free_r
  .text._malloc_r
-                0x08012d74       0xa8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-nano-mallocr.o)
-                0x08012d74                _malloc_r
- .text.realloc  0x08012e1c       0x14 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-realloc.o)
-                0x08012e1c                realloc
- .text._sbrk_r  0x08012e30       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-sbrkr.o)
-                0x08012e30                _sbrk_r
+                0x08012d94       0xa8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-nano-mallocr.o)
+                0x08012d94                _malloc_r
+ .text.realloc  0x08012e3c       0x14 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-realloc.o)
+                0x08012e3c                realloc
+ .text._sbrk_r  0x08012e50       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-sbrkr.o)
+                0x08012e50                _sbrk_r
  .text._raise_r
-                0x08012e50       0x50 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-signal.o)
-                0x08012e50                _raise_r
- .text.raise    0x08012ea0       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-signal.o)
-                0x08012ea0                raise
- .text._kill_r  0x08012eb0       0x24 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-signalr.o)
-                0x08012eb0                _kill_r
+                0x08012e70       0x50 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-signal.o)
+                0x08012e70                _raise_r
+ .text.raise    0x08012ec0       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-signal.o)
+                0x08012ec0                raise
+ .text._kill_r  0x08012ed0       0x24 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-signalr.o)
+                0x08012ed0                _kill_r
  .text._getpid_r
-                0x08012ed4        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-signalr.o)
-                0x08012ed4                _getpid_r
+                0x08012ef4        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-signalr.o)
+                0x08012ef4                _getpid_r
  .text.snprintf
-                0x08012ed8       0x64 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-snprintf.o)
-                0x08012ed8                sniprintf
-                0x08012ed8                snprintf
- .text.sprintf  0x08012f3c       0x48 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-sprintf.o)
-                0x08012f3c                siprintf
-                0x08012f3c                sprintf
- .text          0x08012f84       0x14 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-strcmp.o)
-                0x08012f84                strcmp
- .text.strcpy   0x08012f98       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-strcpy.o)
-                0x08012f98                strcpy
- .text.strlen   0x08012fa8       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-strlen.o)
-                0x08012fa8                strlen
- .text.strncmp  0x08012fb8       0x2e c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-strncmp.o)
-                0x08012fb8                strncmp
- .text.strrchr  0x08012fe6       0x26 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-strrchr.o)
-                0x08012fe6                strrchr
+                0x08012ef8       0x64 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-snprintf.o)
+                0x08012ef8                sniprintf
+                0x08012ef8                snprintf
+ .text.sprintf  0x08012f5c       0x48 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-sprintf.o)
+                0x08012f5c                siprintf
+                0x08012f5c                sprintf
+ .text          0x08012fa4       0x14 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-strcmp.o)
+                0x08012fa4                strcmp
+ .text.strcpy   0x08012fb8       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-strcpy.o)
+                0x08012fb8                strcpy
+ .text.strlen   0x08012fc8       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-strlen.o)
+                0x08012fc8                strlen
+ .text.strncmp  0x08012fd8       0x2e c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-strncmp.o)
+                0x08012fd8                strncmp
+ .text.strrchr  0x08013006       0x26 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-strrchr.o)
+                0x08013006                strrchr
  .text.__ssputs_r
-                0x0801300c       0xb8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-svfprintf.o)
-                0x0801300c                __ssputs_r
+                0x0801302c       0xb8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-svfprintf.o)
+                0x0801302c                __ssputs_r
  .text._svfprintf_r
-                0x080130c4      0x1dc c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-svfprintf.o)
-                0x080130c4                _svfiprintf_r
-                0x080130c4                _svfprintf_r
- .text.write    0x080132a0       0x1c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-syswrite.o)
-                0x080132a0                write
+                0x080130e4      0x1dc c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-svfprintf.o)
+                0x080130e4                _svfiprintf_r
+                0x080130e4                _svfprintf_r
+ .text.write    0x080132c0       0x1c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-syswrite.o)
+                0x080132c0                write
  .text._printf_common
-                0x080132bc       0xe4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-vfprintf_i.o)
-                0x080132bc                _printf_common
+                0x080132dc       0xe4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-vfprintf_i.o)
+                0x080132dc                _printf_common
  .text._printf_i
-                0x080133a0      0x228 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-vfprintf_i.o)
-                0x080133a0                _printf_i
+                0x080133c0      0x228 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-vfprintf_i.o)
+                0x080133c0                _printf_i
  .text._vsnprintf_r
-                0x080135c8       0x52 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-vsnprintf.o)
-                0x080135c8                _vsniprintf_r
-                0x080135c8                _vsnprintf_r
- *fill*         0x0801361a        0x2 
+                0x080135e8       0x52 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-vsnprintf.o)
+                0x080135e8                _vsniprintf_r
+                0x080135e8                _vsnprintf_r
+ *fill*         0x0801363a        0x2 
  .text.vsnprintf
-                0x0801361c       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-vsnprintf.o)
-                0x0801361c                vsniprintf
-                0x0801361c                vsnprintf
+                0x0801363c       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-vsnprintf.o)
+                0x0801363c                vsniprintf
+                0x0801363c                vsnprintf
  .text.__swbuf_r
-                0x0801363c       0xa8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-wbuf.o)
-                0x0801363c                __swbuf_r
+                0x0801365c       0xa8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-wbuf.o)
+                0x0801365c                __swbuf_r
  .text._write_r
-                0x080136e4       0x24 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-writer.o)
-                0x080136e4                _write_r
+                0x08013704       0x24 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-writer.o)
+                0x08013704                _write_r
  .text.__swsetup_r
-                0x08013708       0xdc c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-wsetup.o)
-                0x08013708                __swsetup_r
+                0x08013728       0xdc c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-wsetup.o)
+                0x08013728                __swsetup_r
  .text.__sflush_r
-                0x080137e4      0x106 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-fflush.o)
-                0x080137e4                __sflush_r
- *fill*         0x080138ea        0x2 
+                0x08013804      0x106 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-fflush.o)
+                0x08013804                __sflush_r
+ *fill*         0x0801390a        0x2 
  .text._fflush_r
-                0x080138ec       0x54 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-fflush.o)
-                0x080138ec                _fflush_r
+                0x0801390c       0x54 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-fflush.o)
+                0x0801390c                _fflush_r
  .text._cleanup_r
-                0x08013940       0x32 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
-                0x08013940                _cleanup_r
- *fill*         0x08013972        0x2 
+                0x08013960       0x32 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
+                0x08013960                _cleanup_r
+ *fill*         0x08013992        0x2 
  .text.std.isra.0
-                0x08013974       0x48 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
+                0x08013994       0x48 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
  .text.__sfmoreglue
-                0x080139bc       0x2c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
-                0x080139bc                __sfmoreglue
- .text.__sinit  0x080139e8       0x60 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
-                0x080139e8                __sinit
- .text.__sfp    0x08013a48       0x74 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
-                0x08013a48                __sfp
+                0x080139dc       0x2c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
+                0x080139dc                __sfmoreglue
+ .text.__sinit  0x08013a08       0x60 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
+                0x08013a08                __sinit
+ .text.__sfp    0x08013a68       0x74 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
+                0x08013a68                __sfp
  .text.__smakebuf_r
-                0x08013abc       0x9c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-makebuf.o)
-                0x08013abc                __smakebuf_r
- .text.memchr   0x08013b58       0x1e c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-memchr-stub.o)
-                0x08013b58                memchr
- .text.memmove  0x08013b76       0x36 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-memmove.o)
-                0x08013b76                memmove
+                0x08013adc       0x9c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-makebuf.o)
+                0x08013adc                __smakebuf_r
+ .text.memchr   0x08013b78       0x1e c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-memchr-stub.o)
+                0x08013b78                memchr
+ .text.memmove  0x08013b96       0x36 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-memmove.o)
+                0x08013b96                memmove
  .text._realloc_r
-                0x08013bac       0x4c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-nano-reallocr.o)
-                0x08013bac                _realloc_r
- .text.__sread  0x08013bf8       0x22 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-stdio.o)
-                0x08013bf8                __sread
+                0x08013bcc       0x4c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-nano-reallocr.o)
+                0x08013bcc                _realloc_r
+ .text.__sread  0x08013c18       0x22 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-stdio.o)
+                0x08013c18                __sread
  .text.__swrite
-                0x08013c1a       0x38 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-stdio.o)
-                0x08013c1a                __swrite
- .text.__sseek  0x08013c52       0x24 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-stdio.o)
-                0x08013c52                __sseek
+                0x08013c3a       0x38 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-stdio.o)
+                0x08013c3a                __swrite
+ .text.__sseek  0x08013c72       0x24 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-stdio.o)
+                0x08013c72                __sseek
  .text.__sclose
-                0x08013c76        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-stdio.o)
-                0x08013c76                __sclose
- .text.strchr   0x08013c7e       0x1a c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-strchr.o)
-                0x08013c7e                strchr
+                0x08013c96        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-stdio.o)
+                0x08013c96                __sclose
+ .text.strchr   0x08013c9e       0x1a c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-strchr.o)
+                0x08013c9e                strchr
  .text._close_r
-                0x08013c98       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-closer.o)
-                0x08013c98                _close_r
+                0x08013cb8       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-closer.o)
+                0x08013cb8                _close_r
  .text._fstat_r
-                0x08013cb8       0x24 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-fstatr.o)
-                0x08013cb8                _fstat_r
+                0x08013cd8       0x24 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-fstatr.o)
+                0x08013cd8                _fstat_r
  .text._isatty_r
-                0x08013cdc       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-isattyr.o)
-                0x08013cdc                _isatty_r
+                0x08013cfc       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-isattyr.o)
+                0x08013cfc                _isatty_r
  .text._lseek_r
-                0x08013cfc       0x24 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-lseekr.o)
-                0x08013cfc                _lseek_r
+                0x08013d1c       0x24 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-lseekr.o)
+                0x08013d1c                _lseek_r
  .text._malloc_usable_size_r
-                0x08013d20       0x12 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-nano-msizer.o)
-                0x08013d20                _malloc_usable_size_r
- *fill*         0x08013d32        0x2 
- .text._read_r  0x08013d34       0x24 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-readr.o)
-                0x08013d34                _read_r
- .text          0x08013d58       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(close.o)
-                0x08013d58                _close
- .text          0x08013d68       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(fstat.o)
-                0x08013d68                _fstat
- .text          0x08013d78       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(getpid.o)
-                0x08013d78                _getpid
- .text          0x08013d88       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(isatty.o)
-                0x08013d88                _isatty
- .text          0x08013d98       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(kill.o)
-                0x08013d98                _kill
- .text          0x08013da8       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(lseek.o)
-                0x08013da8                _lseek
- .text          0x08013db8       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(read.o)
-                0x08013db8                _read
- .text          0x08013dc8       0x34 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(sbrk.o)
-                0x08013dc8                _sbrk
- .text          0x08013dfc       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(write.o)
-                0x08013dfc                _write
- .text          0x08013e0c        0x2 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(_exit.o)
-                0x08013e0c                _exit
+                0x08013d40       0x12 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-nano-msizer.o)
+                0x08013d40                _malloc_usable_size_r
+ *fill*         0x08013d52        0x2 
+ .text._read_r  0x08013d54       0x24 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-readr.o)
+                0x08013d54                _read_r
+ .text          0x08013d78       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(close.o)
+                0x08013d78                _close
+ .text          0x08013d88       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(fstat.o)
+                0x08013d88                _fstat
+ .text          0x08013d98       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(getpid.o)
+                0x08013d98                _getpid
+ .text          0x08013da8       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(isatty.o)
+                0x08013da8                _isatty
+ .text          0x08013db8       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(kill.o)
+                0x08013db8                _kill
+ .text          0x08013dc8       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(lseek.o)
+                0x08013dc8                _lseek
+ .text          0x08013dd8       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(read.o)
+                0x08013dd8                _read
+ .text          0x08013de8       0x34 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(sbrk.o)
+                0x08013de8                _sbrk
+ .text          0x08013e1c       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(write.o)
+                0x08013e1c                _write
+ .text          0x08013e2c        0x2 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys_s.a(_exit.o)
+                0x08013e2c                _exit
  *(.init)
- *fill*         0x08013e0e        0x2 
- .init          0x08013e10        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
-                0x08013e10                _init
- .init          0x08013e14        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+ *fill*         0x08013e2e        0x2 
+ .init          0x08013e30        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+                0x08013e30                _init
+ .init          0x08013e34        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
  *(.fini)
- .fini          0x08013e1c        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
-                0x08013e1c                _fini
- .fini          0x08013e20        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+ .fini          0x08013e3c        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+                0x08013e3c                _fini
+ .fini          0x08013e40        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -9111,183 +9110,183 @@ LOAD c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-
  *(SORT(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata        0x08013e28       0x60 obj\debug\source\main.o
+ .rodata        0x08013e48       0x60 obj\debug\source\main.o
  .rodata._ZTVN9Scheduler10QueuedTaskI12glob_queue_tEE
-                0x08013e88       0x20 obj\debug\source\main.o
-                0x08013e88                vtable for Scheduler::QueuedTask<glob_queue_t>
+                0x08013ea8       0x20 obj\debug\source\main.o
+                0x08013ea8                vtable for Scheduler::QueuedTask<glob_queue_t>
  .rodata.FIRMWARE_VERSION
-                0x08013ea8        0x4 obj\debug\source\robot_settings.o
-                0x08013ea8                FIRMWARE_VERSION
+                0x08013ec8        0x4 obj\debug\source\robot_settings.o
+                0x08013ec8                FIRMWARE_VERSION
  .rodata.WHEEL_RADIUS
-                0x08013eac        0x4 obj\debug\source\robot_settings.o
-                0x08013eac                WHEEL_RADIUS
+                0x08013ecc        0x4 obj\debug\source\robot_settings.o
+                0x08013ecc                WHEEL_RADIUS
  .rodata.WHEEL_BASE
-                0x08013eb0        0x4 obj\debug\source\robot_settings.o
-                0x08013eb0                WHEEL_BASE
+                0x08013ed0        0x4 obj\debug\source\robot_settings.o
+                0x08013ed0                WHEEL_BASE
  .rodata.GEAR_RATIO
-                0x08013eb4        0x4 obj\debug\source\robot_settings.o
-                0x08013eb4                GEAR_RATIO
+                0x08013ed4        0x4 obj\debug\source\robot_settings.o
+                0x08013ed4                GEAR_RATIO
  .rodata.MOTOR_SIGNS
-                0x08013eb8        0x8 obj\debug\source\robot_settings.o
-                0x08013eb8                MOTOR_SIGNS
+                0x08013ed8        0x8 obj\debug\source\robot_settings.o
+                0x08013ed8                MOTOR_SIGNS
  .rodata.K_DEFAULT
-                0x08013ec0       0x10 obj\debug\source\robot_settings.o
-                0x08013ec0                K_DEFAULT
+                0x08013ee0       0x10 obj\debug\source\robot_settings.o
+                0x08013ee0                K_DEFAULT
  .rodata.ACCEL_SCALES
-                0x08013ed0        0xc obj\debug\source\robot_settings.o
-                0x08013ed0                ACCEL_SCALES
+                0x08013ef0        0xc obj\debug\source\robot_settings.o
+                0x08013ef0                ACCEL_SCALES
  .rodata.ACCEL_OFFSETS
-                0x08013edc        0xc obj\debug\source\robot_settings.o
-                0x08013edc                ACCEL_OFFSETS
+                0x08013efc        0xc obj\debug\source\robot_settings.o
+                0x08013efc                ACCEL_OFFSETS
  .rodata.BATTERY_SCALE
-                0x08013ee8        0x4 obj\debug\source\robot_settings.o
-                0x08013ee8                BATTERY_SCALE
+                0x08013f08        0x4 obj\debug\source\robot_settings.o
+                0x08013f08                BATTERY_SCALE
  .rodata.BATTERY_OFFSET
-                0x08013eec        0x4 obj\debug\source\robot_settings.o
-                0x08013eec                BATTERY_OFFSET
+                0x08013f0c        0x4 obj\debug\source\robot_settings.o
+                0x08013f0c                BATTERY_OFFSET
  .rodata.FULL_BATTERY_VOLTAGE
-                0x08013ef0        0x4 obj\debug\source\robot_settings.o
-                0x08013ef0                FULL_BATTERY_VOLTAGE
+                0x08013f10        0x4 obj\debug\source\robot_settings.o
+                0x08013f10                FULL_BATTERY_VOLTAGE
  .rodata.LOW_BATTERY_VOLTAGE
-                0x08013ef4        0x4 obj\debug\source\robot_settings.o
-                0x08013ef4                LOW_BATTERY_VOLTAGE
+                0x08013f14        0x4 obj\debug\source\robot_settings.o
+                0x08013f14                LOW_BATTERY_VOLTAGE
  .rodata.CRITICAL_BATTERY_VOLTAGE
-                0x08013ef8        0x4 obj\debug\source\robot_settings.o
-                0x08013ef8                CRITICAL_BATTERY_VOLTAGE
- .rodata        0x08013efc       0xa4 obj\debug\~#\~#\hardware_config\system\exception_handlers.o
- .rodata        0x08013fa0       0x6c obj\debug\~#\~#\libraries\glo_link\glo_rx_link.o
- .rodata        0x0801400c       0x70 obj\debug\~#\~#\libraries\glo_link\glo_tx_link.o
+                0x08013f18        0x4 obj\debug\source\robot_settings.o
+                0x08013f18                CRITICAL_BATTERY_VOLTAGE
+ .rodata        0x08013f1c       0xa4 obj\debug\~#\~#\hardware_config\system\exception_handlers.o
+ .rodata        0x08013fc0       0x6c obj\debug\~#\~#\libraries\glo_link\glo_rx_link.o
+ .rodata        0x0801402c       0x70 obj\debug\~#\~#\libraries\glo_link\glo_tx_link.o
  .rodata._ZL12lookup_table
-                0x0801407c      0x200 obj\debug\~#\~#\libraries\util\crc.o
- .rodata        0x0801427c       0x30 obj\debug\~#\~#\libraries\util\dma_rx.o
- .rodata        0x080142ac       0x30 obj\debug\~#\~#\libraries\util\dma_tx.o
- .rodata        0x080142dc       0x58 obj\debug\~#\~#\libraries\util\pwm_out_advanced_timer.o
- .rodata        0x08014334       0x64 obj\debug\~#\~#\libraries\util\spi.o
+                0x0801409c      0x200 obj\debug\~#\~#\libraries\util\crc.o
+ .rodata        0x0801429c       0x30 obj\debug\~#\~#\libraries\util\dma_rx.o
+ .rodata        0x080142cc       0x30 obj\debug\~#\~#\libraries\util\dma_tx.o
+ .rodata        0x080142fc       0x58 obj\debug\~#\~#\libraries\util\pwm_out_advanced_timer.o
+ .rodata        0x08014354       0x64 obj\debug\~#\~#\libraries\util\spi.o
  .rodata.COSTABLE
-                0x08014398      0xfa0 obj\debug\~#\~#\libraries\util\trigtables.o
-                0x08014398                COSTABLE
- .rodata        0x08015338       0x50 obj\debug\~#\~#\libraries\util\usart.o
- .rodata        0x08015388       0x10 obj\debug\~#\~#\libraries\util\util_assert.o
- .rodata        0x08015398       0xc0 obj\debug\~#\~#\modes\custom_mode.o
- .rodata        0x08015458       0x54 obj\debug\~#\~#\modes\experiments\experiment3_mode.o
- .rodata        0x080154ac       0xb8 obj\debug\~#\~#\scheduler\periodic_task.o
- *fill*         0x08015564        0x4 
+                0x080143b8      0xfa0 obj\debug\~#\~#\libraries\util\trigtables.o
+                0x080143b8                COSTABLE
+ .rodata        0x08015358       0x50 obj\debug\~#\~#\libraries\util\usart.o
+ .rodata        0x080153a8       0x10 obj\debug\~#\~#\libraries\util\util_assert.o
+ .rodata        0x080153b8       0x90 obj\debug\~#\~#\modes\custom_mode.o
+ .rodata        0x08015448       0x54 obj\debug\~#\~#\modes\experiments\experiment3_mode.o
+ .rodata        0x0801549c       0xb8 obj\debug\~#\~#\scheduler\periodic_task.o
+ *fill*         0x08015554        0x4 
  .rodata._ZTVN9Scheduler12PeriodicTaskE
-                0x08015568       0x20 obj\debug\~#\~#\scheduler\periodic_task.o
-                0x08015568                vtable for Scheduler::PeriodicTask
- .rodata        0x08015588       0x38 obj\debug\~#\~#\scheduler\scheduler.o
+                0x08015558       0x20 obj\debug\~#\~#\scheduler\periodic_task.o
+                0x08015558                vtable for Scheduler::PeriodicTask
+ .rodata        0x08015578       0x38 obj\debug\~#\~#\scheduler\scheduler.o
  .rodata._ZTVN9Scheduler4TaskE
-                0x080155c0       0x20 obj\debug\~#\~#\scheduler\task.o
-                0x080155c0                vtable for Scheduler::Task
- .rodata        0x080155e0       0x5c obj\debug\~#\~#\tasks\complementary_filter_task.o
- *fill*         0x0801563c        0x4 
+                0x080155b0       0x20 obj\debug\~#\~#\scheduler\task.o
+                0x080155b0                vtable for Scheduler::Task
+ .rodata        0x080155d0       0x5c obj\debug\~#\~#\tasks\complementary_filter_task.o
+ *fill*         0x0801562c        0x4 
  .rodata._ZTV23ComplementaryFilterTask
-                0x08015640       0x20 obj\debug\~#\~#\tasks\complementary_filter_task.o
-                0x08015640                vtable for ComplementaryFilterTask
- .rodata        0x08015660        0x8 obj\debug\~#\~#\tasks\leds_task.o
+                0x08015630       0x20 obj\debug\~#\~#\tasks\complementary_filter_task.o
+                0x08015630                vtable for ComplementaryFilterTask
+ .rodata        0x08015650        0x8 obj\debug\~#\~#\tasks\leds_task.o
  .rodata._ZTV8LedsTask
-                0x08015668       0x20 obj\debug\~#\~#\tasks\leds_task.o
-                0x08015668                vtable for LedsTask
- .rodata        0x08015688       0x88 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08015658       0x20 obj\debug\~#\~#\tasks\leds_task.o
+                0x08015658                vtable for LedsTask
+ .rodata        0x08015678       0x88 obj\debug\~#\~#\tasks\main_control_task.o
  .rodata._ZTV15MainControlTask
-                0x08015710       0x20 obj\debug\~#\~#\tasks\main_control_task.o
-                0x08015710                vtable for MainControlTask
- .rodata        0x08015730       0x54 obj\debug\~#\~#\tasks\modes_task.o
- *fill*         0x08015784        0x4 
+                0x08015700       0x20 obj\debug\~#\~#\tasks\main_control_task.o
+                0x08015700                vtable for MainControlTask
+ .rodata        0x08015720       0x54 obj\debug\~#\~#\tasks\modes_task.o
+ *fill*         0x08015774        0x4 
  .rodata._ZTV9ModesTask
-                0x08015788       0x20 obj\debug\~#\~#\tasks\modes_task.o
-                0x08015788                vtable for ModesTask
- .rodata        0x080157a8        0x8 obj\debug\~#\~#\tasks\status_update_task.o
+                0x08015778       0x20 obj\debug\~#\~#\tasks\modes_task.o
+                0x08015778                vtable for ModesTask
+ .rodata        0x08015798        0x8 obj\debug\~#\~#\tasks\status_update_task.o
  .rodata._ZTV16StatusUpdateTask
-                0x080157b0       0x20 obj\debug\~#\~#\tasks\status_update_task.o
-                0x080157b0                vtable for StatusUpdateTask
- .rodata        0x080157d0       0xa4 obj\debug\~#\~#\tasks\telemetry_receive_task.o
- *fill*         0x08015874        0x4 
+                0x080157a0       0x20 obj\debug\~#\~#\tasks\status_update_task.o
+                0x080157a0                vtable for StatusUpdateTask
+ .rodata        0x080157c0       0xa4 obj\debug\~#\~#\tasks\telemetry_receive_task.o
+ *fill*         0x08015864        0x4 
  .rodata._ZTV20TelemetryReceiveTask
-                0x08015878       0x20 obj\debug\~#\~#\tasks\telemetry_receive_task.o
-                0x08015878                vtable for TelemetryReceiveTask
- .rodata        0x08015898       0x7c obj\debug\~#\~#\tasks\telemetry_send_task.o
- *fill*         0x08015914        0x4 
+                0x08015868       0x20 obj\debug\~#\~#\tasks\telemetry_receive_task.o
+                0x08015868                vtable for TelemetryReceiveTask
+ .rodata        0x08015888       0x7c obj\debug\~#\~#\tasks\telemetry_send_task.o
+ *fill*         0x08015904        0x4 
  .rodata._ZTV17TelemetrySendTask
-                0x08015918       0x20 obj\debug\~#\~#\tasks\telemetry_send_task.o
-                0x08015918                vtable for TelemetrySendTask
+                0x08015908       0x20 obj\debug\~#\~#\tasks\telemetry_send_task.o
+                0x08015908                vtable for TelemetrySendTask
  .rodata.str1.1
-                0x08015938       0x3b c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(pure.o)
+                0x08015928       0x3b c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(pure.o)
  .rodata.str1.1
-                0x08015973       0x80 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(vterminate.o)
- *fill*         0x080159f3        0x1 
- .rodata        0x080159f4      0x738 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(cp-demangle.o)
+                0x08015963       0x80 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(vterminate.o)
+ *fill*         0x080159e3        0x1 
+ .rodata        0x080159e4      0x738 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(cp-demangle.o)
  .rodata.str1.4
-                0x0801612c      0x7f2 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(cp-demangle.o)
+                0x0801611c      0x7f2 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_n.a(cp-demangle.o)
                                 0x840 (size before relaxing)
- *fill*         0x0801691e        0x2 
+ *fill*         0x0801690e        0x2 
  .rodata.str1.4
-                0x08016920        0x6 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_asin.o)
+                0x08016910        0x6 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_asin.o)
                                   0xc (size before relaxing)
- *fill*         0x08016926        0x2 
+ *fill*         0x08016916        0x2 
  .rodata.str1.4
-                0x08016928        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_sqrt.o)
+                0x08016918        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_sqrt.o)
  .rodata.atanlo
-                0x08016930       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_atan.o)
+                0x08016920       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_atan.o)
  .rodata.atanhi
-                0x08016940       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_atan.o)
+                0x08016930       0x10 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_atan.o)
  .rodata.str1.1
-                0x08016950        0x2 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-impure.o)
- *fill*         0x08016952        0x2 
+                0x08016940        0x2 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-impure.o)
+ *fill*         0x08016942        0x2 
  .rodata._global_impure_ptr
-                0x08016954        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-impure.o)
-                0x08016954                _global_impure_ptr
+                0x08016944        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-impure.o)
+                0x08016944                _global_impure_ptr
  .rodata.str1.1
-                0x08016958       0x11 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-svfprintf.o)
+                0x08016948       0x11 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-svfprintf.o)
  .rodata.str1.1
-                0x08016969       0x22 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-vfprintf_i.o)
- *fill*         0x0801698b        0x1 
+                0x08016959       0x22 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-vfprintf_i.o)
+ *fill*         0x0801697b        0x1 
  .rodata.__sf_fake_stdin
-                0x0801698c       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
-                0x0801698c                __sf_fake_stdin
+                0x0801697c       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
+                0x0801697c                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x080169ac       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
-                0x080169ac                __sf_fake_stdout
+                0x0801699c       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
+                0x0801699c                __sf_fake_stdout
  .rodata.__sf_fake_stderr
-                0x080169cc       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
-                0x080169cc                __sf_fake_stderr
+                0x080169bc       0x20 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_n.a(lib_a-findfp.o)
+                0x080169bc                __sf_fake_stderr
  *(.eh_frame*)
- .eh_frame      0x080169ec        0x0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
- .eh_frame      0x080169ec        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .eh_frame      0x080169dc        0x0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .eh_frame      0x080169dc        0x4 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
 
-.glue_7         0x080169f0        0x0
+.glue_7         0x080169e0        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x080169f0        0x0
+.glue_7t        0x080169e0        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x080169f0        0x0
+.vfp11_veneer   0x080169e0        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x080169f0        0x0
+.v4_bx          0x080169e0        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x080169f0        0x0
+.iplt           0x080169e0        0x0
  .iplt          0x00000000        0x0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080169f0                __exidx_start = .
+                0x080169e0                __exidx_start = .
 
-.ARM.exidx      0x080169f0        0x8
+.ARM.exidx      0x080169e0        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x080169f0        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
- .ARM.exidx     0x080169f8        0x0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x080169e0        0x8 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.exidx     0x080169e8        0x0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_divdi3.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x080169f8        0x0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x080169e8        0x0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x080169f8                __exidx_end = .
-                0x080169f8                __etext = .
+                0x080169e8                __exidx_end = .
+                0x080169e8                __etext = .
 
-.rel.dyn        0x080169f8        0x0
+.rel.dyn        0x080169e8        0x0
  .rel.iplt      0x00000000        0x0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
 
-.data           0x20000000       0xc0 load address 0x080169f8
+.data           0x20000000       0xc0 load address 0x080169e8
                 0x20000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -9336,13 +9335,13 @@ LOAD c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-
                 0x200000c0                . = ALIGN (0x4)
                 0x200000c0                __data_end__ = .
 
-.jcr            0x200000c0        0x0 load address 0x08016ab8
+.jcr            0x200000c0        0x0 load address 0x08016aa8
  .jcr           0x200000c0        0x0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
 
-.igot.plt       0x200000c0        0x0 load address 0x08016ab8
+.igot.plt       0x200000c0        0x0 load address 0x08016aa8
  .igot.plt      0x00000000        0x0 c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
 
-.bss            0x200000c0    0x12ee4 load address 0x08016ab8
+.bss            0x200000c0    0x12ee4 load address 0x08016aa8
                 0x200000c0                __bss_start__ = .
  *(.bss*)
  .bss           0x200000c0       0x1c c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
@@ -9491,13 +9490,14 @@ LOAD c:/program files (x86)/embitz/0.42/share/em_armgcc/bin/../lib/gcc/arm-none-
  .bss.Ydirection
                 0x20012f4c        0x4 obj\debug\~#\~#\modes\custom_mode.o
                 0x20012f4c                Ydirection
- .bss._ZZN15MainControlTask10customModeEvE13line_position
+ .bss.INCREMENTAL_SPEED
                 0x20012f50        0x4 obj\debug\~#\~#\modes\custom_mode.o
+                0x20012f50                INCREMENTAL_SPEED
+ .bss._ZZN15MainControlTask10customModeEvE13line_position
+                0x20012f54        0x4 obj\debug\~#\~#\modes\custom_mode.o
  .bss._ZZN15MainControlTask10customModeEvE9maze_mode
-                0x20012f54        0x1 obj\debug\~#\~#\modes\custom_mode.o
- *fill*         0x20012f55        0x3 
- .bss._ZZN15MainControlTask10customModeEvE17INCREMENTAL_SPEED
-                0x20012f58        0x4 obj\debug\~#\~#\modes\custom_mode.o
+                0x20012f58        0x1 obj\debug\~#\~#\modes\custom_mode.o
+ *fill*         0x20012f59        0x3 
  .bss._ZZN15MainControlTask10customModeEvE9distanceX
                 0x20012f5c        0x4 obj\debug\~#\~#\modes\custom_mode.o
  .bss._ZZN15MainControlTask10customModeEvE11current_yaw
@@ -10463,7 +10463,7 @@ OUTPUT(bin\Debug\eeva_full_version.elf elf32-littlearm)
  .debug_macro   0x0001b656      0x449 obj\debug\~#\~#\tasks\telemetry_receive_task.o
  .debug_macro   0x0001ba9f      0x3a0 obj\debug\~#\~#\tasks\telemetry_send_task.o
 
-.debug_line     0x00000000    0x1bc89
+.debug_line     0x00000000    0x1bc9a
  .debug_line    0x00000000      0xb2e obj\debug\source\main.o
  .debug_line    0x00000b2e      0x343 obj\debug\source\robot_settings.o
  .debug_line    0x00000e71      0x694 obj\debug\~#\~#\globs\globs.o
@@ -10505,24 +10505,24 @@ OUTPUT(bin\Debug\eeva_full_version.elf elf32-littlearm)
  .debug_line    0x0000ef83      0x617 obj\debug\~#\~#\libraries\util\user_pb.o
  .debug_line    0x0000f59a      0x8fd obj\debug\~#\~#\libraries\util\util_assert.o
  .debug_line    0x0000fe97      0xadc obj\debug\~#\~#\modes\balance_mode.o
- .debug_line    0x00010973      0x9a7 obj\debug\~#\~#\modes\custom_mode.o
- .debug_line    0x0001131a      0xa4a obj\debug\~#\~#\modes\experiment_mode.o
- .debug_line    0x00011d64      0x98c obj\debug\~#\~#\modes\experiments\experiment1_mode.o
- .debug_line    0x000126f0      0x98e obj\debug\~#\~#\modes\experiments\experiment2_mode.o
- .debug_line    0x0001307e      0x985 obj\debug\~#\~#\modes\experiments\experiment3_mode.o
- .debug_line    0x00013a03      0xaa8 obj\debug\~#\~#\modes\horizontal_mode.o
- .debug_line    0x000144ab      0x8f0 obj\debug\~#\~#\modes\line_following_mode.o
- .debug_line    0x00014d9b      0x8e5 obj\debug\~#\~#\modes\race_mode.o
- .debug_line    0x00015680      0x5c9 obj\debug\~#\~#\scheduler\periodic_task.o
- .debug_line    0x00015c49      0xa54 obj\debug\~#\~#\scheduler\scheduler.o
- .debug_line    0x0001669d      0x615 obj\debug\~#\~#\scheduler\task.o
- .debug_line    0x00016cb2      0x9b2 obj\debug\~#\~#\tasks\complementary_filter_task.o
- .debug_line    0x00017664      0x8fe obj\debug\~#\~#\tasks\leds_task.o
- .debug_line    0x00017f62      0xf0d obj\debug\~#\~#\tasks\main_control_task.o
- .debug_line    0x00018e6f      0xac3 obj\debug\~#\~#\tasks\modes_task.o
- .debug_line    0x00019932      0xafe obj\debug\~#\~#\tasks\status_update_task.o
- .debug_line    0x0001a430      0xc00 obj\debug\~#\~#\tasks\telemetry_receive_task.o
- .debug_line    0x0001b030      0xc59 obj\debug\~#\~#\tasks\telemetry_send_task.o
+ .debug_line    0x00010973      0x9b8 obj\debug\~#\~#\modes\custom_mode.o
+ .debug_line    0x0001132b      0xa4a obj\debug\~#\~#\modes\experiment_mode.o
+ .debug_line    0x00011d75      0x98c obj\debug\~#\~#\modes\experiments\experiment1_mode.o
+ .debug_line    0x00012701      0x98e obj\debug\~#\~#\modes\experiments\experiment2_mode.o
+ .debug_line    0x0001308f      0x985 obj\debug\~#\~#\modes\experiments\experiment3_mode.o
+ .debug_line    0x00013a14      0xaa8 obj\debug\~#\~#\modes\horizontal_mode.o
+ .debug_line    0x000144bc      0x8f0 obj\debug\~#\~#\modes\line_following_mode.o
+ .debug_line    0x00014dac      0x8e5 obj\debug\~#\~#\modes\race_mode.o
+ .debug_line    0x00015691      0x5c9 obj\debug\~#\~#\scheduler\periodic_task.o
+ .debug_line    0x00015c5a      0xa54 obj\debug\~#\~#\scheduler\scheduler.o
+ .debug_line    0x000166ae      0x615 obj\debug\~#\~#\scheduler\task.o
+ .debug_line    0x00016cc3      0x9b2 obj\debug\~#\~#\tasks\complementary_filter_task.o
+ .debug_line    0x00017675      0x8fe obj\debug\~#\~#\tasks\leds_task.o
+ .debug_line    0x00017f73      0xf0d obj\debug\~#\~#\tasks\main_control_task.o
+ .debug_line    0x00018e80      0xac3 obj\debug\~#\~#\tasks\modes_task.o
+ .debug_line    0x00019943      0xafe obj\debug\~#\~#\tasks\status_update_task.o
+ .debug_line    0x0001a441      0xc00 obj\debug\~#\~#\tasks\telemetry_receive_task.o
+ .debug_line    0x0001b041      0xc59 obj\debug\~#\~#\tasks\telemetry_send_task.o
 
 .debug_str      0x00000000    0x6d7a2
  .debug_str     0x00000000    0x61657 obj\debug\source\main.o
@@ -10632,7 +10632,7 @@ OUTPUT(bin\Debug\eeva_full_version.elf elf32-littlearm)
  .debug_str     0x0006c539      0x217 obj\debug\~#\~#\tasks\leds_task.o
                               0x607d7 (size before relaxing)
  .debug_str     0x0006c750      0x5be obj\debug\~#\~#\tasks\main_control_task.o
-                              0x6408a (size before relaxing)
+                              0x6407e (size before relaxing)
  .debug_str     0x0006cd0e      0x2d4 obj\debug\~#\~#\tasks\modes_task.o
                               0x61456 (size before relaxing)
  .debug_str     0x0006cfe2      0x180 obj\debug\~#\~#\tasks\status_update_task.o

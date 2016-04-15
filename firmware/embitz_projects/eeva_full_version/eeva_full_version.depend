@@ -627,7 +627,7 @@
 	"status_update_task.h"
 	"util_assert.h"
 
-1460703607 source:c:\users\smith\documents\full_eeva_project\firmware\tasks\main_control_task.cpp
+1460758590 source:c:\users\smith\documents\full_eeva_project\firmware\tasks\main_control_task.cpp
 	<cmath>
 	"debug_printf.h"
 	"globs.h"
@@ -673,7 +673,7 @@
 	"usart.h"
 	"util_assert.h"
 
-1460749571 source:c:\users\smith\documents\full_eeva_project\firmware\modes\custom_mode.cpp
+1460759370 source:c:\users\smith\documents\full_eeva_project\firmware\modes\custom_mode.cpp
 	"globs.h"
 	"physical_constants.h"
 	"main_control_task.h"

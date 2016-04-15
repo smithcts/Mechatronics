@@ -18,7 +18,7 @@ MainControlTask::MainControlTask(float frequency) :
         left_position_pid(0.00, 0, 0.0, -0.3, 0.3, -0.8, 0.8),
         right_position_pid(0.00, 0, 0.0, -0.3, 0.3, -0.8, 0.8),
         line_track_pid(50.0f, 70.0f, 20.0f, -0.4, 0.4, -5.0, 5.0),
-        track_maze_line_pid(12.0f, 3.0f, 0.15f, -1, 1, -4, 4),
+        track_maze_line_pid(9.0f, 3.0f, 0.15f, -1, 1, -4, 4),
         left_encoder_(EncoderA),
         right_encoder_(EncoderB),
         left_deriv_(delta_t_, 20.0f , 0.707f),

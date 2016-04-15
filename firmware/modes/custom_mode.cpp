@@ -7,7 +7,7 @@
 #include "pid_controller.h"
 
 #define QTR_THRESHOLD (0.5f)
-#define NOMINAL_SPEED (0.4f)
+#define NOMINAL_SPEED (0.3f)
 
 
 
@@ -23,6 +23,7 @@ float distance_traveled = 0.0f;
 float delta_yaw = 0.0f;
 int8_t scaler_yaw = 0;
 float Xdirection, Ydirection;
+float INCREMENTAL_SPEED = 0.0f;
 
 //******************************************************************************
 void MainControlTask::customMode(void)
@@ -31,7 +32,6 @@ void MainControlTask::customMode(void)
     {
         int8_t qtr_state = 0;
         uint8_t num_qtr_on = 0;
-        static float INCREMENTAL_SPEED = 0.0f;
         static int8_t cnt = 0;
         static int8_t initcnt = 0;
         static float line_position;
@@ -65,7 +65,7 @@ void MainControlTask::customMode(void)
 
             delta_speed = track_maze_line_pid.calculate(0.0f - line_position, delta_t_);
 
-            INCREMENTAL_SPEED += 0.05;
+            INCREMENTAL_SPEED = INCREMENTAL_SPEED + 0.05;
 
             if(INCREMENTAL_SPEED > NOMINAL_SPEED)
             {
@@ -83,29 +83,31 @@ void MainControlTask::customMode(void)
 
             if(num_qtr_on > 3)
             {
-                start_distance = odometry_.avg_distance;
-                if (cnt < 30)
+
+                if (cnt < 15)
                 {
-                    left_speed_command = 5 * delta_speed;
-                    right_speed_command = -5 * delta_speed;
+                    left_speed_command = NOMINAL_SPEED/4 + delta_speed;
+                    right_speed_command = NOMINAL_SPEED/4 - delta_speed;
                 }
                 else
                 {
-
                     if((analog_.voltages[0] > QTR_THRESHOLD) && (analog_.voltages[7] > QTR_THRESHOLD))
                     {
+                        start_distance = odometry_.avg_distance;
                         turn_mode = LEFT;
                         maze_mode = ADVANCE;
                         debug_printf("node found");
                     }
-                    else if((analog_.voltages[7] > QTR_THRESHOLD) &! (analog_.voltages[0] > QTR_THRESHOLD))
+                    else if((analog_.voltages[7] > QTR_THRESHOLD) && (analog_.voltages[0] < QTR_THRESHOLD))
                     {
+                        start_distance = odometry_.avg_distance;
                         turn_mode = LEFT;
                         maze_mode = ADVANCE;
                         debug_printf("left turn");
                     }
-                    else if((analog_.voltages[0] > QTR_THRESHOLD) &! (analog_.voltages[7] > QTR_THRESHOLD))
+                    else if((analog_.voltages[0] > QTR_THRESHOLD) && (analog_.voltages[7] < QTR_THRESHOLD))
                     {
+                        start_distance = odometry_.avg_distance;
                         turn_mode = RIGHT;
                         maze_mode = ADVANCE;
                         debug_printf("right turn");
@@ -115,6 +117,7 @@ void MainControlTask::customMode(void)
                         debug_printf("straight");
                     }
                 }
+                cnt++;
             }
             else if (num_qtr_on == 0)
             {
@@ -125,14 +128,13 @@ void MainControlTask::customMode(void)
             left_speed_command = INCREMENTAL_SPEED + delta_speed;
             right_speed_command = INCREMENTAL_SPEED - delta_speed;
 
-            cnt++;
             break;
 
         case ADVANCE:
 
             distance_between_node = start_distance - node_beginning_distance;
-            left_speed_command = INCREMENTAL_SPEED/2;
-            right_speed_command = INCREMENTAL_SPEED/2;
+            left_speed_command = INCREMENTAL_SPEED/2 + delta_speed;
+            right_speed_command = INCREMENTAL_SPEED/2 - delta_speed;
 
             if ((odometry_.avg_distance - start_distance) > 0.135f)
             {
@@ -145,7 +147,7 @@ void MainControlTask::customMode(void)
                     maze_mode = TURN_AROUND;
                     scaler_yaw -= 2;
                     determine_direction(delta_distance, scaler_yaw);
-                    debug_printf("Turn Around: Direction %i Scaler %i\n", (int)direction_yaw, scaler_yaw);
+//                    debug_printf("Turn Around: Direction %i Scaler %i\n", (int)direction_yaw, scaler_yaw);
                     break;
 
                 case LEFT:
@@ -153,7 +155,7 @@ void MainControlTask::customMode(void)
                     scaler_yaw += 1;
                     determine_direction(delta_distance, scaler_yaw);
 
-                    debug_printf("Turn Left: Direction %i Scaler %i\n", (int)direction_yaw, scaler_yaw);
+//                    debug_printf("Turn Left: Direction %i Scaler %i\n", (int)direction_yaw, scaler_yaw);
                     break;
 
                 case RIGHT:
@@ -163,7 +165,7 @@ void MainControlTask::customMode(void)
                         scaler_yaw -= 1;
                         determine_direction(delta_distance, scaler_yaw);
 
-                        debug_printf("Turn Right: Direction %i Scaler %i\n", (int)direction_yaw, scaler_yaw);
+//                        debug_printf("Turn Right: Direction %i Scaler %i\n", (int)direction_yaw, scaler_yaw);
                     }
                     break;
                 }
@@ -240,13 +242,13 @@ void determine_direction(float dir, int8_t scale)
             //even but negative, south, y-direction
 
             Ydirection -= dir;
-            debug_printf("south");
+            debug_printf("South: DeltaY %i Y %i\n", (int)(1000*dir), (int)(1000*Ydirection));
         }
         else
         {
             //odd but negative, west, x-direction
             Xdirection -= dir;
-            debug_printf("west");
+            debug_printf("West: DeltaX %i X %i\n", (int)(1000*dir), (int)(1000*Xdirection));
         }
     }
     else
@@ -255,13 +257,13 @@ void determine_direction(float dir, int8_t scale)
         {
             //even, positive, north, y-direction
             Ydirection += dir;
-            debug_printf("north");
+            debug_printf("North: DeltaY %i Y %i\n", (int)(1000*dir), (int)(1000*Ydirection));
         }
         else
         {
             //odd, positive, east, x-direction
             Xdirection += dir;
-            debug_printf("east");
+            debug_printf("East: DeltaX %i X %i\n", (int)(1000*dir), (int)(1000*Xdirection));
         }
     }
 
