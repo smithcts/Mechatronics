@@ -12,7 +12,7 @@
 
 
 
-
+void determine_direction(float dir, int8_t scale);
 float determine_line_pos(uint8_t qtr_state, float line_posistion, uint8_t num_qtr_on);
 float start_distance = 0.0f;
 float absolute_beginning_distance = 0.0f;
@@ -141,14 +141,18 @@ void MainControlTask::customMode(void)
                 switch(turn_mode)
                 {
                 case AROUND:
+
                     maze_mode = TURN_AROUND;
                     scaler_yaw -= 2;
+                    determine_direction(delta_distance, scaler_yaw);
                     debug_printf("Turn Around: Direction %i Scaler %i\n", (int)direction_yaw, scaler_yaw);
                     break;
 
                 case LEFT:
                     maze_mode = TURN_LEFT;
                     scaler_yaw += 1;
+                    determine_direction(delta_distance, scaler_yaw);
+
                     debug_printf("Turn Left: Direction %i Scaler %i\n", (int)direction_yaw, scaler_yaw);
                     break;
 
@@ -157,6 +161,8 @@ void MainControlTask::customMode(void)
                     {
                         maze_mode = TURN_RIGHT;
                         scaler_yaw -= 1;
+                        determine_direction(delta_distance, scaler_yaw);
+
                         debug_printf("Turn Right: Direction %i Scaler %i\n", (int)direction_yaw, scaler_yaw);
                     }
                     break;
@@ -223,7 +229,7 @@ void MainControlTask::customMode(void)
     }
 }
 
-int determine_direction(float dir, int8_t scale)
+void determine_direction(float dir, int8_t scale)
 {
     if(scale < 0)
     {
@@ -234,11 +240,13 @@ int determine_direction(float dir, int8_t scale)
             //even but negative, south, y-direction
 
             Ydirection -= dir;
+            debug_printf("south");
         }
         else
         {
             //odd but negative, west, x-direction
             Xdirection -= dir;
+            debug_printf("west");
         }
     }
     else
@@ -247,11 +255,13 @@ int determine_direction(float dir, int8_t scale)
         {
             //even, positive, north, y-direction
             Ydirection += dir;
+            debug_printf("north");
         }
         else
         {
             //odd, positive, east, x-direction
             Xdirection += dir;
+            debug_printf("east");
         }
     }
 
