@@ -22,6 +22,7 @@ float node_beginning_distance = 0.0f;
 float distance_traveled = 0.0f;
 float delta_yaw = 0.0f;
 int8_t scaler_yaw = 0;
+float Xdirection, Ydirection;
 
 //******************************************************************************
 void MainControlTask::customMode(void)
@@ -63,7 +64,14 @@ void MainControlTask::customMode(void)
         case TRACK_LINE:
 
             delta_speed = track_maze_line_pid.calculate(0.0f - line_position, delta_t_);
-            INCREMENTAL_SPEED = NOMINAL_SPEED;
+
+            INCREMENTAL_SPEED += 0.05;
+
+            if(INCREMENTAL_SPEED > NOMINAL_SPEED)
+            {
+                INCREMENTAL_SPEED = NOMINAL_SPEED;
+            }
+
             absolute_beginning_distance = odometry_.avg_distance;
 
             distanceX = absolute_beginning_distance - start_distance;
@@ -73,16 +81,17 @@ void MainControlTask::customMode(void)
             current_yaw = odometry_.yaw;
             direction_yaw =(current_yaw - yaw) * 1000 ;
 
-            if ((analog_.voltages[0] > QTR_THRESHOLD) || (analog_.voltages[7] > QTR_THRESHOLD) || (num_qtr_on > 3))
+            if(num_qtr_on > 3)
             {
                 start_distance = odometry_.avg_distance;
-                if (cnt < 10)
+                if (cnt < 30)
                 {
-                    left_speed_command = INCREMENTAL_SPEED/6 + delta_speed;
-                    right_speed_command = INCREMENTAL_SPEED/6 - delta_speed;
+                    left_speed_command = 5 * delta_speed;
+                    right_speed_command = -5 * delta_speed;
                 }
                 else
                 {
+
                     if((analog_.voltages[0] > QTR_THRESHOLD) && (analog_.voltages[7] > QTR_THRESHOLD))
                     {
                         turn_mode = LEFT;
@@ -113,9 +122,9 @@ void MainControlTask::customMode(void)
                 turn_mode = AROUND;
                 maze_mode = ADVANCE;
             }
-
             left_speed_command = INCREMENTAL_SPEED + delta_speed;
             right_speed_command = INCREMENTAL_SPEED - delta_speed;
+
             cnt++;
             break;
 
@@ -149,10 +158,6 @@ void MainControlTask::customMode(void)
                         maze_mode = TURN_RIGHT;
                         scaler_yaw -= 1;
                         debug_printf("Turn Right: Direction %i Scaler %i\n", (int)direction_yaw, scaler_yaw);
-                    }
-                    else
-                    {
-                        maze_mode = TURN_LEFT;
                     }
                     break;
                 }
@@ -217,6 +222,41 @@ void MainControlTask::customMode(void)
 
     }
 }
+
+int determine_direction(float dir, int8_t scale)
+{
+    if(scale < 0)
+    {
+        scale = scale * -1;
+
+        if (scale % 2 == 0)
+        {
+            //even but negative, south, y-direction
+
+            Ydirection -= dir;
+        }
+        else
+        {
+            //odd but negative, west, x-direction
+            Xdirection -= dir;
+        }
+    }
+    else
+    {
+        if(scale % 2 == 0)
+        {
+            //even, positive, north, y-direction
+            Ydirection += dir;
+        }
+        else
+        {
+            //odd, positive, east, x-direction
+            Xdirection += dir;
+        }
+    }
+
+}
+
 
 float determine_line_pos(uint8_t qtr_state, float last_line_pos, uint8_t num_qtr_on)
 {

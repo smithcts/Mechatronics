@@ -26,7 +26,7 @@
 	<cstdint>
 	"glob_constants.h"
 
-1459441836 c:\users\smith\documents\full_eeva_project\firmware\globs\include\glob_constants.h
+1460605323 c:\users\smith\documents\full_eeva_project\firmware\globs\include\glob_constants.h
 
 1459441839 c:\users\smith\documents\full_eeva_project\firmware\scheduler\include\task_ids.h
 
@@ -192,7 +192,7 @@
 1459441839 c:\users\smith\documents\full_eeva_project\firmware\scheduler\include\periodic_task.h
 	"task.h"
 
-1459441840 c:\users\smith\documents\full_eeva_project\firmware\tasks\include\main_control_task.h
+1460666838 c:\users\smith\documents\full_eeva_project\firmware\tasks\include\main_control_task.h
 	"analog_in.h"
 	"derivative_filter.h"
 	"digital_out.h"
@@ -583,7 +583,7 @@
 	"telemetry_send_task.h"
 	"util_assert.h"
 
-1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\modes\line_following_mode.cpp
+1460663592 source:c:\users\smith\documents\full_eeva_project\firmware\modes\line_following_mode.cpp
 	"globs.h"
 	"leds_task.h"
 	"main_control_task.h"
@@ -627,7 +627,7 @@
 	"status_update_task.h"
 	"util_assert.h"
 
-1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\tasks\main_control_task.cpp
+1460703607 source:c:\users\smith\documents\full_eeva_project\firmware\tasks\main_control_task.cpp
 	<cmath>
 	"debug_printf.h"
 	"globs.h"
@@ -673,7 +673,7 @@
 	"usart.h"
 	"util_assert.h"
 
-1460402433 source:c:\users\smith\documents\full_eeva_project\firmware\modes\custom_mode.cpp
+1460746014 source:c:\users\smith\documents\full_eeva_project\firmware\modes\custom_mode.cpp
 	"globs.h"
 	"physical_constants.h"
 	"main_control_task.h"
@@ -1364,6 +1364,11 @@
 	"util_assert.h"
 
 1460613591 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\modes\race_mode.cpp
+	"globs.h"
+	"leds_task.h"
+	"main_control_task.h"
+
+1460613591 source:c:\users\smith\documents\full_eeva_project\firmware\modes\race_mode.cpp
 	"globs.h"
 	"leds_task.h"
 	"main_control_task.h"
