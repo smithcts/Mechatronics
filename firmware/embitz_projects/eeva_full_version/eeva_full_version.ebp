@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_project_file>
+	<EmBitzVersion release="0.42" revision="0" />
+	<FileVersion major="1" minor="0" />
+	<Project>
+		<Option title="eeva_full_version" />
+		<Option pch_mode="2" />
+		<Option compiler="armgcc_eb" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\eeva_full_version.elf" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option create_hex="1" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+			</Target>
+		</Build>
+		<Device>
+			<Add option="$device=cortex-m4" />
+			<Add option="$fpu=fpv4-sp-d16" />
+			<Add option="$lscript=./stm32f407ve_flash.ld" />
+			<Add option="$stack=0x2000" />
+			<Add option="$heap=0x4000" />
+		</Device>
+		<Compiler>
+			<Add option="-mfloat-abi=hard" />
+			<Add option="-Wall" />
+			<Add option="-fdata-sections" />
+			<Add option="-ffunction-sections" />
+			<Add option="-O0" />
+			<Add option="-g3" />
+			<Add option="-fno-strict-aliasing" />
+			<Add symbol="ARM_MATH_CM4" />
+			<Add symbol="__FPU_USED" />
+			<Add symbol="STM32F407VE" />
+			<Add symbol="STM32F4XX" />
+			<Add symbol="USE_STDPERIPH_DRIVER" />
+			<Add symbol="STM32F40_41xxx" />
+		</Compiler>
+		<Cpp>
+			<Add option="-mfloat-abi=hard" />
+			<Add option="-fno-exceptions" />
+			<Add option="-fno-rtti" />
+			<Add option="-std=gnu++11" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-fomit-frame-pointer" />
+			<Add option="-fdata-sections" />
+			<Add option="-ffunction-sections" />
+			<Add option="-O0" />
+			<Add option="-g3" />
+			<Add option="-DTARGET_M4" />
+			<Add option="-DTARGET_CORTEX_M" />
+			<Add option="-DTARGET_STM" />
+			<Add option="-DTARGET_STM32F4" />
+			<Add option="-DTARGET_STM32F407VE" />
+			<Add option="-DTOOLCHAIN_GCC_ARM" />
+			<Add option="-DTOOLCHAIN_GCC" />
+			<Add option="-D__CORTEX_M4" />
+			<Add option="-DARM_MATH_CM4" />
+			<Add option="-D__FPU_PRESENT=1" />
+			<Add option="-Wno-unused-parameter" />
+			<Add option="-Wno-missing-field-initializers" />
+			<Add option="-fmessage-length=0" />
+			<Add option="-fno-builtin" />
+			<Add option="-fno-delete-null-pointer-checks" />
+		</Cpp>
+		<Assembler>
+			<Add option="-Wa,--gdwarf-2" />
+		</Assembler>
+		<Linker>
+			<Add option="-eb_lib=n" />
+			<Add option="-lstdc++" />
+			<Add option="-eb_start_files" />
+			<Add option="-Wl,--gc-sections" />
+			<Add option="-lm" />
+			<Add directory="..\..\hardware_config\linker" />
+		</Linker>
+		<Unit filename="include\robot_settings.h" />
+		<Unit filename="source\main.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source\robot_settings.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\globs\globs.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\globs\include\glob_base.h" />
+		<Unit filename="..\..\globs\include\glob_constants.h" />
+		<Unit filename="..\..\globs\include\glob_template.h" />
+		<Unit filename="..\..\globs\include\glob_types.h" />
+		<Unit filename="..\..\globs\include\globs.h" />
+		<Unit filename="..\..\hardware_config\linker\stm32f407ve_flash.ld" />
+		<Unit filename="..\..\hardware_config\linker\stm32f407ve_sram.ld" />
+		<Unit filename="..\..\hardware_config\system\exception_handlers.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\hardware_config\system\include\stm32f4xx.h" />
+		<Unit filename="..\..\hardware_config\system\include\stm32f4xx_conf.h" />
+		<Unit filename="..\..\hardware_config\system\include\system_stm32f4xx.h" />
+		<Unit filename="..\..\hardware_config\system\pre_main_setup.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\hardware_config\system\startup_stm32f4xx.S">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\hardware_config\system\system_stm32f4xx_eeva_revD.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\cmsis\arm_common_tables.h" />
+		<Unit filename="..\..\libraries\cmsis\arm_math.h" />
+		<Unit filename="..\..\libraries\cmsis\core_cm4.h" />
+		<Unit filename="..\..\libraries\cmsis\core_cm4_simd.h" />
+		<Unit filename="..\..\libraries\cmsis\core_cmFunc.h" />
+		<Unit filename="..\..\libraries\cmsis\core_cmInstr.h" />
+		<Unit filename="..\..\libraries\glo_link\glo_rx_link.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\glo_link\glo_tx_link.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\glo_link\include\glo_rx_link.h" />
+		<Unit filename="..\..\libraries\glo_link\include\glo_tx_link.h" />
+		<Unit filename="..\..\libraries\spl\include\misc.h" />
+		<Unit filename="..\..\libraries\spl\include\stm32f4xx_adc.h" />
+		<Unit filename="..\..\libraries\spl\include\stm32f4xx_dma.h" />
+		<Unit filename="..\..\libraries\spl\include\stm32f4xx_exti.h" />
+		<Unit filename="..\..\libraries\spl\include\stm32f4xx_flash.h" />
+		<Unit filename="..\..\libraries\spl\include\stm32f4xx_gpio.h" />
+		<Unit filename="..\..\libraries\spl\include\stm32f4xx_pwr.h" />
+		<Unit filename="..\..\libraries\spl\include\stm32f4xx_rcc.h" />
+		<Unit filename="..\..\libraries\spl\include\stm32f4xx_rtc.h" />
+		<Unit filename="..\..\libraries\spl\include\stm32f4xx_spi.h" />
+		<Unit filename="..\..\libraries\spl\include\stm32f4xx_syscfg.h" />
+		<Unit filename="..\..\libraries\spl\include\stm32f4xx_tim.h" />
+		<Unit filename="..\..\libraries\spl\include\stm32f4xx_usart.h" />
+		<Unit filename="..\..\libraries\spl\source\misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\spl\source\stm32f4xx_adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\spl\source\stm32f4xx_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\spl\source\stm32f4xx_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\spl\source\stm32f4xx_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\spl\source\stm32f4xx_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\spl\source\stm32f4xx_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\spl\source\stm32f4xx_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\spl\source\stm32f4xx_rtc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\spl\source\stm32f4xx_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\spl\source\stm32f4xx_syscfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\spl\source\stm32f4xx_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\spl\source\stm32f4xx_usart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\analog_in.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\bootloader_init.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\complementary_filter.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\coordinate_conversions.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\crc.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\debug_printf.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\derivative_filter.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\digital_in.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\digital_out.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\dma_rx.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\dma_tx.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\encoder.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\green_leds.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\include\analog_in.h" />
+		<Unit filename="..\..\libraries\util\include\bootloader_init.h" />
+		<Unit filename="..\..\libraries\util\include\complementary_filter.h" />
+		<Unit filename="..\..\libraries\util\include\coordinate_conversions.h" />
+		<Unit filename="..\..\libraries\util\include\crc.h" />
+		<Unit filename="..\..\libraries\util\include\debug_printf.h" />
+		<Unit filename="..\..\libraries\util\include\derivative_filter.h" />
+		<Unit filename="..\..\libraries\util\include\digital_in.h" />
+		<Unit filename="..\..\libraries\util\include\digital_out.h" />
+		<Unit filename="..\..\libraries\util\include\dma_rx.h" />
+		<Unit filename="..\..\libraries\util\include\dma_tx.h" />
+		<Unit filename="..\..\libraries\util\include\encoder.h" />
+		<Unit filename="..\..\libraries\util\include\green_leds.h" />
+		<Unit filename="..\..\libraries\util\include\math_util.h" />
+		<Unit filename="..\..\libraries\util\include\mpu6000.h" />
+		<Unit filename="..\..\libraries\util\include\physical_constants.h" />
+		<Unit filename="..\..\libraries\util\include\pid_controller.h" />
+		<Unit filename="..\..\libraries\util\include\pwm_out_advanced_timer.h" />
+		<Unit filename="..\..\libraries\util\include\simple_array.h" />
+		<Unit filename="..\..\libraries\util\include\six_point_sensor_cal.h" />
+		<Unit filename="..\..\libraries\util\include\spi.h" />
+		<Unit filename="..\..\libraries\util\include\system_timer.h" />
+		<Unit filename="..\..\libraries\util\include\tb6612fng.h" />
+		<Unit filename="..\..\libraries\util\include\trigtables.h" />
+		<Unit filename="..\..\libraries\util\include\usart.h" />
+		<Unit filename="..\..\libraries\util\include\user_leds.h" />
+		<Unit filename="..\..\libraries\util\include\user_pb.h" />
+		<Unit filename="..\..\libraries\util\include\util_assert.h" />
+		<Unit filename="..\..\libraries\util\mpu6000.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\pid_controller.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\pwm_out_advanced_timer.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\six_point_sensor_cal.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\spi.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\system_timer.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\tb6612fng.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\trigtables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\usart.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\user_leds.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\user_pb.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\libraries\util\util_assert.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\modes\balance_mode.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\modes\custom_mode.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\modes\experiment_mode.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\modes\experiments\experiment1_mode.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\modes\experiments\experiment2_mode.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\modes\experiments\experiment3_mode.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\modes\horizontal_mode.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\modes\line_following_mode.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\modes\race_mode.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\scheduler\include\periodic_task.h" />
+		<Unit filename="..\..\scheduler\include\queue.h" />
+		<Unit filename="..\..\scheduler\include\queued_task.h" />
+		<Unit filename="..\..\scheduler\include\scheduler.h" />
+		<Unit filename="..\..\scheduler\include\task.h" />
+		<Unit filename="..\..\scheduler\include\task_ids.h" />
+		<Unit filename="..\..\scheduler\periodic_task.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\scheduler\scheduler.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\scheduler\task.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\tasks\complementary_filter_task.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\tasks\include\complementary_filter_task.h" />
+		<Unit filename="..\..\tasks\include\leds_task.h" />
+		<Unit filename="..\..\tasks\include\main_control_task.h" />
+		<Unit filename="..\..\tasks\include\modes_task.h" />
+		<Unit filename="..\..\tasks\include\status_update_task.h" />
+		<Unit filename="..\..\tasks\include\telemetry_receive_task.h" />
+		<Unit filename="..\..\tasks\include\telemetry_send_task.h" />
+		<Unit filename="..\..\tasks\leds_task.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\tasks\main_control_task.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\tasks\modes_task.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\tasks\status_update_task.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\tasks\telemetry_receive_task.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\tasks\telemetry_send_task.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<target_debugging_settings target="Debug" active_interface="ST-link">
+					<debug_interface interface_id="ST-link" ip_address="localhost" ip_port="4242" path="${EMBITZ}\share\contrib" executable="STLinkGDB.exe" description="STM32F40x.svd" dont_start_server="false" backoff_time="1000" options="2" reg_filter="0" active_family="STMicroelectronics">
+						<family_options family_id="STMicroelectronics">
+							<option opt_id="ID_JTAG_SWD" opt_value="swd" />
+							<option opt_id="ID_VECTOR_START" opt_value="0x08000000" />
+							<option opt_id="ID_RESET_TYPE" opt_value="System" />
+							<option opt_id="ID_LOAD_PROGRAM" opt_value="1" />
+							<option opt_id="ID_SEMIHOST_CHECK" opt_value="0" />
+							<option opt_id="ID_RAM_EXEC" opt_value="0" />
+							<option opt_id="ID_VEC_TABLE" opt_value="1" />
+							<option opt_id="ID_DONT_CONN_RESET" opt_value="0" />
+							<option opt_id="ID_ALL_MODE_DEBUG" opt_value="0" />
+							<option opt_id="ID_DEV_ADDR" opt_value="" />
+							<option opt_id="ID_VERBOSE_LEVEL" opt_value="3" />
+						</family_options>
+					</debug_interface>
+				</target_debugging_settings>
+			</debugger>
+			<envvars />
+		</Extensions>
+	</Project>
+</EmBitz_project_file>

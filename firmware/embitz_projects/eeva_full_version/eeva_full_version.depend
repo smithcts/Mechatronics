@@ -1,0 +1,1370 @@
+# depslib dependency file v1.0
+1459441836 source:c:\users\smith\documents\full_eeva_project\firmware\embitz_projects\eeva_full_version\source\main.cpp
+	<cstdio>
+	"scheduler.h"
+	"util_assert.h"
+	"debug_printf.h"
+	"complementary_filter_task.h"
+	"main_control_task.h"
+	"telemetry_receive_task.h"
+	"status_update_task.h"
+	"leds_task.h"
+	"modes_task.h"
+	"telemetry_send_task.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\scheduler\include\scheduler.h
+	<cstddef>
+	"task.h"
+	"system_timer.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\scheduler\include\task.h
+	<cstdint>
+	"glob_types.h"
+	"task_ids.h"
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\globs\include\glob_types.h
+	<cstdint>
+	"glob_constants.h"
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\globs\include\glob_constants.h
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\scheduler\include\task_ids.h
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\system_timer.h
+	<cstdint>
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\util_assert.h
+
+1459441838 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\debug_printf.h
+	<cstdint>
+
+1459441840 c:\users\smith\documents\full_eeva_project\firmware\tasks\include\complementary_filter_task.h
+	"complementary_filter.h"
+	"digital_out.h"
+	"glob_types.h"
+	"mpu6000.h"
+	"periodic_task.h"
+
+1459441838 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\complementary_filter.h
+	<cstdint>
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\digital_out.h
+	"stm32f4xx_gpio.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_gpio.h
+	"stm32f4xx.h"
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\hardware_config\system\include\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\libraries\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\libraries\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\libraries\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\libraries\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\hardware_config\system\include\system_stm32f4xx.h
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\hardware_config\system\include\stm32f4xx_conf.h
+	"stm32f4xx_adc.h"
+	"stm32f4xx_can.h"
+	"stm32f4xx_crc.h"
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_dac.h"
+	"stm32f4xx_dbgmcu.h"
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_dma.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx_flash.h"
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_hash.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_iwdg.h"
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rtc.h"
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_spi.h"
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_usart.h"
+	"stm32f4xx_wwdg.h"
+	"misc.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_adc.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_can.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_crc.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_cryp.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_dac.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_dbgmcu.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_dcmi.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_dma.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_exti.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_flash.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_fsmc.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_hash.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_i2c.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_iwdg.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_pwr.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rcc.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rng.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rtc.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_sdio.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_spi.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_syscfg.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_tim.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_usart.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_wwdg.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\include\misc.h
+	"stm32f4xx.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\mpu6000.h
+	"stm32f4xx.h"
+	"spi.h"
+	"system_timer.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\spi.h
+	<cstdint>
+	"stm32f4xx_spi.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\scheduler\include\periodic_task.h
+	"task.h"
+
+1459441840 c:\users\smith\documents\full_eeva_project\firmware\tasks\include\main_control_task.h
+	"analog_in.h"
+	"derivative_filter.h"
+	"digital_out.h"
+	"encoder.h"
+	"glob_types.h"
+	"periodic_task.h"
+	"pid_controller.h"
+	"tb6612fng.h"
+
+1459441838 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\analog_in.h
+	<cstdint>
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\derivative_filter.h
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\encoder.h
+	"stm32f4xx.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\pid_controller.h
+	"globs.h"
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\globs\include\globs.h
+	<cstdint>
+	"glob_template.h"
+	"glob_types.h"
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\globs\include\glob_template.h
+	"glob_base.h"
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\globs\include\glob_base.h
+	<cstring>
+	"scheduler.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\tb6612fng.h
+	"digital_out.h"
+	"pwm_out_advanced_timer.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\pwm_out_advanced_timer.h
+	<cstdint>
+
+1459441840 c:\users\smith\documents\full_eeva_project\firmware\tasks\include\telemetry_receive_task.h
+	"digital_out.h"
+	"glob_types.h"
+	"glo_rx_link.h"
+	"task.h"
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\libraries\glo_link\include\glo_rx_link.h
+	<cstdint>
+	"usart.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\usart.h
+	"stm32f4xx.h"
+	"dma_rx.h"
+	"dma_tx.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\dma_rx.h
+	"stm32f4xx.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\dma_tx.h
+	"stm32f4xx.h"
+
+1459441840 c:\users\smith\documents\full_eeva_project\firmware\tasks\include\status_update_task.h
+	"digital_out.h"
+	"glob_types.h"
+	"periodic_task.h"
+
+1459441840 c:\users\smith\documents\full_eeva_project\firmware\tasks\include\leds_task.h
+	"digital_out.h"
+	"green_leds.h"
+	"periodic_task.h"
+	"user_leds.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\green_leds.h
+	<cstdint>
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\user_leds.h
+	"stm32f4xx.h"
+
+1459441840 c:\users\smith\documents\full_eeva_project\firmware\tasks\include\modes_task.h
+	"glob_types.h"
+	"periodic_task.h"
+	"user_pb.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\user_pb.h
+	<cstdint>
+
+1459441840 c:\users\smith\documents\full_eeva_project\firmware\tasks\include\telemetry_send_task.h
+	"glo_tx_link.h"
+	"glob_types.h"
+	"queued_task.h"
+	"simple_array.h"
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\libraries\glo_link\include\glo_tx_link.h
+	<cstdint>
+	<cstdio>
+	"usart.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\scheduler\include\queued_task.h
+	"queue.h"
+	"task.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\scheduler\include\queue.h
+	"scheduler.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\simple_array.h
+
+1459441836 source:c:\users\smith\documents\full_eeva_project\firmware\embitz_projects\eeva_full_version\source\robot_settings.cpp
+	"physical_constants.h"
+	"robot_settings.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\physical_constants.h
+
+1459441836 c:\users\smith\documents\full_eeva_project\firmware\embitz_projects\eeva_full_version\include\robot_settings.h
+	<cstdint>
+
+1459441836 source:c:\users\smith\documents\full_eeva_project\firmware\globs\globs.cpp
+	"globs.h"
+
+1459441836 source:c:\users\smith\documents\full_eeva_project\firmware\hardware_config\system\exception_handlers.cpp
+	"util_assert.h"
+	"stm32f4xx.h"
+
+1459441836 source:c:\users\smith\documents\full_eeva_project\firmware\hardware_config\system\pre_main_setup.cpp
+	"user_pb.h"
+	"bootloader_init.h"
+
+1459441838 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\bootloader_init.h
+
+1459441836 source:c:\users\smith\documents\full_eeva_project\firmware\hardware_config\system\startup_stm32f4xx.s
+
+1459441836 source:c:\users\smith\documents\full_eeva_project\firmware\hardware_config\system\system_stm32f4xx_eeva_revd.c
+	"stm32f4xx.h"
+
+1459441836 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\glo_link\glo_rx_link.cpp
+	"crc.h"
+	"glo_rx_link.h"
+	"globs.h"
+	"telemetry_send_task.h"
+	"util_assert.h"
+
+1459441838 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\crc.h
+	<cstdint>
+
+1459441836 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\glo_link\glo_tx_link.cpp
+	"crc.h"
+	"glo_tx_link.h"
+	"globs.h"
+	"util_assert.h"
+
+1459441837 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\misc.c
+	"misc.h"
+
+1459441837 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_adc.c
+	"stm32f4xx_adc.h"
+	"stm32f4xx_rcc.h"
+
+1459441837 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_dma.c
+	"stm32f4xx_dma.h"
+	"stm32f4xx_rcc.h"
+
+1459441837 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_exti.c
+	"stm32f4xx_exti.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_flash.c
+	"stm32f4xx_flash.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_gpio.c
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_pwr.c
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_rcc.c
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_rtc.c
+	"stm32f4xx_rtc.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_spi.c
+	"stm32f4xx_spi.h"
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_syscfg.c
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_tim.c
+	"stm32f4xx_tim.h"
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_usart.c
+	"stm32f4xx_usart.h"
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\analog_in.cpp
+	"analog_in.h"
+	"stm32f4xx.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\bootloader_init.cpp
+	"bootloader_init.h"
+	<cstdint>
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\complementary_filter.cpp
+	<math.h>
+	<string.h>
+	"complementary_filter.h"
+	"coordinate_conversions.h"
+	"physical_constants.h"
+
+1459441838 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\coordinate_conversions.h
+	<stdbool.h>
+	<stdint.h>
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\coordinate_conversions.cpp
+	<math.h>
+	"coordinate_conversions.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\crc.cpp
+	"crc.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\debug_printf.cpp
+	<cstdio>
+	<cstring>
+	<cstdarg>
+	"telemetry_send_task.h"
+	"globs.h"
+	"debug_printf.h"
+	"usart.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\derivative_filter.cpp
+	"derivative_filter.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\digital_in.cpp
+	"digital_in.h"
+	"util_assert.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\digital_in.h
+	"stm32f4xx_gpio.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\digital_out.cpp
+	"digital_out.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\dma_rx.cpp
+	<stdio.h>
+	<string.h>
+	"stm32f4xx.h"
+	"dma_rx.h"
+	"util_assert.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\dma_tx.cpp
+	<stdio.h>
+	<string.h>
+	"debug_printf.h"
+	"dma_tx.h"
+	"stm32f4xx.h"
+	"util_assert.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\encoder.cpp
+	"encoder.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\green_leds.cpp
+	"green_leds.h"
+	"stm32f4xx_gpio.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\mpu6000.cpp
+	<cstdio>
+	<cstdint>
+	"mpu6000.h"
+	"util_assert.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\pid_controller.cpp
+	"pid_controller.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\pwm_out_advanced_timer.cpp
+	"stm32f4xx.h"
+	"pwm_out_advanced_timer.h"
+	"math_util.h"
+	"util_assert.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\math_util.h
+	"physical_constants.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\six_point_sensor_cal.cpp
+	<math.h>
+	"stdint.h"
+	"six_point_sensor_cal.h"
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\six_point_sensor_cal.h
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\spi.cpp
+	<cstdint>
+	<cstdio>
+	"spi.h"
+	"util_assert.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\system_timer.cpp
+	"stm32f4xx.h"
+	"system_timer.h"
+	"scheduler.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\tb6612fng.cpp
+	"tb6612fng.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\trigtables.c
+	"trigtables.h"
+	<stdint.h>
+	<math.h>
+
+1459441839 c:\users\smith\documents\full_eeva_project\firmware\libraries\util\include\trigtables.h
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\usart.cpp
+	<stdio.h>
+	<string.h>
+	"stm32f4xx.h"
+	"dma_rx.h"
+	"dma_tx.h"
+	"usart.h"
+	"util_assert.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\user_leds.cpp
+	"user_leds.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\user_pb.cpp
+	"user_pb.h"
+	"stm32f4xx.h"
+
+1459441838 source:c:\users\smith\documents\full_eeva_project\firmware\libraries\util\util_assert.cpp
+	<cstdarg>
+	<cstdio>
+	<cstring>
+	"telemetry_send_task.h"
+	"debug_printf.h"
+	"util_assert.h"
+	"globs.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\modes\balance_mode.cpp
+	<cmath>
+	"telemetry_receive_task.h"
+	"globs.h"
+	"main_control_task.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"telemetry_send_task.h"
+	"debug_printf.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\modes\experiment_mode.cpp
+	<cmath>
+	"globs.h"
+	"main_control_task.h"
+	"physical_constants.h"
+	"trigtables.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\modes\experiments\experiment1_mode.cpp
+	<cmath>
+	"globs.h"
+	"main_control_task.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\modes\experiments\experiment2_mode.cpp
+	<cmath>
+	"globs.h"
+	"main_control_task.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\modes\experiments\experiment3_mode.cpp
+	<cmath>
+	"globs.h"
+	"main_control_task.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\modes\horizontal_mode.cpp
+	<cmath>
+	"telemetry_receive_task.h"
+	"globs.h"
+	"main_control_task.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"telemetry_send_task.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\modes\line_following_mode.cpp
+	"globs.h"
+	"leds_task.h"
+	"main_control_task.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\scheduler\periodic_task.cpp
+	<cmath>
+	"periodic_task.h"
+	"system_timer.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\scheduler\scheduler.cpp
+	<cstdio>
+	<cstring>
+	"stm32f4xx.h"
+	"scheduler.h"
+	"math_util.h"
+	"debug_printf.h"
+	"globs.h"
+	"telemetry_receive_task.h"
+	"telemetry_send_task.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\scheduler\task.cpp
+	<cstring>
+	"task.h"
+	"system_timer.h"
+	"math_util.h"
+	"scheduler.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\tasks\complementary_filter_task.cpp
+	"complementary_filter_task.h"
+	"coordinate_conversions.h"
+	"globs.h"
+	"modes_task.h"
+	"robot_settings.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\tasks\leds_task.cpp
+	"globs.h"
+	"leds_task.h"
+	"robot_settings.h"
+	"status_update_task.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\tasks\main_control_task.cpp
+	<cmath>
+	"debug_printf.h"
+	"globs.h"
+	"main_control_task.h"
+	"math_util.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"telemetry_send_task.h"
+	"util_assert.h"
+
+1460087777 source:c:\users\smith\documents\full_eeva_project\firmware\tasks\modes_task.cpp
+	<cmath>
+	"debug_printf.h"
+	"globs.h"
+	"main_control_task.h"
+	"modes_task.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\tasks\status_update_task.cpp
+	"status_update_task.h"
+	"globs.h"
+	"math_util.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"telemetry_send_task.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\documents\full_eeva_project\firmware\tasks\telemetry_receive_task.cpp
+	"telemetry_receive_task.h"
+	"globs.h"
+	"main_control_task.h"
+	"math_util.h"
+	"modes_task.h"
+	"robot_settings.h"
+	"telemetry_send_task.h"
+	"util_assert.h"
+
+1459441840 source:c:\users\smith\documents\full_eeva_project\firmware\tasks\telemetry_send_task.cpp
+	"dma_rx.h"
+	"dma_tx.h"
+	"globs.h"
+	"telemetry_send_task.h"
+	"usart.h"
+	"util_assert.h"
+
+1460402433 source:c:\users\smith\documents\full_eeva_project\firmware\modes\custom_mode.cpp
+	"globs.h"
+	"physical_constants.h"
+	"main_control_task.h"
+	"leds_task.h"
+	"debug_printf.h"
+	"pid_controller.h"
+
+1459441836 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\embitz_projects\eeva_full_version\source\main.cpp
+	<cstdio>
+	"scheduler.h"
+	"util_assert.h"
+	"debug_printf.h"
+	"complementary_filter_task.h"
+	"main_control_task.h"
+	"telemetry_receive_task.h"
+	"status_update_task.h"
+	"leds_task.h"
+	"modes_task.h"
+	"telemetry_send_task.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\scheduler\include\scheduler.h
+	<cstddef>
+	"task.h"
+	"system_timer.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\scheduler\include\task.h
+	<cstdint>
+	"glob_types.h"
+	"task_ids.h"
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\globs\include\glob_types.h
+	<cstdint>
+	"glob_constants.h"
+
+1460605323 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\globs\include\glob_constants.h
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\scheduler\include\task_ids.h
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\system_timer.h
+	<cstdint>
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\util_assert.h
+
+1459441838 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\debug_printf.h
+	<cstdint>
+
+1459441840 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\include\complementary_filter_task.h
+	"complementary_filter.h"
+	"digital_out.h"
+	"glob_types.h"
+	"mpu6000.h"
+	"periodic_task.h"
+
+1459441838 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\complementary_filter.h
+	<cstdint>
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\digital_out.h
+	"stm32f4xx_gpio.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_gpio.h
+	"stm32f4xx.h"
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\hardware_config\system\include\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\hardware_config\system\include\system_stm32f4xx.h
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\hardware_config\system\include\stm32f4xx_conf.h
+	"stm32f4xx_adc.h"
+	"stm32f4xx_can.h"
+	"stm32f4xx_crc.h"
+	"stm32f4xx_cryp.h"
+	"stm32f4xx_dac.h"
+	"stm32f4xx_dbgmcu.h"
+	"stm32f4xx_dcmi.h"
+	"stm32f4xx_dma.h"
+	"stm32f4xx_exti.h"
+	"stm32f4xx_flash.h"
+	"stm32f4xx_fsmc.h"
+	"stm32f4xx_hash.h"
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_i2c.h"
+	"stm32f4xx_iwdg.h"
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+	"stm32f4xx_rng.h"
+	"stm32f4xx_rtc.h"
+	"stm32f4xx_sdio.h"
+	"stm32f4xx_spi.h"
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_tim.h"
+	"stm32f4xx_usart.h"
+	"stm32f4xx_wwdg.h"
+	"misc.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_adc.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_can.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_crc.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_cryp.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_dac.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_dbgmcu.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_dcmi.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_dma.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_exti.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_flash.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_fsmc.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_hash.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_i2c.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_iwdg.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_pwr.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rcc.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rng.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rtc.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_sdio.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_spi.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_syscfg.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_tim.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_usart.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_wwdg.h
+	"stm32f4xx.h"
+
+1459441837 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\include\misc.h
+	"stm32f4xx.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\mpu6000.h
+	"stm32f4xx.h"
+	"spi.h"
+	"system_timer.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\spi.h
+	<cstdint>
+	"stm32f4xx_spi.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\scheduler\include\periodic_task.h
+	"task.h"
+
+1460666838 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\include\main_control_task.h
+	"analog_in.h"
+	"derivative_filter.h"
+	"digital_out.h"
+	"encoder.h"
+	"glob_types.h"
+	"periodic_task.h"
+	"pid_controller.h"
+	"tb6612fng.h"
+
+1459441838 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\analog_in.h
+	<cstdint>
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\derivative_filter.h
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\encoder.h
+	"stm32f4xx.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\pid_controller.h
+	"globs.h"
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\globs\include\globs.h
+	<cstdint>
+	"glob_template.h"
+	"glob_types.h"
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\globs\include\glob_template.h
+	"glob_base.h"
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\globs\include\glob_base.h
+	<cstring>
+	"scheduler.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\tb6612fng.h
+	"digital_out.h"
+	"pwm_out_advanced_timer.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\pwm_out_advanced_timer.h
+	<cstdint>
+
+1459441840 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\include\telemetry_receive_task.h
+	"digital_out.h"
+	"glob_types.h"
+	"glo_rx_link.h"
+	"task.h"
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\glo_link\include\glo_rx_link.h
+	<cstdint>
+	"usart.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\usart.h
+	"stm32f4xx.h"
+	"dma_rx.h"
+	"dma_tx.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\dma_rx.h
+	"stm32f4xx.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\dma_tx.h
+	"stm32f4xx.h"
+
+1459441840 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\include\status_update_task.h
+	"digital_out.h"
+	"glob_types.h"
+	"periodic_task.h"
+
+1459441840 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\include\leds_task.h
+	"digital_out.h"
+	"green_leds.h"
+	"periodic_task.h"
+	"user_leds.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\green_leds.h
+	<cstdint>
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\user_leds.h
+	"stm32f4xx.h"
+
+1459441840 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\include\modes_task.h
+	"glob_types.h"
+	"periodic_task.h"
+	"user_pb.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\user_pb.h
+	<cstdint>
+
+1459441840 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\include\telemetry_send_task.h
+	"glo_tx_link.h"
+	"glob_types.h"
+	"queued_task.h"
+	"simple_array.h"
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\glo_link\include\glo_tx_link.h
+	<cstdint>
+	<cstdio>
+	"usart.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\scheduler\include\queued_task.h
+	"queue.h"
+	"task.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\scheduler\include\queue.h
+	"scheduler.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\simple_array.h
+
+1459441836 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\embitz_projects\eeva_full_version\source\robot_settings.cpp
+	"physical_constants.h"
+	"robot_settings.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\physical_constants.h
+
+1459441836 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\embitz_projects\eeva_full_version\include\robot_settings.h
+	<cstdint>
+
+1459441836 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\globs\globs.cpp
+	"globs.h"
+
+1459441836 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\hardware_config\system\exception_handlers.cpp
+	"util_assert.h"
+	"stm32f4xx.h"
+
+1459441836 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\hardware_config\system\pre_main_setup.cpp
+	"user_pb.h"
+	"bootloader_init.h"
+
+1459441838 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\bootloader_init.h
+
+1459441836 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\hardware_config\system\startup_stm32f4xx.s
+
+1459441836 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\hardware_config\system\system_stm32f4xx_eeva_revd.c
+	"stm32f4xx.h"
+
+1459441836 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\glo_link\glo_rx_link.cpp
+	"crc.h"
+	"glo_rx_link.h"
+	"globs.h"
+	"telemetry_send_task.h"
+	"util_assert.h"
+
+1459441838 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\crc.h
+	<cstdint>
+
+1459441836 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\glo_link\glo_tx_link.cpp
+	"crc.h"
+	"glo_tx_link.h"
+	"globs.h"
+	"util_assert.h"
+
+1459441837 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\misc.c
+	"misc.h"
+
+1459441837 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_adc.c
+	"stm32f4xx_adc.h"
+	"stm32f4xx_rcc.h"
+
+1459441837 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_dma.c
+	"stm32f4xx_dma.h"
+	"stm32f4xx_rcc.h"
+
+1459441837 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_exti.c
+	"stm32f4xx_exti.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_flash.c
+	"stm32f4xx_flash.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_gpio.c
+	"stm32f4xx_gpio.h"
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_pwr.c
+	"stm32f4xx_pwr.h"
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_rcc.c
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_rtc.c
+	"stm32f4xx_rtc.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_spi.c
+	"stm32f4xx_spi.h"
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_syscfg.c
+	"stm32f4xx_syscfg.h"
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_tim.c
+	"stm32f4xx_tim.h"
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_usart.c
+	"stm32f4xx_usart.h"
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\analog_in.cpp
+	"analog_in.h"
+	"stm32f4xx.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\bootloader_init.cpp
+	"bootloader_init.h"
+	<cstdint>
+	"stm32f4xx_rcc.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\complementary_filter.cpp
+	<math.h>
+	<string.h>
+	"complementary_filter.h"
+	"coordinate_conversions.h"
+	"physical_constants.h"
+
+1459441838 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\coordinate_conversions.h
+	<stdbool.h>
+	<stdint.h>
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\coordinate_conversions.cpp
+	<math.h>
+	"coordinate_conversions.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\crc.cpp
+	"crc.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\debug_printf.cpp
+	<cstdio>
+	<cstring>
+	<cstdarg>
+	"telemetry_send_task.h"
+	"globs.h"
+	"debug_printf.h"
+	"usart.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\derivative_filter.cpp
+	"derivative_filter.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\digital_in.cpp
+	"digital_in.h"
+	"util_assert.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\digital_in.h
+	"stm32f4xx_gpio.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\digital_out.cpp
+	"digital_out.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\dma_rx.cpp
+	<stdio.h>
+	<string.h>
+	"stm32f4xx.h"
+	"dma_rx.h"
+	"util_assert.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\dma_tx.cpp
+	<stdio.h>
+	<string.h>
+	"debug_printf.h"
+	"dma_tx.h"
+	"stm32f4xx.h"
+	"util_assert.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\encoder.cpp
+	"encoder.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\green_leds.cpp
+	"green_leds.h"
+	"stm32f4xx_gpio.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\mpu6000.cpp
+	<cstdio>
+	<cstdint>
+	"mpu6000.h"
+	"util_assert.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\pid_controller.cpp
+	"pid_controller.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\pwm_out_advanced_timer.cpp
+	"stm32f4xx.h"
+	"pwm_out_advanced_timer.h"
+	"math_util.h"
+	"util_assert.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\math_util.h
+	"physical_constants.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\six_point_sensor_cal.cpp
+	<math.h>
+	"stdint.h"
+	"six_point_sensor_cal.h"
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\six_point_sensor_cal.h
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\spi.cpp
+	<cstdint>
+	<cstdio>
+	"spi.h"
+	"util_assert.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\system_timer.cpp
+	"stm32f4xx.h"
+	"system_timer.h"
+	"scheduler.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\tb6612fng.cpp
+	"tb6612fng.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\trigtables.c
+	"trigtables.h"
+	<stdint.h>
+	<math.h>
+
+1459441839 c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\include\trigtables.h
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\usart.cpp
+	<stdio.h>
+	<string.h>
+	"stm32f4xx.h"
+	"dma_rx.h"
+	"dma_tx.h"
+	"usart.h"
+	"util_assert.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\user_leds.cpp
+	"user_leds.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\user_pb.cpp
+	"user_pb.h"
+	"stm32f4xx.h"
+
+1459441838 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\libraries\util\util_assert.cpp
+	<cstdarg>
+	<cstdio>
+	<cstring>
+	"telemetry_send_task.h"
+	"debug_printf.h"
+	"util_assert.h"
+	"globs.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\modes\balance_mode.cpp
+	<cmath>
+	"telemetry_receive_task.h"
+	"globs.h"
+	"main_control_task.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"telemetry_send_task.h"
+	"debug_printf.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\modes\experiment_mode.cpp
+	<cmath>
+	"globs.h"
+	"main_control_task.h"
+	"physical_constants.h"
+	"trigtables.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\modes\experiments\experiment1_mode.cpp
+	<cmath>
+	"globs.h"
+	"main_control_task.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\modes\experiments\experiment2_mode.cpp
+	<cmath>
+	"globs.h"
+	"main_control_task.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\modes\experiments\experiment3_mode.cpp
+	<cmath>
+	"globs.h"
+	"main_control_task.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\modes\horizontal_mode.cpp
+	<cmath>
+	"telemetry_receive_task.h"
+	"globs.h"
+	"main_control_task.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"telemetry_send_task.h"
+	"util_assert.h"
+
+1460663592 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\modes\line_following_mode.cpp
+	"globs.h"
+	"leds_task.h"
+	"main_control_task.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\scheduler\periodic_task.cpp
+	<cmath>
+	"periodic_task.h"
+	"system_timer.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\scheduler\scheduler.cpp
+	<cstdio>
+	<cstring>
+	"stm32f4xx.h"
+	"scheduler.h"
+	"math_util.h"
+	"debug_printf.h"
+	"globs.h"
+	"telemetry_receive_task.h"
+	"telemetry_send_task.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\scheduler\task.cpp
+	<cstring>
+	"task.h"
+	"system_timer.h"
+	"math_util.h"
+	"scheduler.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\complementary_filter_task.cpp
+	"complementary_filter_task.h"
+	"coordinate_conversions.h"
+	"globs.h"
+	"modes_task.h"
+	"robot_settings.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\leds_task.cpp
+	"globs.h"
+	"leds_task.h"
+	"robot_settings.h"
+	"status_update_task.h"
+	"util_assert.h"
+
+1460087777 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\modes_task.cpp
+	<cmath>
+	"debug_printf.h"
+	"globs.h"
+	"main_control_task.h"
+	"modes_task.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\status_update_task.cpp
+	"status_update_task.h"
+	"globs.h"
+	"math_util.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"telemetry_send_task.h"
+	"util_assert.h"
+
+1459441839 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\telemetry_receive_task.cpp
+	"telemetry_receive_task.h"
+	"globs.h"
+	"main_control_task.h"
+	"math_util.h"
+	"modes_task.h"
+	"robot_settings.h"
+	"telemetry_send_task.h"
+	"util_assert.h"
+
+1459441840 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\telemetry_send_task.cpp
+	"dma_rx.h"
+	"dma_tx.h"
+	"globs.h"
+	"telemetry_send_task.h"
+	"usart.h"
+	"util_assert.h"
+
+1460703857 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\modes\custom_mode.cpp
+	"globs.h"
+	"physical_constants.h"
+	"main_control_task.h"
+	"leds_task.h"
+	"debug_printf.h"
+	"pid_controller.h"
+
+1460703607 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\tasks\main_control_task.cpp
+	<cmath>
+	"debug_printf.h"
+	"globs.h"
+	"main_control_task.h"
+	"math_util.h"
+	"physical_constants.h"
+	"robot_settings.h"
+	"telemetry_send_task.h"
+	"util_assert.h"
+
+1460613591 source:c:\users\smith\onedrive\mechatronics\full_eeva_project\firmware\modes\race_mode.cpp
+	"globs.h"
+	"leds_task.h"
+	"main_control_task.h"
+
