@@ -117,14 +117,16 @@ enum maze_mode_t
     TURN_LEFT,
     TURN_RIGHT,
     TERMINATION,
-    TURN_AROUND
+    TURN_AROUND,
+    CENTER
 };
 
 enum turn_mode_t
 {
     LEFT,
     RIGHT,
-    AROUND
+    AROUND,
+    END
 };
 
 #endif // GLOB_CONSTANTS_H_INCLUDED

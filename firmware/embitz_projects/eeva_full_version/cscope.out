@@ -1,5 +1,5 @@
-cscope 15 $HOME\OneDrive\Mechatronics\full_eeva_project\firmware\embitz_projects\eeva_full_version"               0001045271
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\embitz_projects\eeva_full_version\include\robot_settings.h
+cscope 15 $HOME\Documents\full_eeva_project\firmware\embitz_projects\eeva_full_version"               0001046443
+	@C:\Users\smith\Documents\full_eeva_project\firmware\embitz_projects\eeva_full_version\include\robot_settings.h
 
 1 #iâdeà
 ROBOT_SETTINGS_H_INCLUDED
@@ -85,7 +85,7 @@ LOW_BATTERY_VOLTAGE
 CRITICAL_BATTERY_VOLTAGE
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\embitz_projects\eeva_full_version\source\main.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\embitz_projects\eeva_full_version\source\main.cpp
 
 2 
 	~<c¡dio
@@ -301,7 +301,7 @@ scheduËr
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\embitz_projects\eeva_full_version\source\robot_settings.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\embitz_projects\eeva_full_version\source\robot_settings.cpp
 
 3 
 	~"physiÿl_cÚ¡ªts.h
@@ -397,7 +397,7 @@ ENCODER_2_DIST
 	gCRITICAL_BATTERY_VOLTAGE
  = 6.3;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\globs\globs.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\globs\globs.cpp
 
 3 
 	#DEFINE_GLOBS
@@ -421,7 +421,7 @@ GlobBa£
 NUM_GLOBS
 ];
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\globs\include\glob_base.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\globs\include\glob_base.h
 
 1 #iâdeà
 GLOB_BASE_H_INCLUDED
@@ -683,7 +683,7 @@ GlobBa£
 globs
 [];
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\globs\include\glob_constants.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\globs\include\glob_constants.h
 
 3 #iâdeà
 GLOB_CONSTANTS_H_INCLUDED
@@ -955,25 +955,29 @@ ušt8_t
 
 120 
 	mTURN_AROUND
+,
+
+121 
+	mCENTER
 
 
-123 
+124 
 	etuº_mode_t
 
 
-125 
+126 
 	mLEFT
 ,
 
-126 
+127 
 	mRIGHT
 ,
 
-127 
+128 
 	mAROUND
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\globs\include\glob_template.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\globs\include\glob_template.h
 
 1 #iâdeà
 GLOB_TEMPLATE_H_INCLUDED
@@ -1317,7 +1321,7 @@ scheduËr
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\globs\include\glob_types.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\globs\include\glob_types.h
 
 5 #iâdeà
 GLOB_TYPES_H_INCLUDED
@@ -1893,7 +1897,7 @@ ušt32_t
 	tglo_sk_timšg_t
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\globs\include\globs.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\globs\include\globs.h
 
 4 #iâdeà
 GLOBS_H_INCLUDED
@@ -2363,7 +2367,7 @@ GLO_ID_TASK_TIMING
 T–em‘ryS’dTask
 );
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\linker\stm32f407ve_flash.ld
+	@C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\linker\stm32f407ve_flash.ld
 
 33 
 OUTPUT_FORMAT
@@ -2813,7 +2817,7 @@ __SckLim™
 __H—pLim™
 , "region RAM overflowed with stack")
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\linker\stm32f407ve_sram.ld
+	@C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\linker\stm32f407ve_sram.ld
 
 33 
 OUTPUT_FORMAT
@@ -3267,7 +3271,7 @@ __SckLim™
 __H—pLim™
 , "region RAM overflowed with stack")
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\exception_handlers.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\exception_handlers.cpp
 
 3 
 	~"ut_as£¹.h
@@ -3365,7 +3369,7 @@ as£¹_®ways_msg
 ASSERT_STOP
 , "Usage Fault! Examples‡re division by 0 or misaligned memory‡ccess.");
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\include\stm32f4xx.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\include\stm32f4xx.h
 
 53 #iâdeà
 __STM32F4xx_H
@@ -57201,7 +57205,7 @@ SETMASK
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\include\stm32f4xx_conf.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\include\stm32f4xx_conf.h
 
 23 #iâdeà
 __STM32F4xx_CONF_H
@@ -57375,7 +57379,7 @@ ex´
 
 	)
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\include\system_stm32f4xx.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\include\system_stm32f4xx.h
 
 39 #iâdeà
 __SYSTEM_STM32F4XX_H
@@ -57409,7 +57413,7 @@ Sy¡emCÜeClockUpd©e
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\pre_main_setup.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\pre_main_setup.cpp
 
 2 
 	~"u£r_pb.h
@@ -57457,7 +57461,7 @@ push_bu‰Ú
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\startup_stm32f4xx.S
+	@C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\startup_stm32f4xx.S
 
 32 .
 syÁax
@@ -59011,7 +59015,7 @@ def_œq_hªdËr
 	g’d
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\system_stm32f4xx_eeva_revD.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\system_stm32f4xx_eeva_revD.c
 
 123 
 	~"¡m32f4xx.h
@@ -59697,7 +59701,7 @@ BWTR
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\cmsis\arm_common_tables.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\cmsis\arm_common_tables.h
 
 24 #iâdeà
 _ARM_COMMON_TABLES_H
@@ -59743,7 +59747,7 @@ q31_t
 »®CÛfBQ31
 [1024];
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\cmsis\arm_math.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\cmsis\arm_math.h
 
 251 #iâdeà
 _ARM_MATH_H
@@ -73863,7 +73867,7 @@ acc
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\cmsis\core_cm4.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\cmsis\core_cm4.h
 
 23 #ià
 defšed
@@ -77941,7 +77945,7 @@ ITM_RXBUFFER_EMPTY
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\cmsis\core_cm4_simd.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\cmsis\core_cm4_simd.h
 
 24 #ifdeà
 __ılu¥lus
@@ -81129,7 +81133,7 @@ __TASKING__
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\cmsis\core_cmFunc.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\cmsis\core_cmFunc.h
 
 24 #iâdeà
 __CORE_CMFUNC_H
@@ -82227,7 +82231,7 @@ defšed
 __TASKING__
  )
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\cmsis\core_cmInstr.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\cmsis\core_cmInstr.h
 
 24 #iâdeà
 __CORE_CMINSTR_H
@@ -83161,7 +83165,7 @@ defšed
 __TASKING__
  )
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\glo_link\glo_rx_link.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\glo_link\glo_rx_link.cpp
 
 2 
 	~"üc.h
@@ -83615,7 +83619,7 @@ d©a_idx_
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\glo_link\glo_tx_link.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\glo_link\glo_tx_link.cpp
 
 2 
 	~"üc.h
@@ -83909,7 +83913,7 @@ SEND_SUCCESS
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\glo_link\include\glo_rx_link.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\glo_link\include\glo_rx_link.h
 
 1 #iâdeà
 GLO_RX_LINK_H_INCLUDED
@@ -84077,7 +84081,7 @@ ušt8_t
 	gÏ¡_rx_·ck‘_num_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\glo_link\include\glo_tx_link.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\glo_link\include\glo_tx_link.h
 
 1 #iâdeà
 GLO_TX_LINK_H_INCLUDED
@@ -84195,7 +84199,7 @@ ušt8_t
 	}
 };
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\misc.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\misc.h
 
 30 #iâdeà
 __MISC_H
@@ -84501,7 +84505,7 @@ SysTick_CLKSourû
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_adc.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_adc.h
 
 30 #iâdeà
 __STM32F4xx_ADC_H
@@ -87063,7 +87067,7 @@ ADC_IT
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_dma.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_dma.h
 
 30 #iâdeà
 __STM32F4xx_DMA_H
@@ -89383,7 +89387,7 @@ DMA_IT
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_exti.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_exti.h
 
 30 #iâdeà
 __STM32F4xx_EXTI_H
@@ -89855,7 +89859,7 @@ EXTI_Lše
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_flash.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_flash.h
 
 30 #iâdeà
 __STM32F4xx_FLASH_H
@@ -91817,7 +91821,7 @@ FLASH_Wa™FÜLa¡O³¿tiÚ
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_gpio.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_gpio.h
 
 30 #iâdeà
 __STM32F4xx_GPIO_H
@@ -93753,7 +93757,7 @@ GPIO_AF
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_pwr.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_pwr.h
 
 30 #iâdeà
 __STM32F4xx_PWR_H
@@ -94307,7 +94311,7 @@ PWR_FLAG
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rcc.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rcc.h
 
 29 #iâdeà
 __STM32F4xx_RCC_H
@@ -97277,7 +97281,7 @@ RCC_IT
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rtc.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rtc.h
 
 30 #iâdeà
 __STM32F4xx_RTC_H
@@ -100191,7 +100195,7 @@ RTC_IT
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_spi.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_spi.h
 
 30 #iâdeà
 __STM32F4xx_SPI_H
@@ -102019,7 +102023,7 @@ SPI_I2S_IT
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_syscfg.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_syscfg.h
 
 30 #iâdeà
 __STM32F4xx_SYSCFG_H
@@ -102681,7 +102685,7 @@ SYSCFG_G‘Com³n§tiÚC–lStus
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_tim.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_tim.h
 
 30 #iâdeà
 __STM32F4xx_TIM_H
@@ -107305,7 +107309,7 @@ TIM_Rem­
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_usart.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_usart.h
 
 30 #iâdeà
 __STM32F4xx_USART_H
@@ -108663,7 +108667,7 @@ USART_IT
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\misc.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\misc.c
 
 76 
 	~"misc.h
@@ -109007,7 +109011,7 @@ SysTick_CLKSourû_HCLK_Div8
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_adc.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_adc.c
 
 106 
 	~"¡m32f4xx_adc.h
@@ -111989,7 +111993,7 @@ ušt32_t
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_dma.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_dma.c
 
 124 
 	~"¡m32f4xx_dma.h
@@ -114047,7 +114051,7 @@ RESERVED_MASK
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_exti.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_exti.c
 
 67 
 	~"¡m32f4xx_exti.h
@@ -114553,7 +114557,7 @@ EXTI_Lše
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_flash.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_flash.c
 
 72 
 	~"¡m32f4xx_æash.h
@@ -116991,7 +116995,7 @@ FLASH_BUSY
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_gpio.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_gpio.c
 
 84 
 	~"¡m32f4xx_gpio.h
@@ -118135,7 +118139,7 @@ GPIO_PšSourû
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_pwr.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_pwr.c
 
 38 
 	~"¡m32f4xx_pwr.h
@@ -119215,7 +119219,7 @@ PWR_FLAG
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_rcc.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_rcc.c
 
 59 
 	~"¡m32f4xx_rcc.h
@@ -122497,7 +122501,7 @@ RCC_IT
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_rtc.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_rtc.c
 
 285 
 	~"¡m32f4xx_¹c.h
@@ -128035,7 +128039,7 @@ ušt8_t
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_spi.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_spi.c
 
 159 
 	~"¡m32f4xx_¥i.h
@@ -130235,7 +130239,7 @@ ušt16_t
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_syscfg.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_syscfg.c
 
 50 
 	~"¡m32f4xx_syscfg.h
@@ -130597,7 +130601,7 @@ b™¡©us
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_tim.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_tim.c
 
 119 
 	~"¡m32f4xx_tim.h
@@ -138197,7 +138201,7 @@ tmpcûr
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_usart.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_usart.c
 
 92 
 	~"¡m32f4xx_u§¹.h
@@ -140519,7 +140523,7 @@ ušt16_t
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\analog_in.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\analog_in.cpp
 
 2 
 	~"ª®og_š.h
@@ -141109,7 +141113,7 @@ couÁ
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\bootloader_init.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\bootloader_init.cpp
 
 2 
 	~"boÙlßd”_š™.h
@@ -141223,7 +141227,7 @@ usšg_usb
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\complementary_filter.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\complementary_filter.cpp
 
 2 
 	~<m©h.h
@@ -141695,7 +141699,7 @@ qu©_
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\coordinate_conversions.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\coordinate_conversions.cpp
 
 1 
 	~<m©h.h
@@ -144215,7 +144219,7 @@ Rbe
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\crc.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\crc.cpp
 
 1 
 	~"üc.h
@@ -144273,7 +144277,7 @@ bufãr
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\debug_printf.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\debug_printf.cpp
 
 2 
 	~<c¡dio
@@ -144359,7 +144363,7 @@ hªdË
 debug_mes§ge
 );
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\derivative_filter.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\derivative_filter.cpp
 
 2 
 	~"d”iv©ive_f‹r.h
@@ -144545,7 +144549,7 @@ v–oc™y
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\digital_in.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\digital_in.cpp
 
 2 
 	~"dig™®_š.h
@@ -144689,7 +144693,7 @@ GPIO_In™SŒuùu»
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\digital_out.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\digital_out.cpp
 
 2 
 	~"dig™®_out.h
@@ -144981,7 +144985,7 @@ GPIO_In™SŒuùu»
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\dma_rx.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\dma_rx.cpp
 
 2 
 	~<¡dio.h
@@ -145331,7 +145335,7 @@ buff_Ëngth_
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\dma_tx.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\dma_tx.cpp
 
 2 
 	~<¡dio.h
@@ -146145,7 +146149,7 @@ dma_aùive_
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\encoder.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\encoder.cpp
 
 2 
 	~"’cod”.h
@@ -146597,7 +146601,7 @@ couÁ”
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\green_leds.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\green_leds.cpp
 
 2 
 	~"g»’_Ëds.h
@@ -146791,7 +146795,7 @@ i
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\analog_in.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\analog_in.h
 
 1 #iâdeà
 ANALOG_IN_H_INCLUDED
@@ -146843,7 +146847,7 @@ ušt16_t
 adc_¿w_v®ues_
 [9];
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\bootloader_init.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\bootloader_init.h
 
 1 #iâdeà
 BOOTLOADER_INIT_H_INCLUDED
@@ -146859,7 +146863,7 @@ BOOTLOADER_INIT_H_INCLUDED
 boÙlßd”_š™
 ();
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\complementary_filter.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\complementary_filter.h
 
 1 #iâdeà
 COMPLEMENTARY_FILTER_H_INCLUDED
@@ -146929,7 +146933,7 @@ k·_
 	m©t_š‹g¿l_
 [3];
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\coordinate_conversions.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\coordinate_conversions.h
 
 1 #iâdeà
 COORDINATE_CONVERSIONS_H_INCLUDED
@@ -147243,7 +147247,7 @@ acûls
 Rbe
 [3][3]);
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\crc.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\crc.h
 
 1 #iâdeà
 CRC_H_INCLUDED
@@ -147275,7 +147279,7 @@ size
 š™
 );
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\debug_printf.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\debug_printf.h
 
 1 #iâdeà
 DEBUG_PRINTF_H_INCLUDED
@@ -147315,7 +147319,7 @@ ušt32_t
 	gby‹s_to_´št
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\derivative_filter.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\derivative_filter.h
 
 1 #iâdeà
 DERIVATIVE_FILTER_H_INCLUDED
@@ -147381,7 +147385,7 @@ a0_
 	mpk2_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\digital_in.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\digital_in.h
 
 1 #iâdeà
 DIGITAL_IN_H_INCLUDED
@@ -147471,7 +147475,7 @@ pÜt_
 	}
 };
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\digital_out.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\digital_out.h
 
 1 #iâdeà
 DIGITAL_OUT_H_INCLUDED
@@ -147619,7 +147623,7 @@ GPIO_Ty³Def
 	gpÜt_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\dma_rx.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\dma_rx.h
 
 1 #iâdeà
 DMA_RX_H_INCLUDED
@@ -147719,7 +147723,7 @@ DMA_SŒ—m_Ty³Def
 dma_¡»am_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\dma_tx.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\dma_tx.h
 
 1 #iâdeà
 DMA_TX_H_INCLUDED
@@ -147919,7 +147923,7 @@ ušt32_t
 	m”rÜ_couÁ_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\encoder.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\encoder.h
 
 1 #iâdeà
 ENCODER_H_INCLUDED
@@ -148001,7 +148005,7 @@ ušt16_t
 	mov”æows_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\green_leds.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\green_leds.h
 
 1 #iâdeà
 GREEN_LEDS_H_INCLUDED
@@ -148039,7 +148043,7 @@ ušt8_t
 ·‰”n
 );
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\math_util.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\math_util.h
 
 1 #iâdeà
 MATH_UTIL_H_INCLUDED
@@ -148381,7 +148385,7 @@ num_–em’ts
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\mpu6000.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\mpu6000.h
 
 1 #iâdeà
 MPU6000_H_INCLUDED
@@ -148555,7 +148559,7 @@ SPI
 	gacûl_¿nge_sÿË_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\physical_constants.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\physical_constants.h
 
 1 #iâdeà
 PHYSICAL_CONSTANTS_H_INCLUDED
@@ -148753,7 +148757,7 @@ CELSIUS2KELVIN
 
 	)
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\pid_controller.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\pid_controller.h
 
 1 #iâdeà
 PID_CONTROLLER_H_INCLUDED
@@ -148875,7 +148879,7 @@ lŞim™_
 	}
 };
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\pwm_out_advanced_timer.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\pwm_out_advanced_timer.h
 
 1 #iâdeà
 PWM_OUT_ADVANCED_TIMER_H_INCLUDED
@@ -148923,7 +148927,7 @@ ušt32_t
 auto_»lßd_»g_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\simple_array.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\simple_array.h
 
 1 #iâdeà
 SIMPLE_ARRAY_H_INCLUDED
@@ -149335,7 +149339,7 @@ idx
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\six_point_sensor_cal.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\six_point_sensor_cal.h
 
 1 #iâdeà
 SIX_POINT_SENSOR_CAL_H_INCLUDED
@@ -149367,7 +149371,7 @@ S
 b
 [3]);
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\spi.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\spi.h
 
 1 #iâdeà
 SPI_H_INCLUDED
@@ -149487,7 +149491,7 @@ SPI_Ty³Def
 	mba£_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\system_timer.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\system_timer.h
 
 1 #iâdeà
 SYSTEM_TIMER_H_INCLUDED
@@ -149587,7 +149591,7 @@ Sy¡emTim”
 sys_tim”
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\tb6612fng.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\tb6612fng.h
 
 1 #iâdeà
 TB6612FNG_H_INCLUDED
@@ -149641,7 +149645,7 @@ PwmOutAdvªûdTim”
 pwm_tim”_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\trigtables.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\trigtables.h
 
 1 #iâdeà
 TRIGTABLES_H_INCLUDED
@@ -149705,7 +149709,7 @@ th‘a
 __ılu¥lus
 
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\usart.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\usart.h
 
 1 #iâdeà
 USART_H_INCLUDED
@@ -149921,7 +149925,7 @@ USART_Ty³Def
 	gUSARTx_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\user_leds.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\user_leds.h
 
 1 #iâdeà
 USER_LEDS_H_INCLUDED
@@ -149993,7 +149997,7 @@ u£r_Ëd_id_t
 Ëd
 );
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\user_pb.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\user_pb.h
 
 1 #iâdeà
 USER_PB_H_INCLUDED
@@ -150067,7 +150071,7 @@ boŞ
 	mbu‰Ú_was_´es£d_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\util_assert.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\util_assert.h
 
 35 #iâdeà
 UTIL_ASSERT_H_INCLUDED
@@ -150267,7 +150271,7 @@ aùiÚ
 	gfÜm©
 ,
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\mpu6000.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\mpu6000.cpp
 
 5 
 	~<c¡dio
@@ -151773,7 +151777,7 @@ miüo£cÚds
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\pid_controller.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\pid_controller.cpp
 
 2 
 	~"pid_cÚŒŞËr.h
@@ -152109,7 +152113,7 @@ him™_
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\pwm_out_advanced_timer.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\pwm_out_advanced_timer.cpp
 
 2 
 	~"¡m32f4xx.h
@@ -152553,7 +152557,7 @@ ASSERT_STOP
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\six_point_sensor_cal.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\six_point_sensor_cal.cpp
 
 2 
 	~<m©h.h
@@ -153023,7 +153027,7 @@ a
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\spi.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\spi.cpp
 
 2 
 	~<c¡dšt
@@ -153803,7 +153807,7 @@ ba£_
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\system_timer.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\system_timer.cpp
 
 2 
 	~"¡m32f4xx.h
@@ -154013,7 +154017,7 @@ this
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\tb6612fng.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\tb6612fng.cpp
 
 2 
 	~"tb6612âg.h
@@ -154197,7 +154201,7 @@ b_š2
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\trigtables.c
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\trigtables.c
 
 1 
 	~"ŒigbËs.h
@@ -154395,7 +154399,7 @@ SšIndex
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\usart.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\usart.cpp
 
 2 
 	~<¡dio.h
@@ -155423,7 +155427,7 @@ U§¹
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\user_leds.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\user_leds.cpp
 
 2 
 	~"u£r_Ëds.h
@@ -155751,7 +155755,7 @@ GPIO_Pš_1
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\user_pb.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\user_pb.cpp
 
 4 
 	~"u£r_pb.h
@@ -156017,7 +156021,7 @@ bu‰Ú_aùiv©ed
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\util_assert.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\util_assert.cpp
 
 2 
 	~<c¡d¬g
@@ -156317,7 +156321,7 @@ GLO_ID_STATUS_DATA
 	gŒue
 ) {};
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\balance_mode.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\modes\balance_mode.cpp
 
 2 
 	~<cm©h
@@ -156581,7 +156585,7 @@ d–_duty_cyşe
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\custom_mode.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\modes\custom_mode.cpp
 
 2 
 	~"globs.h
@@ -156615,11 +156619,21 @@ d–_duty_cyşe
 
 10 
 	#NOMINAL_SPEED
- (0.25f)
+ (0.3f)
 
 	)
 
-13 
+15 
+d‘”mše_dœeùiÚ
+(
+dœ
+, 
+št8_t
+ 
+sÿË
+);
+
+16 
 d‘”mše_lše_pos
 (
 ušt8_t
@@ -156631,19 +156645,57 @@ lše_posi¡iÚ
 num_qŒ_Ú
 );
 
-14 
-PidCÚŒŞËr
- 
-Œack_maze_lše_pid
-(20, 15, 0, -1, 1, -4, 4);
+17 
+	g¡¬t_di¡ªû
+ = 0.0f;
 
-17 
+18 
+	gabsŞu‹_begšnšg_di¡ªû
+ = 0.0f;
+
+19 
+	gd–_di¡ªû
+ = 0.0f;
+
+20 
+	gdi¡ªû_b‘w“n_node
+ = 0.0f;
+
+21 
+	gnode_begšnšg_di¡ªû
+ = 0.0f;
+
+22 
+	gdi¡ªû_Œav–ed
+ = 0.0f;
+
+23 
+	gd–_yaw
+ = 0.0f;
+
+24 
+št8_t
+ 
+	gsÿËr_yaw
+ = 0;
+
+25 
+	gXdœeùiÚ
+, 
+	gYdœeùiÚ
+;
+
+26 
+	gINCREMENTAL_SPEED
+ = 0.0f;
+
+29 
 	gMašCÚŒŞTask
 ::
 	$cu¡omMode
 ()
 
-19 ià(
+31 ià(
 modes_
 .
 ¡©e
@@ -156651,19 +156703,63 @@ modes_
 STATE_NORMAL
 )
 
-21 
+33 
 št8_t
  
 qŒ_¡©e
  = 0;
 
-22 
+34 
 ušt8_t
  
 num_qŒ_Ú
  = 0;
 
-23 
+35 
+št8_t
+ 
+út
+ = 0;
+
+36 
+lše_pos™iÚ
+;
+
+38 
+maze_mode_t
+ 
+maze_mode
+ = 
+TRACK_LINE
+;
+
+39 
+tuº_mode_t
+ 
+tuº_mode
+ = 
+LEFT
+;
+
+41 
+yaw
+;
+
+42 
+cu¼’t_yaw
+;
+
+43 
+dœeùiÚ_yaw
+;
+
+44 
+di¡ªûX
+, 
+di¡ªûY
+;
+
+47 
 d–_¥“d
  = 0.0f, 
 Ëá_¥“d_commªd
@@ -156671,13 +156767,13 @@ d–_¥“d
 right_¥“d_commªd
  = 0.0f;
 
-26 
+49 
 ušt8_t
  
 i
  = 0; i < 8; i ++)
 
-28 ià(
+51 ià(
 ª®og_
 .
 vŞges
@@ -156687,17 +156783,17 @@ i
 QTR_THRESHOLD
 )
 
-30 
+53 
 qŒ_¡©e
  |ğ
 i
 <<i;
 
-31 
+54 
 num_qŒ_Ú
 ++;
 
-35 
+58 
 Ëds_sk
 .
 	`»que¡NewLedG»’P©‹º
@@ -156705,7 +156801,7 @@ num_qŒ_Ú
 qŒ_¡©e
 );
 
-36 
+59 
 lše_pos™iÚ
  = 
 	`d‘”mše_lše_pos
@@ -156715,18 +156811,18 @@ qŒ_¡©e
 num_qŒ_Ú
 );
 
-38 
+61 
 maze_mode
 )
 
-40 
+63 
 TRACK_LINE
 :
 
-41 
+65 
 d–_¥“d
  = 
-lše_Œack_pid
+Œack_maze_lše_pid
 .
 	`ÿlcuÏ‹
 (0.0à- 
@@ -156735,27 +156831,99 @@ lše_pos™iÚ
 d–_t_
 );
 
-42 
-Ëá_¥“d_commªd
+67 
+INCREMENTAL_SPEED
+ = INCREMENTAL_SPEED + 0.05;
+
+69 if(
+INCREMENTAL_SPEED
+ > 
+NOMINAL_SPEED
+)
+
+71 
+INCREMENTAL_SPEED
  = 
 NOMINAL_SPEED
- + 
-d–_¥“d
 ;
 
-43 
-right_¥“d_commªd
+74 
+absŞu‹_begšnšg_di¡ªû
  = 
-NOMINAL_SPEED
+odom‘ry_
+.
+avg_di¡ªû
+;
+
+76 
+di¡ªûX
+ = 
+absŞu‹_begšnšg_di¡ªû
  - 
-d–_¥“d
+¡¬t_di¡ªû
 ;
 
-51 ià(
+77 
+d–_di¡ªû
+ = 
+absŞu‹_begšnšg_di¡ªû
+ - 
+¡¬t_di¡ªû
+;
+
+78 
+di¡ªûX
+ = distanceX * 100;
+
+80 
+cu¼’t_yaw
+ = 
+odom‘ry_
+.
+yaw
+;
+
+81 
+dœeùiÚ_yaw
+ =(
+cu¼’t_yaw
+ - 
+yaw
+) * 1000 ;
+
+83 if(
 num_qŒ_Ú
  > 3)
 
-53 
+86 ià(
+út
+ < 10)
+
+88 
+Ëá_¥“d_commªd
+ = 
+NOMINAL_SPEED
+/4 + 
+d–_¥“d
+;
+
+89 
+right_¥“d_commªd
+ = 
+NOMINAL_SPEED
+/4 - 
+d–_¥“d
+;
+
+93 if((
+ª®og_
+.
+vŞges
+[0] > 
+QTR_THRESHOLD
+) && (analog_.voltages[7] > QTR_THRESHOLD))
+
+95 
 ¡¬t_di¡ªû
  = 
 odom‘ry_
@@ -156763,7 +156931,77 @@ odom‘ry_
 avg_di¡ªû
 ;
 
-55 if((
+96 
+tuº_mode
+ = 
+LEFT
+;
+
+97 
+maze_mode
+ = 
+ADVANCE
+;
+
+100 if((
+ª®og_
+.
+vŞges
+[7] > 
+QTR_THRESHOLD
+) && (analog_.voltages[0] < QTR_THRESHOLD))
+
+102 
+¡¬t_di¡ªû
+ = 
+odom‘ry_
+.
+avg_di¡ªû
+;
+
+103 
+tuº_mode
+ = 
+LEFT
+;
+
+104 
+maze_mode
+ = 
+ADVANCE
+;
+
+107 if((
+ª®og_
+.
+vŞges
+[0] > 
+QTR_THRESHOLD
+è&& (
+tuº_mode
+ !ğ
+LEFT
+) && (analog_.voltages[7] < QTR_THRESHOLD))
+
+109 
+¡¬t_di¡ªû
+ = 
+odom‘ry_
+.
+avg_di¡ªû
+;
+
+110 
+tuº_mode
+ = 
+RIGHT
+;
+
+114 if((
+tuº_mode
+ !ğ
+LEFT
+è&& (
 ª®og_
 .
 vŞges
@@ -156771,55 +157009,25 @@ vŞges
 QTR_THRESHOLD
 ) && (analog_.voltages[6] > QTR_THRESHOLD))
 
-57 
-tuº_mode
- = 
-LEFT
-;
-
-58 
+116 
 maze_mode
  = 
-ADVANCE
+TERMINATION
 ;
 
-60 if((
-ª®og_
-.
-vŞges
-[6] > 
-QTR_THRESHOLD
-))
+117 
+	`debug_´štf
+("TERMINATION");
 
-62 
-tuº_mode
- = 
-LEFT
-;
+120 
+út
+++;
 
-63 
-maze_mode
- = 
-ADVANCE
-;
-
-67 
-tuº_mode
- = 
-RIGHT
-;
-
-68 
-maze_mode
- = 
-ADVANCE
-;
-
-71 ià(
+122 ià(
 num_qŒ_Ú
  == 0)
 
-73 
+124 
 ¡¬t_di¡ªû
  = 
 odom‘ry_
@@ -156827,137 +157035,193 @@ odom‘ry_
 avg_di¡ªû
 ;
 
-74 
+125 
 tuº_mode
  = 
 AROUND
 ;
 
-75 
+126 
 maze_mode
  = 
 ADVANCE
 ;
 
-79 
+128 
+Ëá_¥“d_commªd
+ = 
+INCREMENTAL_SPEED
+ + 
+d–_¥“d
+;
+
+129 
+right_¥“d_commªd
+ = 
+INCREMENTAL_SPEED
+ - 
+d–_¥“d
+;
+
+133 
 ADVANCE
 :
 
-80 
+135 
+di¡ªû_b‘w“n_node
+ = 
+¡¬t_di¡ªû
+ - 
+node_begšnšg_di¡ªû
+;
+
+136 
 Ëá_¥“d_commªd
  = 
-NOMINAL_SPEED
-/2;
+INCREMENTAL_SPEED
+/2 + 
+d–_¥“d
+;
 
-81 
+137 
 right_¥“d_commªd
  = 
-NOMINAL_SPEED
-/2;
+INCREMENTAL_SPEED
+/2 - 
+d–_¥“d
+;
 
-83 ià((
+139 ià((
 odom‘ry_
 .
 avg_di¡ªû
  - 
 ¡¬t_di¡ªû
-) > 0.125f)
+) > 0.135f)
 
-85 
+141 
 yaw
  = 
 odom‘ry_
 .yaw;
 
-87 
+142 
+di¡ªû_Œav–ed
+ = 
+odom‘ry_
+.
+avg_di¡ªû
+ - 
+¡¬t_di¡ªû
+;
+
+143 
 tuº_mode
 )
 
-89 
+145 
 AROUND
 :
 
-90 
+147 
 maze_mode
  = 
 TURN_AROUND
 ;
 
-94 
+148 
+sÿËr_yaw
+ -= 2;
+
+149 
+	`d‘”mše_dœeùiÚ
+(
+d–_di¡ªû
+, 
+sÿËr_yaw
+);
+
+153 
 LEFT
 :
 
-95 
+154 
 maze_mode
  = 
 TURN_LEFT
 ;
 
-98 
+155 
+sÿËr_yaw
+ += 1;
+
+156 
+	`d‘”mše_dœeùiÚ
+(
+d–_di¡ªû
+, 
+sÿËr_yaw
+);
+
+160 
 RIGHT
 :
 
-99 
+161 if(
+num_qŒ_Ú
+ == 0)
+
+163 
 maze_mode
  = 
 TURN_RIGHT
 ;
 
-105 
+164 
+sÿËr_yaw
+ -= 1;
+
+165 
+	`d‘”mše_dœeùiÚ
+(
+d–_di¡ªû
+, 
+sÿËr_yaw
+);
+
+168 
+sÿËr_yaw
+ += 0;
+
+174 
 TERMINATION
 :
 
-106 
+175 
 Ëá_¥“d_commªd
  = 0.0f;
 
-107 
+176 
 right_¥“d_commªd
  = 0.0f;
 
-110 
+179 
 TURN_AROUND
 :
 
-112 
+180 
 Ëá_¥“d_commªd
  = 
-NOMINAL_SPEED
-;
+INCREMENTAL_SPEED
+/2;
 
-113 
+181 
 right_¥“d_commªd
  = -
-NOMINAL_SPEED
-;
+INCREMENTAL_SPEED
+/2;
 
-115 if(
-num_qŒ_Ú
- > 0)
-
-117 
-maze_mode
- = 
-TRACK_LINE
-;
-
-122 
-TURN_LEFT
-:
-
-123 
-Ëá_¥“d_commªd
- = -
-NOMINAL_SPEED
-;
-
-124 
-right_¥“d_commªd
- = 
-NOMINAL_SPEED
-;
-
-126 ià((
+183 if((
 ª®og_
 .
 vŞges
@@ -156967,37 +157231,105 @@ QTR_THRESHOLD
 odom‘ry_
 .
 yaw
- - yawè> 
+ - yawè< 
 PI
 /8)
 
-128 
+185 
+út
+ = 0;
+
+186 
+INCREMENTAL_SPEED
+ = 0;
+
+188 
+d–_yaw
+ = 
+odom‘ry_
+.
+yaw
+ - yaw;
+
+189 
 maze_mode
  = 
 TRACK_LINE
 ;
 
-133 
-TURN_RIGHT
+195 
+TURN_LEFT
 :
 
-134 
+196 
 Ëá_¥“d_commªd
- = 
-NOMINAL_SPEED
-;
-
-135 
-right_¥“d_commªd
  = -
-NOMINAL_SPEED
-;
+INCREMENTAL_SPEED
+/2;
 
-137 ià((
+197 
+right_¥“d_commªd
+ = 
+INCREMENTAL_SPEED
+/2;
+
+199 ià((
 ª®og_
 .
 vŞges
-[4] > 
+[6] > 
+QTR_THRESHOLD
+è&& (
+odom‘ry_
+.
+yaw
+ - yawè> 
+PI
+/8)
+
+201 
+út
+ = 0;
+
+202 
+d–_yaw
+ = 
+odom‘ry_
+.
+yaw
+ - yaw;
+
+203 
+maze_mode
+ = 
+TRACK_LINE
+;
+
+204 
+INCREMENTAL_SPEED
+ = 0;
+
+209 
+TURN_RIGHT
+:
+
+210 
+Ëá_¥“d_commªd
+ = 
+INCREMENTAL_SPEED
+/2;
+
+211 
+right_¥“d_commªd
+ = -
+INCREMENTAL_SPEED
+/2;
+
+213 ià((
+ª®og_
+.
+vŞges
+[1] > 
 QTR_THRESHOLD
 è&& (
 odom‘ry_
@@ -157007,13 +157339,29 @@ yaw
 PI
 /8)
 
-139 
+215 
+út
+ = 0;
+
+216 
+d–_yaw
+ = 
+odom‘ry_
+.
+yaw
+ - yaw;
+
+217 
 maze_mode
  = 
 TRACK_LINE
 ;
 
-145 
+218 
+INCREMENTAL_SPEED
+ = 0;
+
+224 
 Ëá_duty_commªd
  = 
 Ëá_¥“d_pid
@@ -157029,7 +157377,7 @@ odom‘ry_
 d–_t_
 );
 
-146 
+225 
 right_duty_commªd
  = 
 right_¥“d_pid
@@ -157045,7 +157393,7 @@ right_¥“d
 d–_t_
 );
 
-148 
+227 
 mÙÜ_pwm_
 .
 Ëá_duty
@@ -157053,7 +157401,7 @@ mÙÜ_pwm_
 Ëá_duty_commªd
 ;
 
-149 
+228 
 mÙÜ_pwm_
 .
 right_duty
@@ -157061,11 +157409,105 @@ right_duty
 right_duty_commªd
 ;
 
-152 
+231 
 	}
 }
 
-154 
+233 
+	$d‘”mše_dœeùiÚ
+(
+dœ
+, 
+št8_t
+ 
+sÿË
+)
+
+235 if(
+sÿË
+ < 0)
+
+237 
+sÿË
+ = scale * -1;
+
+239 ià(
+sÿË
+ % 2 == 0)
+
+243 
+YdœeùiÚ
+ -ğ
+dœ
+;
+
+244 
+	`debug_´štf
+("South: D–Y %˜sÿË¸%˜Y %i\n", ()(1000*
+dœ
+), ()(
+sÿË
+ * -1), ()(1000*
+YdœeùiÚ
+));
+
+249 
+XdœeùiÚ
+ -ğ
+dœ
+;
+
+250 
+	`debug_´štf
+("We¡: D–X %˜sÿË¸%˜X %i\n", ()(1000*
+dœ
+), ()(
+sÿË
+ * -1), ()(1000*
+XdœeùiÚ
+));
+
+255 if(
+sÿË
+ % 2 == 0)
+
+258 
+YdœeùiÚ
+ +ğ
+dœ
+;
+
+259 
+	`debug_´štf
+("NÜth: D–Y %˜sÿË¸%˜Y %i\n", ()(1000*
+dœ
+), ()(
+sÿË
+), ()(1000*
+YdœeùiÚ
+));
+
+264 
+XdœeùiÚ
+ +ğ
+dœ
+;
+
+265 
+	`debug_´štf
+("Ea¡: D–X %˜sÿË¸%˜X %i\n", ()(1000*
+dœ
+), ()(
+sÿË
+), ()(1000*
+XdœeùiÚ
+));
+
+269 
+	}
+}
+
+272 
 	$d‘”mše_lše_pos
 (
 ušt8_t
@@ -157077,67 +157519,67 @@ qŒ_¡©e
 num_qŒ_Ú
 )
 
-156 
+274 
 št8_t
  
 lše_lo¡_couÁ”
  = 0;
 
-157 
+275 
 lše_pos
  = 0;
 
-159 
+277 
 ušt8_t
  
 i
  = 0; i < 8; i++)
 
-161 ià(
+279 ià(
 qŒ_¡©e
  & (1<<
 i
 ))
 
-163 
+281 
 lše_pos
  +ğ(0.009525*
 i
 -0.0333375);
 
-166 ià((
+284 ià((
 num_qŒ_Ú
 ) && (num_qtr_on < 3))
 
-168 ià(
+286 ià(
 lše_lo¡_couÁ”
 )†ine_lost_counter -= 1;
 
-169 
+287 
 lše_pos
  =†še_pos/
 num_qŒ_Ú
 ;
 
-173 
+291 
 lše_lo¡_couÁ”
  = 9;
 
-174 
+292 
 lše_pos
  = 
 Ï¡_lše_pos
 ;
 
-177  (
+295  (
 lše_pos
 );
 
-178 
+296 
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\experiment_mode.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\modes\experiment_mode.cpp
 
 2 
 	~<cm©h
@@ -157723,7 +158165,7 @@ v®ue
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\experiments\experiment1_mode.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\modes\experiments\experiment1_mode.cpp
 
 2 
 	~<cm©h
@@ -157823,7 +158265,7 @@ d–_t_
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\experiments\experiment2_mode.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\modes\experiments\experiment2_mode.cpp
 
 2 
 	~<cm©h
@@ -157931,7 +158373,7 @@ d–_t_
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\experiments\experiment3_mode.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\modes\experiments\experiment3_mode.cpp
 
 2 
 	~<cm©h
@@ -157979,7 +158421,7 @@ ASSERT_CONTINUE
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\horizontal_mode.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\modes\horizontal_mode.cpp
 
 2 
 	~<cm©h
@@ -158181,7 +158623,7 @@ d–_duty
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\line_following_mode.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\modes\line_following_mode.cpp
 
 2 
 	~"globs.h
@@ -158203,7 +158645,7 @@ d–_duty
 
 10 
 ¥“d_commªd
- = .5;
+ = .25;
 
 13 
 lše_pos™iÚ
@@ -158481,7 +158923,7 @@ lše_pos™iÚ
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\race_mode.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\modes\race_mode.cpp
 
 2 
 	~"globs.h
@@ -158781,7 +159223,7 @@ lše_pos™iÚ
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\include\periodic_task.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\include\periodic_task.h
 
 1 #iâdeà
 SCHEDULER_PERIODIC_TASK_H_INCLUDED
@@ -158891,7 +159333,7 @@ ušt64_t
 	gÃxt_run_ticks_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\include\queue.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\include\queue.h
 
 1 #iâdeà
 SCHEDULER_QUEUE_H_INCLUDED
@@ -159425,7 +159867,7 @@ scheduËr
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\include\queued_task.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\include\queued_task.h
 
 1 #iâdeà
 SCHEDULER_QUEUED_TASK_H_INCLUDED
@@ -159611,7 +160053,7 @@ queue_
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\include\scheduler.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\include\scheduler.h
 
 1 #iâdeà
 SCHEDULER_H_INCLUDED
@@ -159751,7 +160193,7 @@ ScheduËr
 scheduËr
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\include\task.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\include\task.h
 
 1 #iâdeà
 SCHEDULER_TASK_H_INCLUDED
@@ -160043,7 +160485,7 @@ ušt32_t
 	gš‹rv®_ticks_sum_
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\include\task_ids.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\include\task_ids.h
 
 1 #iâdeà
 SCHEDULER_TASK_IDS_H_INCLUDED
@@ -160101,7 +160543,7 @@ SCHEDULER_TASK_IDS_H_INCLUDED
 	mTASK_ID_INVALID
  = -1,
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\periodic_task.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\periodic_task.cpp
 
 2 
 	~<cm©h
@@ -160357,7 +160799,7 @@ thrÙe
 äequ’cy
 );
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\scheduler.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\scheduler.cpp
 
 2 
 	~<c¡dio
@@ -160799,7 +161241,7 @@ execu‹
 TASK_ID_INVALID
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\task.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\task.cpp
 
 2 
 	~<c¡ršg
@@ -161381,7 +161823,7 @@ mš
 š‹rv®_ticks
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\complementary_filter_task.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\complementary_filter_task.cpp
 
 2 
 	~"com¶em’ry_f‹r_sk.h
@@ -161757,7 +162199,7 @@ rŞl_p™ch_yaw_
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\complementary_filter_task.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\complementary_filter_task.h
 
 1 #iâdeà
 COMPLEMENTARY_FILTER_TASK_H_INCLUDED
@@ -161895,7 +162337,7 @@ Com¶em’ryF‹rTask
 comp_f‹r_sk
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\leds_task.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\leds_task.h
 
 1 #iâdeà
 LEDS_TASK_H_INCLUDED
@@ -162031,7 +162473,7 @@ LedsTask
 Ëds_sk
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\main_control_task.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\main_control_task.h
 
 1 #iâdeà
 MAIN_CONTROL_TASK_H_INCLUDED
@@ -162191,289 +162633,259 @@ PidCÚŒŞËr
 	mlše_Œack_pid
 ;
 
-52 
+51 
+PidCÚŒŞËr
+ 
+	mŒack_maze_lše_pid
+;
+
+53 
 	m´iv©e
 :
 
-56 
+57 
 vœtu®
  
 run
 ();
 
-59 
+60 
 vœtu®
  
 š™Ÿlize
 ();
 
-62 
+63 
 »adNewD©a
 ();
 
-65 
+66 
 publishNewD©a
 ();
 
-69 
+70 
 upd©eMÙÜPWM
 ();
 
-73 
+74 
 runD©aC­tu»
 ();
 
-76 
+77 
 b®ªûMode
 ();
 
-79 
+80 
 hÜizÚlMode
 ();
 
-82 
+83 
 lšeFŞlowšgMode
 ();
 
-85 
+86 
 ¿ûMode
 ();
 
-88 
+89 
 cu¡omMode
 ();
 
-91 
+92 
 ex³rim’tMode
 ();
 
-92 
+93 
 ex³rim’t1Mode
 (
 ex³rim’t_šput
 );
 
-93 
+94 
 ex³rim’t2Mode
 (
 ex³rim’t_šput
 );
 
-94 
+95 
 ex³rim’t3Mode
 (
 ex³rim’t_šput
 );
 
-96 
+97 
 	m´iv©e
 :
 
-98 
-lše_pos™iÚ
-;
-
-99 
-	m¡¬t_di¡ªû
- = 0.0f;
-
 100 
-maze_mode_t
+Encod”
  
-	mmaze_mode
- = 
-TRACK_LINE
+Ëá_’cod”_
 ;
 
 101 
-tuº_mode_t
- 
-	mtuº_mode
- = 
-LEFT
-;
-
-102 
-	myaw
-;
-
-103 
-boŞ
- 
-	mright
- = 
-çl£
-;
-
-106 
-Encod”
- 
-	mËá_’cod”_
-;
-
-107 
 Encod”
  
 	mright_’cod”_
 ;
 
-110 
+104 
 AÇlogIn
  
 	mª®og_šputs_
 ;
 
-113 
+107 
 TB6612FNG
  
 	mhbridge_
 ;
 
-116 
+110 
 D”iv©iveF‹r
  
 	mËá_d”iv_
 ;
 
-117 
+111 
 D”iv©iveF‹r
  
 	mright_d”iv_
 ;
 
-118 
+112 
 D”iv©iveF‹r
  
 	mpos_cmd_d”iv_
 ;
 
-119 
+113 
 D”iv©iveF‹r
  
 	mth‘a_cmd_d”iv_
 ;
 
-120 
+114 
 D”iv©iveF‹r
  
 	mb‘a_d”iv_
 ;
 
-123 
+117 
 	mdi¡ªû_commªd_
 ;
 
-124 
+118 
 	myaw_commªd_
 ;
 
-127 
+121 
 	mK_
 [4];
 
-130 
+124 
 boŞ
  
 	mÿ±uršg_d©a_
 ;
 
-133 
+127 
 ušt32_t
  
 	mÿ±u»_couÁ”_
 ;
 
-136 
+130 
 ušt32_t
  
 	mÿ±u»_run_couÁs_
 ;
 
-139 
+133 
 ušt16_t
  
 	mmax_§m¶es_
 ;
 
-142 
+136 
 glo_modes_t
  
 	mmodes_
 ;
 
-143 
+137 
 glo_mÙiÚ_commªds_t
  
 	mmÙiÚ_commªds_
 ;
 
-144 
+138 
 glo_imu_t
  
 	mimu_
 ;
 
-145 
+139 
 glo_rŞl_p™ch_yaw_t
  
 	mrŞl_p™ch_yaw_
 ;
 
-146 
+140 
 glo_th‘a_z”o_t
  
 	mth‘a_z”o_
 ;
 
-147 
+141 
 glo_¡©us_d©a_t
  
 	m¡©us_d©a_
 ;
 
-150 
+144 
 glo_mÙÜ_pwm_t
  
 	mmÙÜ_pwm_
 ;
 
-151 
+145 
 glo_odom‘ry_t
  
 	modom‘ry_
 ;
 
-152 
+146 
 glo_ª®og_t
  
 	mª®og_
 ;
 
-153 
+147 
 glo_wave_t
  
 	mwave_
 ;
 
-154 
+148 
 glo_ÿ±u»_commªd_t
  
 	mÿ±u»_commªd_
 ;
 
-155 
+149 
 glo_ÿ±u»_d©a_t
  
 	mÿ±u»_d©a_
 ;
 
-160 
+154 
 MašCÚŒŞTask
  
 maš_cÚŒŞ_sk
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\modes_task.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\modes_task.h
 
 1 #iâdeà
 MODES_TASK_H_INCLUDED
@@ -162641,7 +163053,7 @@ ModesTask
 modes_sk
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\status_update_task.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\status_update_task.h
 
 1 #iâdeà
 STATUS_UPDATE_TASK_H_INCLUDED
@@ -162781,7 +163193,7 @@ StusUpd©eTask
 ¡©us_upd©e_sk
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\telemetry_receive_task.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\telemetry_receive_task.h
 
 1 #iâdeà
 TELEMETRY_RECEIVE_TASK_H_INCLUDED
@@ -162937,7 +163349,7 @@ T–em‘ryReûiveTask
 »ûive_sk
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\telemetry_send_task.h
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\telemetry_send_task.h
 
 1 #iâdeà
 TELEMETRY_SEND_TASK_H_INCLUDED
@@ -163221,7 +163633,7 @@ T–em‘ryS’dTask
 £nd_sk
 ;
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\leds_task.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\leds_task.cpp
 
 2 
 	~"globs.h
@@ -163623,7 +164035,7 @@ couÁ
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\main_control_task.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\main_control_task.cpp
 
 2 
 	~<cm©h
@@ -163699,83 +164111,87 @@ TASK_ID_MAIN_CONTROL
 
 20 
 	`lše_Œack_pid
-(50, 70, 20, -0.4, 0.4, -5.0, 5.0),
+(50.0f, 70.0f, 20.0f, -0.4, 0.4, -5.0, 5.0),
 
 21 
+	`Œack_maze_lše_pid
+(9.0f, 3.0f, 0.15f, -1, 1, -4, 4),
+
+22 
 	`Ëá_’cod”_
 (
 Encod”A
 ),
 
-22 
+23 
 	`right_’cod”_
 (
 Encod”B
 ),
 
-23 
+24 
 	`Ëá_d”iv_
 (
 d–_t_
 , 20.0f , 0.707f),
 
-24 
+25 
 	`right_d”iv_
 (
 d–_t_
 , 20.0f , 0.707f),
 
-25 
+26 
 	`pos_cmd_d”iv_
 (
 d–_t_
 , 50.0f , 0.707f),
 
-26 
+27 
 	`th‘a_cmd_d”iv_
 (
 d–_t_
 , 100.0f , 0.707f),
 
-27 
+28 
 	`b‘a_d”iv_
 (
 d–_t_
 , 10.0f , 0.707f),
 
-28 
+29 
 	`di¡ªû_commªd_
 (0.0f),
 
-29 
+30 
 	`yaw_commªd_
 (0.0f),
 
-30 
+31 
 	`ÿ±uršg_d©a_
 (
 çl£
 ),
 
-31 
+32 
 	`ÿ±u»_couÁ”_
 (0),
 
-32 
+33 
 	`ÿ±u»_run_couÁs_
 (0),
 
-33 
+34 
 	$max_§m¶es_
 (0)
 
-35 
+36 
 ušt8_t
  
 i
  = 0; i < 4; ++i)
 
-38 
+39 
 K_
 [
 i
@@ -163783,17 +164199,17 @@ i
 K_DEFAULT
 [i];
 
-40 
+41 
 	}
 }
 
-43 
+44 
 	gMašCÚŒŞTask
 ::
 	$š™Ÿlize
 ()
 
-46 
+47 
 max_§m¶es_
  = 
 globs
@@ -163803,17 +164219,17 @@ GLO_ID_CAPTURE_DATA
 	`g‘_num_š¡ªûs
 () - 1;
 
-47 
+48 
 	}
 }
 
-50 
+51 
 	gMašCÚŒŞTask
 ::
 	$»adNewD©a
 ()
 
-52 
+53 
 glo_modes
 .
 	`»ad
@@ -163821,7 +164237,7 @@ glo_modes
 modes_
 );
 
-53 
+54 
 glo_imu
 .
 	`»ad
@@ -163829,7 +164245,7 @@ glo_imu
 imu_
 );
 
-54 
+55 
 glo_rŞl_p™ch_yaw
 .
 	`»ad
@@ -163837,7 +164253,7 @@ glo_rŞl_p™ch_yaw
 rŞl_p™ch_yaw_
 );
 
-55 
+56 
 glo_th‘a_z”o
 .
 	`»ad
@@ -163845,7 +164261,7 @@ glo_th‘a_z”o
 th‘a_z”o_
 );
 
-56 
+57 
 glo_mÙiÚ_commªds
 .
 	`»ad
@@ -163853,7 +164269,7 @@ glo_mÙiÚ_commªds
 mÙiÚ_commªds_
 );
 
-57 
+58 
 glo_¡©us_d©a
 .
 	`»ad
@@ -163861,17 +164277,17 @@ glo_¡©us_d©a
 ¡©us_d©a_
 );
 
-58 
+59 
 	}
 }
 
-61 
+62 
 	gMašCÚŒŞTask
 ::
 	$publishNewD©a
 ()
 
-63 
+64 
 glo_odom‘ry
 .
 	`publish
@@ -163879,7 +164295,7 @@ glo_odom‘ry
 odom‘ry_
 );
 
-64 
+65 
 glo_ª®og
 .
 	`publish
@@ -163887,7 +164303,7 @@ glo_ª®og
 ª®og_
 );
 
-65 
+66 
 glo_wave
 .
 	`publish
@@ -163895,7 +164311,7 @@ glo_wave
 wave_
 );
 
-66 
+67 
 glo_mÙÜ_pwm
 .
 	`publish
@@ -163903,21 +164319,21 @@ glo_mÙÜ_pwm
 mÙÜ_pwm_
 );
 
-67 
+68 
 	}
 }
 
-70 
+71 
 	gMašCÚŒŞTask
 ::
 	$run
 ()
 
-73 
+74 
 	`»adNewD©a
 ();
 
-76 
+77 
 ª®og_šputs_
 .
 	`g‘VŞges
@@ -163927,7 +164343,7 @@ mÙÜ_pwm_
 vŞges
 );
 
-77 
+78 
 ª®og_
 .
 b©‹ry_vŞge
@@ -163939,7 +164355,7 @@ vŞges
 BATTERY_OFFSET
 ;
 
-80 
+81 
 odom‘ry_
 .
 Ëá_di¡ªû
@@ -163951,7 +164367,7 @@ ENCODER_SCALES
 	`»ad
 ();
 
-81 
+82 
 odom‘ry_
 .
 right_di¡ªû
@@ -163963,7 +164379,7 @@ right_’cod”_
 	`»ad
 ();
 
-82 
+83 
 odom‘ry_
 .
 avg_di¡ªû
@@ -163973,7 +164389,7 @@ avg_di¡ªû
 right_di¡ªû
 ) / 2.0f;
 
-83 
+84 
 odom‘ry_
 .
 yaw
@@ -163985,7 +164401,7 @@ right_di¡ªû
 WHEEL_BASE
 ;
 
-84 
+85 
 odom‘ry_
 .
 Ëá_¥“d
@@ -163997,7 +164413,7 @@ odom‘ry_
 Ëá_di¡ªû
 );
 
-85 
+86 
 odom‘ry_
 .
 right_¥“d
@@ -164009,7 +164425,7 @@ right_d”iv_
 right_di¡ªû
 );
 
-86 
+87 
 odom‘ry_
 .
 avg_¥“d
@@ -164019,87 +164435,87 @@ avg_¥“d
 right_¥“d
 ) / 2.0f;
 
-90 
+91 
 mÙÜ_pwm_
 .
 Ëá_duty
  = 0;
 
-91 
+92 
 mÙÜ_pwm_
 .
 right_duty
  = 0;
 
-92 
+93 
 modes_
 .
 maš_mode
 )
 
-94 
+95 
 MAIN_MODE_BALANCE
 :
 
-95 
+96 
 	`b®ªûMode
 ();
 
-97 
+98 
 MAIN_MODE_HORIZONTAL
 :
 
-98 
+99 
 	`hÜizÚlMode
 ();
 
-100 
+101 
 MAIN_MODE_LINE_FOLLOWING
 :
 
-101 
+102 
 	`lšeFŞlowšgMode
 ();
 
-103 
+104 
 MAIN_MODE_EXPERIMENT
 :
 
-104 
+105 
 	`ex³rim’tMode
 ();
 
-106 
+107 
 MAIN_MODE_CUSTOM
 :
 
-107 
+108 
 	`cu¡omMode
 ();
 
-109 
+110 
 MAIN_MODE_RACE
 :
 
-110 
+111 
 	`¿ûMode
 ();
 
-113 
+114 
 	`as£¹_®ways_msg
 (
 ASSERT_STOP
 , "Invalid main mode.");
 
-118 
+119 
 	`upd©eMÙÜPWM
 ();
 
-121 
+122 
 	`runD©aC­tu»
 ();
 
-126 ià((
+127 ià((
 modes_
 .
 maš_mode
@@ -164107,7 +164523,7 @@ maš_mode
 MAIN_MODE_EXPERIMENT
 ) &&
 
-127 (
+128 (
 ÿ±u»_commªd_
 .
 is_¡¬t
@@ -164115,7 +164531,7 @@ is_¡¬t
 ·u£d
 ))
 
-129 
+130 
 ÿ±u»_commªd_
 .
 ·u£d
@@ -164123,7 +164539,7 @@ is_¡¬t
 çl£
 ;
 
-130 
+131 
 this
 ->
 	`hªdË
@@ -164131,21 +164547,21 @@ this
 ÿ±u»_commªd_
 );
 
-133 
+134 
 	`publishNewD©a
 ();
 
-134 
+135 
 	}
 }
 
-137 
+138 
 	gMašCÚŒŞTask
 ::
 	$upd©eMÙÜPWM
 ()
 
-140 
+141 
 boŞ
  
 š_v®id_¡©e
@@ -164157,7 +164573,7 @@ modes_
 STATE_NORMAL
 );
 
-143 
+144 
 ušt8_t
  
 ”rÜ_d‘eùed
@@ -164169,25 +164585,25 @@ ušt8_t
 ERROR_CODE_CRICITAL_BATTERY
 );
 
-145 ià(!
+146 ià(!
 š_v®id_¡©e
  || 
 ”rÜ_d‘eùed
 )
 
-147 
+148 
 mÙÜ_pwm_
 .
 Ëá_duty
  = 0;
 
-148 
+149 
 mÙÜ_pwm_
 .
 right_duty
  = 0;
 
-152 
+153 
 mÙÜ_pwm_
 .
 Ëá_duty
@@ -164195,7 +164611,7 @@ mÙÜ_pwm_
 	`lim™
 (motor_pwm_.left_duty, -1.0f, 1.0f);
 
-153 
+154 
 mÙÜ_pwm_
 .
 right_duty
@@ -164203,11 +164619,11 @@ right_duty
 	`lim™
 (motor_pwm_.right_duty, -1.0f, 1.0f);
 
-161 
+162 
 sÿË
  = 1;
 
-162 ià((
+163 ià((
 ª®og_
 .
 b©‹ry_vŞge
@@ -164215,7 +164631,7 @@ b©‹ry_vŞge
 CRITICAL_BATTERY_VOLTAGE
  <=‡nalog_.battery_voltage))
 
-164 
+165 
 sÿË
  = 
 CRITICAL_BATTERY_VOLTAGE
@@ -164225,7 +164641,7 @@ CRITICAL_BATTERY_VOLTAGE
 b©‹ry_vŞge
 ;
 
-166 
+167 
 mÙÜ_pwm_
 .
 Ëá_duty
@@ -164233,7 +164649,7 @@ mÙÜ_pwm_
 sÿË
 ;
 
-167 
+168 
 mÙÜ_pwm_
 .
 right_duty
@@ -164241,7 +164657,7 @@ right_duty
 sÿË
 ;
 
-170 
+171 
 Ëá_duty
  = 
 mÙÜ_pwm_
@@ -164249,7 +164665,7 @@ mÙÜ_pwm_
 MOTOR_SIGNS
 [0];
 
-171 
+172 
 right_duty
  = 
 mÙÜ_pwm_
@@ -164257,7 +164673,7 @@ mÙÜ_pwm_
 MOTOR_SIGNS
 [1];
 
-173 
+174 
 hbridge_
 .
 	`£tDutyA
@@ -164265,7 +164681,7 @@ hbridge_
 Ëá_duty
 );
 
-174 
+175 
 hbridge_
 .
 	`£tDutyB
@@ -164273,17 +164689,17 @@ hbridge_
 right_duty
 );
 
-175 
+176 
 	}
 }
 
-178 
+179 
 	gMašCÚŒŞTask
 ::
 	$runD©aC­tu»
 ()
 
-181 
+182 
 boŞ
  
 cu¼’y_ÿ±uršg_d©a
@@ -164295,27 +164711,27 @@ is_¡¬t
 ·u£d
 ;
 
-184 ià(!
+185 ià(!
 ÿ±uršg_d©a_
  && 
 cu¼’y_ÿ±uršg_d©a
 )
 
-186 
+187 
 ÿ±uršg_d©a_
  = 
 Œue
 ;
 
-187 
+188 
 ÿ±u»_couÁ”_
  = 0;
 
-188 
+189 
 	`debug_´štf
 ("I'm startingo collect data.");
 
-192 
+193 
 boŞ
  
 bufãr_fuÎ
@@ -164325,7 +164741,7 @@ bufãr_fuÎ
 max_§m¶es_
 );
 
-193 
+194 
 boŞ
  
 have_desœed_§m¶es
@@ -164337,7 +164753,7 @@ have_desœed_§m¶es
 desœed_§m¶es
 );
 
-194 ià(
+195 ià(
 cu¼’y_ÿ±uršg_d©a
  && (
 bufãr_fuÎ
@@ -164345,19 +164761,19 @@ bufãr_fuÎ
 have_desœed_§m¶es
 ))
 
-196 
+197 
 cu¼’y_ÿ±uršg_d©a
  = 
 çl£
 ;
 
-199 
+200 
 ÿ±u»_commªd_
 .
 is_¡¬t
  = 0;
 
-200 
+201 
 glo_ÿ±u»_commªd
 .
 	`publish
@@ -164365,7 +164781,7 @@ glo_ÿ±u»_commªd
 ÿ±u»_commªd_
 );
 
-203 ià(!
+204 ià(!
 cu¼’y_ÿ±uršg_d©a
  && 
 ÿ±uršg_d©a_
@@ -164373,13 +164789,13 @@ cu¼’y_ÿ±uršg_d©a
 ÿ±u»_couÁ”_
  > 0))
 
-207 
+208 
 	`debug_´štf
 ("I cŞËùed %d d©¨§m¶es.", 
 ÿ±u»_couÁ”_
 );
 
-208 
+209 
 £nd_sk
 .
 	`£nd
@@ -164391,7 +164807,7 @@ glo_ÿ±u»_d©a
 ÿ±u»_couÁ”_
 );
 
-209 
+210 
 ÿ±u»_commªd_
 .
 tÙ®_§m¶es
@@ -164399,7 +164815,7 @@ tÙ®_§m¶es
 ÿ±u»_couÁ”_
 ;
 
-210 
+211 
 glo_ÿ±u»_commªd
 .
 	`publish
@@ -164407,7 +164823,7 @@ glo_ÿ±u»_commªd
 ÿ±u»_commªd_
 );
 
-211 
+212 
 £nd_sk
 .
 	`£nd
@@ -164417,17 +164833,17 @@ glo_ÿ±u»_commªd
 	`g‘_id
 ());
 
-215 
+216 
 ÿ±uršg_d©a_
  = 
 cu¼’y_ÿ±uršg_d©a
 ;
 
-217 ià(
+218 ià(
 cu¼’y_ÿ±uršg_d©a
 )
 
-219 ià(
+220 ià(
 	`thrÙeHz
 (
 ÿ±u»_commªd_
@@ -164435,15 +164851,15 @@ cu¼’y_ÿ±uršg_d©a
 äequ’cy
 ))
 
-221 ià(
+222 ià(
 ÿ±u»_couÁ”_
  == 0)
 
-224 
+225 
 ÿ±u»_run_couÁs_
  = 0;
 
-230 
+231 
 ÿ±u»_d©a_
 .
 time
@@ -164453,7 +164869,7 @@ d–_t_
 ÿ±u»_run_couÁs_
 ;
 
-231 
+232 
 ÿ±u»_d©a_
 .
 d1
@@ -164463,7 +164879,7 @@ rŞl_p™ch_yaw_
 ½y
 [1];
 
-232 
+233 
 ÿ±u»_d©a_
 .
 d2
@@ -164473,7 +164889,7 @@ wave_
 v®ue
 ;
 
-233 
+234 
 ÿ±u»_d©a_
 .
 d3
@@ -164483,7 +164899,7 @@ mÙÜ_pwm_
 Ëá_duty
 ;
 
-234 
+235 
 ÿ±u»_d©a_
 .
 d4
@@ -164493,7 +164909,7 @@ mÙÜ_pwm_
 right_duty
 ;
 
-235 
+236 
 ÿ±u»_d©a_
 .
 d5
@@ -164503,7 +164919,7 @@ odom‘ry_
 Ëá_di¡ªû
 ;
 
-236 
+237 
 ÿ±u»_d©a_
 .
 d6
@@ -164513,7 +164929,7 @@ odom‘ry_
 right_di¡ªû
 ;
 
-237 
+238 
 ÿ±u»_d©a_
 .
 d7
@@ -164523,7 +164939,7 @@ odom‘ry_
 Ëá_¥“d
 ;
 
-238 
+239 
 ÿ±u»_d©a_
 .
 d8
@@ -164533,7 +164949,7 @@ odom‘ry_
 right_¥“d
 ;
 
-242 
+243 
 glo_ÿ±u»_d©a
 .
 	`publish
@@ -164543,19 +164959,19 @@ glo_ÿ±u»_d©a
 ÿ±u»_couÁ”_
  + 1);
 
-244 ++
+245 ++
 ÿ±u»_couÁ”_
 ;
 
-248 ++
+249 ++
 ÿ±u»_run_couÁs_
 ;
 
-250 
+251 
 	}
 }
 
-253 
+254 
 	gMašCÚŒŞTask
 ::
 	$hªdË
@@ -164565,7 +164981,7 @@ glo_ÿ±u»_commªd_t
 commªd
 )
 
-256 
+257 
 commªd
 .
 desœed_§m¶es
@@ -164577,7 +164993,7 @@ ušt32_t
 max_§m¶es_
 );
 
-258 ià((
+259 ià((
 commªd
 .
 äequ’cy
@@ -164585,7 +165001,7 @@ commªd
 max_§m¶es_
 ))
 
-260 
+261 
 commªd
 .
 äequ’cy
@@ -164595,7 +165011,7 @@ this
 äequ’cy_
 ;
 
-264 
+265 
 št32_t
  
 sÿË
@@ -164611,7 +165027,7 @@ commªd
 äequ’cy
 );
 
-265 
+266 
 commªd
 .
 äequ’cy
@@ -164625,13 +165041,13 @@ this
 sÿË
 );
 
-267 
+268 
 ÿ±u»_commªd_
  = 
 commªd
 ;
 
-268 
+269 
 glo_ÿ±u»_commªd
 .
 	`publish
@@ -164639,23 +165055,23 @@ glo_ÿ±u»_commªd
 commªd
 );
 
-269 
+270 
 	}
 }
 
-272 
+273 
 	gMašCÚŒŞTask
 ::
 	$»£t_z”o_tt_ªgË
 ()
 
-274 
+275 
 glo_th‘a_z”o_t
  
 th‘a_z”o
  = { 0 };
 
-275 
+276 
 glo_th‘a_z”o
 .
 	`publish
@@ -164663,11 +165079,11 @@ glo_th‘a_z”o
 th‘a_z”o
 );
 
-276 
+277 
 	}
 }
 
-279 
+280 
 	gMašCÚŒŞTask
 ::
 	$hªdË
@@ -164677,7 +165093,7 @@ glo_wave_t
 wave
 )
 
-281 
+282 
 wave
 .
 ¡©e
@@ -164685,31 +165101,31 @@ wave
 WAVE_READY_TO_RUN
 ;
 
-282 
+283 
 wave
 .
 v®ue
  = 0;
 
-283 
+284 
 wave
 .
 time
  = 0;
 
-284 
+285 
 wave
 .
 tÙ®_time
  = 0;
 
-288 
+289 
 wave_
  = 
 wave
 ;
 
-289 
+290 
 glo_wave
 .
 	`publish
@@ -164717,11 +165133,11 @@ glo_wave
 wave
 );
 
-290 
+291 
 	}
 }
 
-293 
+294 
 	gMašCÚŒŞTask
 ::
 	$hªdË_b®ªû_tt_gašs
@@ -164731,7 +165147,7 @@ glo_pid_·¿ms_t
 tt_·¿ms
 )
 
-295 
+296 
 K_
 [0] = 
 tt_·¿ms
@@ -164739,7 +165155,7 @@ tt_·¿ms
 kp
 ;
 
-296 
+297 
 K_
 [1] = 
 tt_·¿ms
@@ -164747,11 +165163,11 @@ tt_·¿ms
 kd
 ;
 
-297 
+298 
 	}
 }
 
-300 
+301 
 	gMašCÚŒŞTask
 ::
 	$hªdË_b®ªû_pos™iÚ_gašs
@@ -164761,7 +165177,7 @@ glo_pid_·¿ms_t
 pos™iÚ_·¿ms
 )
 
-302 
+303 
 K_
 [2] = 
 pos™iÚ_·¿ms
@@ -164769,7 +165185,7 @@ pos™iÚ_·¿ms
 kp
 ;
 
-303 
+304 
 K_
 [3] = 
 pos™iÚ_·¿ms
@@ -164777,11 +165193,11 @@ pos™iÚ_·¿ms
 kd
 ;
 
-304 
+305 
 	}
 }
 
-307 
+308 
 	gMašCÚŒŞTask
 ::
 	$g‘_b®ªû_tt_gašs
@@ -164791,7 +165207,7 @@ glo_pid_·¿ms_t
 tt_·¿ms
 )
 
-309 
+310 
 tt_·¿ms
 .
 kp
@@ -164799,7 +165215,7 @@ kp
 K_
 [0];
 
-310 
+311 
 tt_·¿ms
 .
 kd
@@ -164807,41 +165223,41 @@ kd
 K_
 [1];
 
-311 
+312 
 tt_·¿ms
 .
 ki
  = 0;
 
-312 
+313 
 tt_·¿ms
 .
 š‹g¿l_lŞim™
  = 0;
 
-313 
+314 
 tt_·¿ms
 .
 š‹g¿l_him™
  = 0;
 
-314 
+315 
 tt_·¿ms
 .
 lŞim™
  = -10000;
 
-315 
+316 
 tt_·¿ms
 .
 him™
  = 10000;
 
-316 
+317 
 	}
 }
 
-319 
+320 
 	gMašCÚŒŞTask
 ::
 	$g‘_b®ªû_pos™iÚ_gašs
@@ -164851,7 +165267,7 @@ glo_pid_·¿ms_t
 pos™iÚ_·¿ms
 )
 
-321 
+322 
 pos™iÚ_·¿ms
 .
 kp
@@ -164859,7 +165275,7 @@ kp
 K_
 [2];
 
-322 
+323 
 pos™iÚ_·¿ms
 .
 kd
@@ -164867,101 +165283,101 @@ kd
 K_
 [3];
 
-323 
+324 
 pos™iÚ_·¿ms
 .
 ki
  = 0;
 
-324 
+325 
 pos™iÚ_·¿ms
 .
 š‹g¿l_lŞim™
  = 0;
 
-325 
+326 
 pos™iÚ_·¿ms
 .
 š‹g¿l_him™
  = 0;
 
-326 
+327 
 pos™iÚ_·¿ms
 .
 lŞim™
  = -10000;
 
-327 
+328 
 pos™iÚ_·¿ms
 .
 him™
  = 10000;
 
-328 
+329 
 	}
 }
 
-331 
+332 
 	gMašCÚŒŞTask
 ::
 	$»£t
 ()
 
-333 
+334 
 Ëá_’cod”_
 .
 	`£t
 (0);
 
-334 
+335 
 right_’cod”_
 .
 	`£t
 (0);
 
-335 
+336 
 Ëá_d”iv_
 .
 	`»£t
 ();
 
-336 
+337 
 right_d”iv_
 .
 	`»£t
 ();
 
-337 
+338 
 pos_cmd_d”iv_
 .
 	`»£t
 ();
 
-338 
+339 
 th‘a_cmd_d”iv_
 .
 	`»£t
 ();
 
-339 
+340 
 b‘a_d”iv_
 .
 	`»£t
 ();
 
-340 
+341 
 di¡ªû_commªd_
  = 0.0f;
 
-341 
+342 
 yaw_commªd_
  = 0.0f;
 
-342 
+343 
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\modes_task.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\modes_task.cpp
 
 2 
 	~<cm©h
@@ -165523,7 +165939,7 @@ modes_
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\status_update_task.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\status_update_task.cpp
 
 2 
 	~"¡©us_upd©e_sk.h
@@ -165921,7 +166337,7 @@ glo_”rÜ_codes_t
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\telemetry_receive_task.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\telemetry_receive_task.cpp
 
 2 
 	~"‹Ëm‘ry_»ûive_sk.h
@@ -166813,7 +167229,7 @@ msg
 	}
 }
 
-	@C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\telemetry_send_task.cpp
+	@C:\Users\smith\Documents\full_eeva_project\firmware\tasks\telemetry_send_task.cpp
 
 2 
 	~"dma_rx.h
@@ -167476,143 +167892,143 @@ glo_sk_timšg
 .
 0
 139
-13704
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\embitz_projects\eeva_full_version\include\robot_settings.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\embitz_projects\eeva_full_version\source\main.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\embitz_projects\eeva_full_version\source\robot_settings.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\globs\globs.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\globs\include\glob_base.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\globs\include\glob_constants.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\globs\include\glob_template.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\globs\include\glob_types.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\globs\include\globs.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\linker\stm32f407ve_flash.ld
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\linker\stm32f407ve_sram.ld
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\exception_handlers.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\include\stm32f4xx.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\include\stm32f4xx_conf.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\include\system_stm32f4xx.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\pre_main_setup.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\startup_stm32f4xx.S
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\hardware_config\system\system_stm32f4xx_eeva_revD.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\cmsis\arm_common_tables.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\cmsis\arm_math.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\cmsis\core_cm4.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\cmsis\core_cm4_simd.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\cmsis\core_cmFunc.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\cmsis\core_cmInstr.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\glo_link\glo_rx_link.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\glo_link\glo_tx_link.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\glo_link\include\glo_rx_link.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\glo_link\include\glo_tx_link.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\misc.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_adc.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_dma.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_exti.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_flash.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_gpio.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_pwr.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rcc.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rtc.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_spi.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_syscfg.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_tim.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_usart.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\misc.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_adc.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_dma.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_exti.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_flash.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_gpio.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_pwr.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_rcc.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_rtc.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_spi.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_syscfg.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_tim.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_usart.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\analog_in.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\bootloader_init.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\complementary_filter.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\coordinate_conversions.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\crc.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\debug_printf.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\derivative_filter.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\digital_in.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\digital_out.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\dma_rx.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\dma_tx.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\encoder.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\green_leds.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\analog_in.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\bootloader_init.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\complementary_filter.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\coordinate_conversions.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\crc.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\debug_printf.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\derivative_filter.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\digital_in.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\digital_out.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\dma_rx.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\dma_tx.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\encoder.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\green_leds.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\math_util.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\mpu6000.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\physical_constants.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\pid_controller.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\pwm_out_advanced_timer.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\simple_array.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\six_point_sensor_cal.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\spi.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\system_timer.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\tb6612fng.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\trigtables.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\usart.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\user_leds.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\user_pb.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\include\util_assert.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\mpu6000.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\pid_controller.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\pwm_out_advanced_timer.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\six_point_sensor_cal.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\spi.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\system_timer.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\tb6612fng.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\trigtables.c
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\usart.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\user_leds.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\user_pb.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\libraries\util\util_assert.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\balance_mode.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\custom_mode.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\experiment_mode.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\experiments\experiment1_mode.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\experiments\experiment2_mode.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\experiments\experiment3_mode.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\horizontal_mode.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\line_following_mode.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\modes\race_mode.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\include\periodic_task.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\include\queue.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\include\queued_task.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\include\scheduler.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\include\task.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\include\task_ids.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\periodic_task.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\scheduler.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\scheduler\task.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\complementary_filter_task.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\complementary_filter_task.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\leds_task.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\main_control_task.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\modes_task.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\status_update_task.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\telemetry_receive_task.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\include\telemetry_send_task.h
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\leds_task.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\main_control_task.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\modes_task.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\status_update_task.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\telemetry_receive_task.cpp
-C:\Users\smith\OneDrive\Mechatronics\full_eeva_project\firmware\tasks\telemetry_send_task.cpp
+12036
+C:\Users\smith\Documents\full_eeva_project\firmware\embitz_projects\eeva_full_version\include\robot_settings.h
+C:\Users\smith\Documents\full_eeva_project\firmware\embitz_projects\eeva_full_version\source\main.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\embitz_projects\eeva_full_version\source\robot_settings.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\globs\globs.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\globs\include\glob_base.h
+C:\Users\smith\Documents\full_eeva_project\firmware\globs\include\glob_constants.h
+C:\Users\smith\Documents\full_eeva_project\firmware\globs\include\glob_template.h
+C:\Users\smith\Documents\full_eeva_project\firmware\globs\include\glob_types.h
+C:\Users\smith\Documents\full_eeva_project\firmware\globs\include\globs.h
+C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\linker\stm32f407ve_flash.ld
+C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\linker\stm32f407ve_sram.ld
+C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\exception_handlers.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\include\stm32f4xx.h
+C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\include\stm32f4xx_conf.h
+C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\include\system_stm32f4xx.h
+C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\pre_main_setup.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\startup_stm32f4xx.S
+C:\Users\smith\Documents\full_eeva_project\firmware\hardware_config\system\system_stm32f4xx_eeva_revD.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\cmsis\arm_common_tables.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\cmsis\arm_math.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\cmsis\core_cm4.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\cmsis\core_cm4_simd.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\cmsis\core_cmFunc.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\cmsis\core_cmInstr.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\glo_link\glo_rx_link.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\glo_link\glo_tx_link.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\glo_link\include\glo_rx_link.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\glo_link\include\glo_tx_link.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\misc.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_adc.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_dma.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_exti.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_flash.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_gpio.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_pwr.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rcc.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_rtc.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_spi.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_syscfg.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_tim.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\include\stm32f4xx_usart.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\misc.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_adc.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_dma.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_exti.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_flash.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_gpio.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_pwr.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_rcc.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_rtc.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_spi.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_syscfg.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_tim.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\spl\source\stm32f4xx_usart.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\analog_in.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\bootloader_init.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\complementary_filter.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\coordinate_conversions.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\crc.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\debug_printf.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\derivative_filter.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\digital_in.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\digital_out.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\dma_rx.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\dma_tx.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\encoder.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\green_leds.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\analog_in.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\bootloader_init.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\complementary_filter.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\coordinate_conversions.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\crc.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\debug_printf.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\derivative_filter.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\digital_in.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\digital_out.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\dma_rx.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\dma_tx.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\encoder.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\green_leds.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\math_util.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\mpu6000.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\physical_constants.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\pid_controller.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\pwm_out_advanced_timer.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\simple_array.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\six_point_sensor_cal.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\spi.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\system_timer.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\tb6612fng.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\trigtables.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\usart.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\user_leds.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\user_pb.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\include\util_assert.h
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\mpu6000.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\pid_controller.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\pwm_out_advanced_timer.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\six_point_sensor_cal.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\spi.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\system_timer.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\tb6612fng.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\trigtables.c
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\usart.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\user_leds.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\user_pb.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\libraries\util\util_assert.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\modes\balance_mode.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\modes\custom_mode.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\modes\experiment_mode.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\modes\experiments\experiment1_mode.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\modes\experiments\experiment2_mode.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\modes\experiments\experiment3_mode.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\modes\horizontal_mode.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\modes\line_following_mode.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\modes\race_mode.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\include\periodic_task.h
+C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\include\queue.h
+C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\include\queued_task.h
+C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\include\scheduler.h
+C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\include\task.h
+C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\include\task_ids.h
+C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\periodic_task.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\scheduler.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\scheduler\task.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\complementary_filter_task.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\complementary_filter_task.h
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\leds_task.h
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\main_control_task.h
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\modes_task.h
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\status_update_task.h
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\telemetry_receive_task.h
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\include\telemetry_send_task.h
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\leds_task.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\main_control_task.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\modes_task.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\status_update_task.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\telemetry_receive_task.cpp
+C:\Users\smith\Documents\full_eeva_project\firmware\tasks\telemetry_send_task.cpp
